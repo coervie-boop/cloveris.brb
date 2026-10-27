@@ -1,7 +1,7 @@
 {
   "englishCsvUrl": "/api/sheets?kind=en",
   "koreanCsvUrl": "",
-  "backgroundImageUrl": "",
+  "backgroundImageUrl": "/assets/cortis-background.jpg",
   "backgroundPosition": "center 32%",
   "settingsCsvUrl": "/api/sheets?kind=settings"
 }
