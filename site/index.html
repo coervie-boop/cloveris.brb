@@ -147,6 +147,33 @@ body{margin:0;font-family:Nunito,system-ui,sans-serif;background:var(--melon);co
   .tagline { font-size: 14px; }
 }
 
+
+/* Mobile V2: compact first screen, background remains fixed and full-screen */
+@media (max-width: 640px) {
+  .app { padding: 8px 10px 22px !important; }
+  .topbar { margin-bottom: 6px !important; align-items: center !important; }
+  .brand-chip { padding: 8px 11px !important; border-radius: 17px !important; }
+  .brand strong { font-size: 25px !important; }
+  .top-btn { padding: 9px 11px !important; font-size: 12px !important; min-height: 39px !important; }
+  .top-actions { gap: 5px !important; }
+  .hero { min-height: 37svh !important; min-height: 37dvh !important; border-radius: 20px !important; padding: 10px !important; }
+  .hero-copy { margin-bottom: 7px !important; }
+  .badge { font-size: 10px !important; padding: 6px 10px !important; }
+  .tagline { margin-top: 6px !important; padding: 8px 11px !important; font-size: 13px !important; max-width: 100% !important; }
+  .hero-stats { gap: 6px !important; }
+  .stat-pill { padding: 7px 10px !important; min-width: 85px !important; border-radius: 16px !important; }
+  .stat-pill b { font-size: 23px !important; }
+  .stat-pill span { font-size: 10px !important; }
+  .menu-panel { margin-top: 8px !important; padding: 11px !important; border-radius: 20px !important; }
+  .menu-panel h2 { font-size: 26px !important; margin: 4px 0 !important; }
+  .menu-panel .sub { font-size: 12px !important; }
+  .cards { margin-top: 9px !important; gap: 8px !important; grid-template-columns: repeat(2,minmax(0,1fr)) !important; }
+  .card { min-height: 95px !important; padding: 12px 10px !important; border-radius: 17px !important; }
+  .card strong { font-size: 20px !important; }
+  .card span { font-size: 11px !important; }
+  .card .icon { font-size: 20px !important; }
+  .menu-foot { margin-top: 8px !important; }
+}
 </style></head><body>
 <div class="bg-photo"></div><div class="bg-overlay"></div><div class="bg-sparkle"></div>
 <div class="app">
