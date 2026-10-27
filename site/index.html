@@ -147,7 +147,6 @@ body{margin:0;font-family:Nunito,system-ui,sans-serif;background:var(--melon);co
   .tagline { font-size: 14px; }
 }
 
-
 /* Mobile V2: compact first screen, background remains fixed and full-screen */
 @media (max-width: 640px) {
   .app { padding: 8px 10px 22px !important; }
@@ -177,7 +176,7 @@ body{margin:0;font-family:Nunito,system-ui,sans-serif;background:var(--melon);co
 </style></head><body>
 <div class="bg-photo"></div><div class="bg-overlay"></div><div class="bg-sparkle"></div>
 <div class="app">
-<header class="topbar"><div class="brand-chip brand"><small>CORTISHIELD</small><strong>BRB HUB</strong></div><div class="top-actions"><button class="top-btn" onclick="openOverlay('adminOverlay')">Admin</button></div></header>
+<header class="topbar"><div class="brand-chip brand"><small>CORTISHIELD</small><strong>BRB HUB</strong></div><div class="top-actions"></div></header>
 <section class="hero"><div class="hero-copy"><div class="badge">cute support space</div><div class="tagline">Every little comment, a little more love! ♡</div></div><div class="hero-stats"><div class="stat-pill"><b id="heroTotal">6</b><span>Comments</span></div><div class="stat-pill"><b id="heroStreak">0</b><span>Streak</span></div></div></section>
 <section class="menu-panel"><div class="badge">tap to open</div><h2>Chọn 1 box</h2><p class="sub">Chọn một mục để bắt đầu ♡</p><div class="cards"><button class="card melon" onclick="openOverlay('commentsOverlay')"><div class="icon">💌</div><strong>Comments</strong><span>Copy comment</span><div class="dot"></div></button><button class="card blush" onclick="openOverlay('checkinOverlay')"><div class="icon">🗓</div><strong>Check-in</strong><span>Điểm danh</span><div class="dot"></div></button><button class="card pistachio" onclick="openOverlay('historyOverlay')"><div class="icon">📊</div><strong>History</strong><span>Lịch sử</span><div class="dot"></div></button><button class="card grass" onclick="openOverlay('guideOverlay')"><div class="icon">✨</div><strong>Guide</strong><span>Hướng dẫn</span><div class="dot"></div></button></div><div class="menu-foot"><span class="menu-tag">CORTIS BRB</span><span>CORTIS BRB HUB</span></div></section>
 </div>
@@ -187,16 +186,17 @@ body{margin:0;font-family:Nunito,system-ui,sans-serif;background:var(--melon);co
 <section class="overlay" id="checkinOverlay"><div class="modal"><div class="modal-head"><div><h3>Check-in</h3><p>Tự động khi copy câu đầu tiên trong ngày</p></div><div class="head-actions"><button class="icon-back" onclick="closeOverlay('checkinOverlay')">↶</button><button class="close" onclick="closeOverlay('checkinOverlay')">×</button></div></div><div class="modal-body"><div class="stats3"><div class="stat"><b id="streak">0 ngày</b><span>Chuỗi hiện tại</span></div><div class="stat"><b id="maxStreak">0 ngày</b><span>Dài nhất</span></div><div class="stat"><b id="daysTotal">0</b><span>Tổng ngày</span></div></div><div class="box"><b id="calendarTitle">Lịch tháng</b><div class="calendar" id="calendar"></div></div><div class="actions"><button class="btn light" onclick="resetDemo()">Reset demo</button></div></div></div></section>
 <section class="overlay" id="historyOverlay"><div class="modal"><div class="modal-head"><div><h3>History</h3><p>Theo dõi số câu đã dùng</p></div><div class="head-actions"><button class="icon-back" onclick="closeOverlay('historyOverlay')">↶</button><button class="close" onclick="closeOverlay('historyOverlay')">×</button></div></div><div class="modal-body"><div class="stats3"><div class="stat"><b id="totalCopies">0</b><span>Tổng copy</span></div><div class="stat"><b id="enTotal">0</b><span>English</span></div><div class="stat"><b id="koTotal">0</b><span>Korean</span></div></div><div class="box"><b>English</b><div id="enHistory" style="margin-top:6px"></div></div><div class="box"><b>Korean</b><div id="koHistory" style="margin-top:6px"></div></div></div></div></section>
 <section class="overlay" id="guideOverlay"><div class="modal"><div class="modal-head"><div><h3>Guide</h3><p>Hướng dẫn đầy đủ cho BRB CORTIS</p></div><div class="head-actions"><button class="icon-back" onclick="closeOverlay('guideOverlay')">↶</button><button class="close" onclick="closeOverlay('guideOverlay')">×</button></div></div><div class="modal-body"><div class="box"><b>1. BRB là gì?</b><br>BRB là Daily Brand Reputation Boost — hoạt động để fan để lại những bình luận tích cực nhằm hỗ trợ mức độ hiện diện và nhận diện của CORTIS trên X. Mục tiêu là tăng tương tác chất lượng, đều đặn mỗi ngày.</div><div class="box"><b>2. Cách tham gia mỗi ngày</b><br>Bạn nhận link bài cần tương tác từ nhóm, sau đó vào mục Comments trên website để lấy comment phù hợp, copy và dán vào X. Sau khi copy câu đầu tiên trong ngày, website sẽ tự điểm danh cho bạn.</div><div class="box"><b>3. Kho comment hoạt động thế nào?</b><br>Website có 2 kho comment: 300 câu English và 300 câu Korean. Bạn có thể chọn ngôn ngữ, chọn chế độ theo thứ tự hoặc random. Hệ thống sẽ tránh lặp lại câu đã dùng trong cùng một vòng.</div><div class="box"><b>4. Quy tắc bình luận</b><br>Không dùng emoji, không spam, không đăng lặp cùng một nội dung. Nên cách nhau ít nhất 10 phút giữa các comment trên cùng một tài khoản. Bạn có thể chỉnh lại câu chữ cho tự nhiên hơn trước khi đăng.</div><div class="box"><b>5. Cách copy comment</b><br>Khi bấm Copy, website sẽ sao chép nội dung comment và thêm hashtag ở cuối, có 1 dòng trống giữa nội dung và hashtag: <code>#CORTIS #코르티스</code>. Bản dịch tiếng Việt chỉ để tham khảo, không đi vào nội dung copy.</div><div class="box"><b>6. Vòng comment là gì?</b><br>Mỗi ngôn ngữ có một vòng riêng. Ví dụ: bạn dùng hết 300 câu English thì English tự bắt đầu vòng mới; Korean vẫn giữ nguyên tiến độ đang có. Lịch sử tổng số lượt copy vẫn được giữ.</div><div class="box"><b>7. Check-in & streak</b><br>Điểm danh được ghi nhận tự động khi bạn copy thành công câu đầu tiên trong ngày. Nếu bạn tham gia liên tiếp nhiều ngày, streak sẽ tăng. Nếu bỏ lỡ một ngày, streak sẽ bắt đầu lại từ đầu vào lần sau.</div><div class="box"><b>8. My History lưu gì?</b><br>Phần History lưu tổng số câu đã copy, số câu theo từng ngôn ngữ, số vòng hiện tại và tiến độ trong vòng hiện tại. Đây là lịch sử cá nhân trên thiết bị đang sử dụng.</div><div class="box"><b>9. Dữ liệu được lưu ở đâu?</b><br>Trong bản demo và phiên bản web nhẹ, dữ liệu được lưu trên trình duyệt của bạn. Nếu bạn đổi thiết bị hoặc xoá dữ liệu trình duyệt, lịch sử và streak sẽ mất. Admin có thể cập nhật kho comment riêng mà không làm mất dữ liệu fan đang có.</div><div class="box"><b>10. Khi cần hỗ trợ</b><br>Nếu gặp lỗi ảnh nền, lỗi import hoặc vấn đề khi copy comment, hãy báo lại team phụ trách để kiểm tra file dữ liệu, cấu hình ảnh hoặc cách lưu trình duyệt.</div></div></div></section>
-<section class="overlay" id="adminOverlay"><div class="modal" id="adminLoginBox"><div class="modal-head"><div><h3>Admin</h3><p>Đổi ảnh nền và import kho comment</p></div><div class="head-actions"><button class="icon-back" onclick="closeOverlay('adminOverlay')">↶</button><button class="close" onclick="closeOverlay('adminOverlay')">×</button></div></div><div class="modal-body"><input class="field" id="demoPassword" type="password" placeholder="Mật khẩu Admin"><button class="btn pink" onclick="adminLogin()">Đăng nhập</button><div class="box"><b>Admin bảo mật</b><br>Mật khẩu được kiểm tra trên Netlify, không nằm trong mã web.</div></div></div><div class="modal hidden" id="adminPanelBox"><div class="modal-head"><div><h3>Admin Panel</h3><p>Quản lý hình nền và kho comment</p></div><div class="head-actions"><button class="icon-back" onclick="adminLogout()">↶</button><button class="close" onclick="adminLogout()">×</button></div></div><div class="modal-body"><div class="admin-grid"><div class="admin-card"><b>Ảnh nền</b><div style="margin:8px 0 10px;color:#6d7a44;font:800 12px/1.5 Nunito,sans-serif">Chọn JPG, PNG, WEBP. Ảnh được lưu vào GitHub và Netlify tự cập nhật. Vui lòng đợi thông báo xuất bản.</div><input class="field" id="photoInput" type="file" accept="*/*"><div class="actions"><button class="btn light" onclick="removePhoto()">Khôi phục ảnh mặc định</button></div><div class="box"><b>Ưu tiên vị trí ảnh</b><br><div class="row" style="margin-top:8px"><button class="chip" onclick="setWallPosition('center 15%')">Trên</button><button class="chip" onclick="setWallPosition('center center')">Giữa</button><button class="chip" onclick="setWallPosition('center 80%')">Dưới</button><button class="chip" onclick="setWallPosition('22% center')">Trái</button><button class="chip" onclick="setWallPosition('78% center')">Phải</button></div></div></div><div class="admin-card"><b>Import comment (CSV / JSON)</b><input class="field" id="dataInput" type="file" accept="*/*"><div id="importStatus" style="margin-top:6px;color:#6d7a44;font:800 12px/1.5 Nunito,sans-serif">Chưa chọn file</div><div class="box"><b>CSV mẫu</b><br><code>id,language,content,translation</code></div></div></div></div></div></section>
+
 <div class="heart-loader" id="heartLoader" aria-live="polite"><div class="loader-core"><span class="symbol">💗</span>CORTIS <small>LOADING ♡</small></div></div><div class="toast" id="toast"></div>
 <script>
+
 
 const DEFAULT={en:[{id:'EN-001',text:'CORTIS brings such amazing energy to every performance.',vi:'CORTIS mang đến nguồn năng lượng tuyệt vời trong mỗi màn trình diễn.'},{id:'EN-002',text:'Every performance shows how much passion CORTIS puts into their music.',vi:'Mỗi sân khấu thể hiện tâm huyết của CORTIS.'},{id:'EN-003',text:'The teamwork and creativity of CORTIS are truly inspiring.',vi:'Tinh thần đồng đội và sự sáng tạo của CORTIS thật truyền cảm hứng.'}],ko:[{id:'KR-001',text:'CORTIS는 무대마다 정말 멋진 에너지를 보여줘요.',vi:'CORTIS luôn thể hiện năng lượng tuyệt vời trên sân khấu.'},{id:'KR-002',text:'CORTIS의 음악과 무대가 매일 큰 힘이 돼요.',vi:'Âm nhạc và sân khấu CORTIS tiếp thêm động lực mỗi ngày.'},{id:'KR-003',text:'CORTIS의 팀워크와 열정이 정말 인상적이에요.',vi:'Tinh thần đồng đội và nhiệt huyết của CORTIS rất ấn tượng.'}]};
 const $=id=>document.getElementById(id), PKEY='cortis-brb-v4-progress', DKEY='cortis-brb-v4-data', PHOTO='cortis-brb-v4-photo';
 const DEMO_PHOTO = 'https://media.gqjapan.jp/photos/68ce1225fa64fb9eb793d593/3%3A2/w_1600%2Cc_limit/cortis-debut-showcase-21.jpg';
 function useDemoPhoto(){ localStorage.setItem(PHOTO, DEMO_PHOTO); loadPhoto(); notify('Đã dùng ảnh demo'); }
 
-let DATA=JSON.parse(localStorage.getItem(DKEY)||'null')||DEFAULT;
+let DATA=DEFAULT;
 let progress=JSON.parse(localStorage.getItem(PKEY)||'null')||{used:{en:[],ko:[]},round:{en:1,ko:1},total:{en:0,ko:0},dates:[]};
 let lang='en',mode='seq',current=null;
 function save(){localStorage.setItem(PKEY,JSON.stringify(progress))}
@@ -211,111 +211,79 @@ function setLang(x){lang=x;$('enTab').classList.toggle('on',x==='en');$('koTab')
 function setMode(x){mode=x;$('seqTab').classList.toggle('on',x==='seq');$('randTab').classList.toggle('on',x==='random');choose()}
 function streak(){let set=new Set(progress.dates),d=new Date(today()+'T12:00:00+07:00'); if(!set.has(today()))d.setDate(d.getDate()-1); let n=0; while(set.has(new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Ho_Chi_Minh',year:'numeric',month:'2-digit',day:'2-digit'}).format(d))){n++; d.setDate(d.getDate()-1)} return n}
 function longest(){let dates=[...new Set(progress.dates)].sort(),max=0,num=0,last=null; for(let s of dates){let stamp=Date.parse(s+'T12:00:00+07:00'); num=last!==null&&Math.round((stamp-last)/86400000)===1?num+1:1; max=Math.max(max,num); last=stamp} return max}
-function render(){const n=DATA[lang].length,k=progress.used[lang].filter(id=>DATA[lang].some(c=>c.id===id)).length; $('progressText').textContent=`Vòng ${progress.round[lang]} · ${k}/${n}`; $('progressFill').style.width=(n?100*k/n:0)+'%'; $('cId').textContent=current?.id||'HẾT'; $('cText').textContent=current?.text||'Admin có thể nhập thêm comment.'; $('cVi').textContent=current?'VI · '+current.vi:''; $('heroTotal').textContent=DATA.en.length+DATA.ko.length; $('heroStreak').textContent=streak(); renderHistory();}
+function render(){const n=DATA[lang].length,k=progress.used[lang].filter(id=>DATA[lang].some(c=>c.id===id)).length; $('progressText').textContent=`Vòng ${progress.round[lang]} · ${k}/${n}`; $('progressFill').style.width=(n?100*k/n:0)+'%'; $('cId').textContent=current?.id||'HẾT'; $('cText').textContent=current?.text||'Chưa có comment cho ngôn ngữ này.'; $('cVi').textContent=current?'VI · '+current.vi:''; $('heroTotal').textContent=DATA.en.length+DATA.ko.length; $('heroStreak').textContent=streak(); renderHistory();}
 function renderHistory(){ $('totalCopies').textContent=progress.total.en+progress.total.ko; $('enTotal').textContent=progress.total.en; $('koTotal').textContent=progress.total.ko; $('enHistory').textContent=`Vòng ${progress.round.en} · ${progress.used.en.length}/${DATA.en.length} câu`; $('koHistory').textContent=`Vòng ${progress.round.ko} · ${progress.used.ko.length}/${DATA.ko.length} câu`; $('heroStreak').textContent=streak(); }
 function renderCalendar(){const d=new Date(today()+'T12:00:00+07:00'),y=d.getFullYear(),m=d.getMonth(),len=new Date(y,m+1,0).getDate(); $('streak').textContent=streak()+' ngày'; $('maxStreak').textContent=longest()+' ngày'; $('daysTotal').textContent=progress.dates.length; $('calendarTitle').textContent=`Lịch ${m+1}/${y}`; let html=''; for(let j=0;j<(new Date(y,m,1).getDay()+6)%7;j++)html+='<div></div>'; for(let day=1;day<=len;day++){const ds=`${y}-${String(m+1).padStart(2,'0')}-${String(day).padStart(2,'0')}`; html+=`<div class="day ${progress.dates.includes(ds)?'done':''} ${ds===today()?'today':''}">${day}</div>`} $('calendar').innerHTML=html;}
 async function copyComment(){if(!current)return; const value=current.text.trim()+'\n\n#CORTIS #코르티스'; try{await navigator.clipboard.writeText(value)}catch{const t=document.createElement('textarea');t.value=value;document.body.appendChild(t);t.select();const ok=document.execCommand('copy');t.remove(); if(!ok){notify('Không thể copy');return;}} progress.used[lang].push(current.id); progress.total[lang]++; if(!progress.dates.includes(today()))progress.dates.push(today()); save(); notify('Đã copy'); choose(); if($('checkinOverlay').classList.contains('show'))renderCalendar();}
 function resetDemo(){if(!confirm('Xoá lịch sử demo?'))return; progress={used:{en:[],ko:[]},round:{en:1,ko:1},total:{en:0,ko:0},dates:[]}; save(); choose(); renderCalendar(); renderHistory(); notify('Đã reset')}
 function openXPage(){window.open('https://x.com/cortishield','_blank')}
-function setWallPosition(pos){document.documentElement.style.setProperty("--wall-position",pos);localStorage.setItem("cortis-wall-position",pos);notify("Đã căn lại ảnh nền")}
-function loadPhoto(){const src=localStorage.getItem(PHOTO)||DEMO_PHOTO;document.documentElement.style.setProperty('--photo', 'url("'+src.replace(/"/g,'\"')+'")');const preview=$('photoPreview');if(preview)preview.src=src;}
 
-function setPhotoFromFile(f){if(!f.type.startsWith('image/')){notify('Vui lòng chọn file ảnh');return;}if(f.size>7000000){notify('Ảnh tối đa 7 MB');return;}const r=new FileReader();r.onload=()=>{try{localStorage.setItem(PHOTO,r.result);loadPhoto();notify('Đã thay ảnh nền');}catch{notify('Ảnh quá lớn để lưu, hãy chọn ảnh nhỏ hơn')}};r.readAsDataURL(f)}
-function removePhoto(){localStorage.removeItem(PHOTO); loadPhoto(); notify('Đã trở về ảnh demo')}
-function adminLogin(){return window.productionLogin()}
-function adminLogout(){ $('adminLoginBox').classList.remove('hidden'); $('adminPanelBox').classList.add('hidden'); $('demoPassword').value=''; }
-function parseCSV(raw){const rows=[]; let row=[],cell='',quote=false; for(let i=0;i<raw.length;i++){const ch=raw[i]; if(ch==='"'){if(quote&&raw[i+1]==='"'){cell+='"';i++}else quote=!quote}else if(ch===','&&!quote){row.push(cell);cell=''}else if((ch==='\n'||ch==='\r')&&!quote){if(ch==='\r'&&raw[i+1]==='\n')i++; row.push(cell); if(row.some(x=>x.trim()))rows.push(row); row=[]; cell=''} else cell+=ch} if(quote) throw Error('CSV lỗi'); row.push(cell); if(row.some(x=>x.trim()))rows.push(row); const h=rows.shift().map(x=>x.trim().toLowerCase()); return rows.map(a=>Object.fromEntries(h.map((k,i)=>[k,(a[i]||'').trim()]))) }
-
-document.getElementById('demoPassword')?.addEventListener('keydown',e=>{if(e.key==='Enter') adminLogin()});
-
-choose(); renderCalendar();
-
-</script><script>
-// GitHub-backed admin: credentials are verified only by the Netlify function.
-let adminPassword = '';
-const API = '/.netlify/functions/admin-publish';
-const adminRequest = async (action, payload={}) => {
-  const response = await fetch(API,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action,password:adminPassword,...payload})});
-  const data = await response.json().catch(()=>({}));
-  if(!response.ok)throw Error(data.error||'Không thể kết nối máy chủ quản trị');
-  return data;
-};
-window.productionLogin = async function(){
-  adminPassword = document.getElementById('demoPassword').value;
-  if(!adminPassword){notify('Vui lòng nhập mật khẩu');return;}
-  try{await adminRequest('verify');
-    $('adminLoginBox').classList.add('hidden');$('adminPanelBox').classList.remove('hidden');$('demoPassword').value='';notify('Đã đăng nhập Admin');
-  }catch(err){adminPassword='';notify(err.message);}
-};
-adminLogout=function(){adminPassword='';$('adminLoginBox').classList.remove('hidden');$('adminPanelBox').classList.add('hidden');$('demoPassword').value=''};
-const normalizeRow=(row)=>({id:String(row.id||'').trim(),language:String(row.language||row.lang||'').trim().toLowerCase(),text:String(row.content||row.text||'').trim(),vi:String(row.translation||row.vi||'').trim()});
-const persistAssets=async()=>{
-  try{
-    const stamp='?v='+Date.now();
-    const [en,ko,settings] = await Promise.all([
-      fetch('/data/comments-en.json'+stamp,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('EN');return r.json()}),
-      fetch('/data/comments-ko.json'+stamp,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('KO');return r.json()}),
-      fetch('/data/settings.json'+stamp,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Settings');return r.json()})
-    ]);
-    if(Array.isArray(en)&&Array.isArray(ko)){
-      DATA={en,ko};
-      const allowed={en:new Set(en.map(c=>c.id)),ko:new Set(ko.map(c=>c.id))};
-      // Keep per-browser history through future content refreshes.
-      for(const code of ['en','ko'])progress.used[code]=progress.used[code].filter(id=>allowed[code].has(id));
-      save();choose();
-    }
-    window.publicSettings=settings;
-    applyBackgroundSettings();
-  }catch(e){console.warn('Chưa tải được dữ liệu mới, dùng dữ liệu mẫu:',e);applyBackgroundSettings();}
-};
-function applyBackgroundSettings(){
-  const settings=window.publicSettings||{};
-  const src=settings.background || DEMO_PHOTO;
-  document.documentElement.style.setProperty('--photo', 'url('+JSON.stringify(src)+')');
-  document.documentElement.style.setProperty('--wall-position',settings.position||'center 32%');
+// Google Sheets integration: fill the URLs later in site/sheets-config.json.
+// Only public CSV exports. No tokens or administrator credentials in this site.
+const CONFIG_URL = './sheets-config.json';
+const CACHE_KEY='cortis-sheet-cache-v1';
+const FALLBACK_COMMENT_URLS={en:'./data/comments-en.json',ko:'./data/comments-ko.json'};
+function parseSheetCSV(raw){
+ const rows=[];let row=[],part='',quoted=false;
+ for(let i=0;i<raw.length;i++){
+  const c=raw[i];
+  if(c==='"'){if(quoted&&raw[i+1]==='"'){part+='"';i++;}else quoted=!quoted;}
+  else if(c===','&&!quoted){row.push(part);part='';}
+  else if((c==='\n'||c==='\r')&&!quoted){if(c==='\r'&&raw[i+1]==='\n')i++;row.push(part);if(row.some(x=>x.trim())) rows.push(row);row=[];part='';}
+  else part+=c;
+ }
+ row.push(part);if(row.some(x=>x.trim()))rows.push(row);
+ if(!rows.length)return [];
+ const headers=rows.shift().map(x=>x.trim().replace(/^\uFEFF/,'').toUpperCase());
+ return rows.map(cells=>Object.fromEntries(headers.map((h,i)=>[h,(cells[i]||'').trim()])));
 }
-loadPhoto=function(){applyBackgroundSettings()};
-useDemoPhoto=function(){notify('Để thay ảnh cho mọi fan, tải ảnh mới qua Admin')};
-removePhoto=async function(){
-  if(!adminPassword){notify('Hãy đăng nhập Admin');return;}
-  if(!confirm('Khôi phục ảnh mặc định cho toàn bộ website?'))return;
-  try{await adminRequest('settings',{settings:{background:'',position:window.publicSettings?.position||'center 32%'}});notify('Đã xuất bản. Netlify cần deploy để ảnh cập nhật.');}
-  catch(err){notify(err.message)}
-};
-setWallPosition=async function(position){
-  document.documentElement.style.setProperty('--wall-position',position);
-  if(!adminPassword){notify('Đã xem thử vị trí ảnh');return;}
-  try{await adminRequest('settings',{settings:{background:window.publicSettings?.background||'',position}}); window.publicSettings={...(window.publicSettings||{}),position};notify('Đã lưu vị trí ảnh. Netlify sẽ deploy.');}
-  catch(err){notify(err.message)}
-};
-$('photoInput').addEventListener('change',async e=>{
-  const f=e.target.files?.[0];if(!f)return;
-  if(!adminPassword){notify('Hãy đăng nhập Admin');return;}
-  if(!['image/jpeg','image/png','image/webp'].includes(f.type)){notify('Chỉ nhận ảnh JPG, PNG, WEBP');return;}
-  if(f.size>4*1024*1024){notify('Ảnh tối đa 4 MB');return;}
-  const base64=await new Promise((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(String(reader.result).split(',')[1]);reader.onerror=reject;reader.readAsDataURL(f)});
-  notify('Đang gửi ảnh lên GitHub...');
-  try{await adminRequest('image',{base64,mime:f.type});notify('Đã lưu ảnh. Chờ Netlify triển khai bản mới.');}
-  catch(err){notify(err.message)}finally{e.target.value=''}
-});
-$('dataInput').addEventListener('change',async e=>{
-  const f=e.target.files?.[0];if(!f)return;
-  if(!adminPassword){notify('Hãy đăng nhập Admin');return;}
-  try{
-    const raw=await f.text();
-    let rows;
-    if(f.name.toLowerCase().endsWith('.json'))rows=JSON.parse(raw);
-    else if(f.name.toLowerCase().endsWith('.csv'))rows=parseCSV(raw);
-    else throw Error('Hiện hỗ trợ CSV hoặc JSON. Hãy xuất Excel thành CSV UTF-8.');
-    if(!Array.isArray(rows))throw Error('File phải có danh sách comment');
-    const input=rows.map(normalizeRow);
-    for(const r of input){if(!['en','ko'].includes(r.language)||!r.text||!r.vi)throw Error('Dữ liệu thiếu language (en/ko), content hoặc translation');}
-    if(!confirm('Thêm '+input.length+' comment vào kho chung? Câu trùng sẽ được bỏ qua.'))return;
-    $('importStatus').textContent='Đang cập nhật GitHub...';
-    const res=await adminRequest('comments',{comments:input});
-    $('importStatus').textContent=`Đã thêm ${res.added} câu, bỏ ${res.duplicates} câu trùng. Netlify đang deploy.`;
-    notify('Đã gửi cập nhật comment lên GitHub.');
-  }catch(err){$('importStatus').textContent='Lỗi: '+err.message;notify(err.message)}finally{e.target.value=''}
-});
-window.addEventListener('load',persistAssets);
+function normalizeRows(rows,language){
+ if(!Array.isArray(rows))return [];
+ const dedup=new Set(),result=[];
+ for(let i=0;i<rows.length;i++){
+  const x=rows[i], text=String(x.COMMENT??x.content??x.text??'').trim();
+  const vi=String(x.VI_TRANSLATION??x.translation??x.vi??'').trim();
+  const status=String(x.STATUS??x.active??'ACTIVE').trim().toUpperCase();
+  const statedLang=String(x.LANGUAGE??x.language??language).trim().toUpperCase();
+  if(!text||!vi||['HIDDEN','INACTIVE','FALSE','0'].includes(status))continue;
+  if(!['EN','ENGLISH','KO','KR','KOREAN'].includes(statedLang))continue;
+  if(language==='en'&&!['EN','ENGLISH'].includes(statedLang))continue;
+  if(language==='ko'&&!['KO','KR','KOREAN'].includes(statedLang))continue;
+  const key=text.replace(/\s+/g,' ').toLowerCase();if(dedup.has(key))continue;dedup.add(key);
+  const id=String(x.ID??x.id??'').trim() || (language.toUpperCase()+'-'+String(i+1).padStart(3,'0'));
+  result.push({id,text,vi});
+ }
+ return result;
+}
+async function getRows(url,language){
+ const response=await fetch(url,{cache:'no-store'});if(!response.ok)throw new Error('HTTP '+response.status);
+ if(url.split('?')[0].toLowerCase().endsWith('.json')){
+   const payload=await response.json();return normalizeRows(payload,language);
+ }
+ return normalizeRows(parseSheetCSV(await response.text()),language);
+}
+async function loadSheets(){
+ let config={};try{const r=await fetch(CONFIG_URL,{cache:'no-store'});if(r.ok)config=await r.json();}catch{}
+ let cached=null;try{cached=JSON.parse(localStorage.getItem(CACHE_KEY)||'null')}catch{}
+ const next={en:[],ko:[]};let remote=0;
+ for(const language of ['en','ko']){
+   const u=language==='en'?config.englishCsvUrl:config.koreanCsvUrl;
+   if(u){try{next[language]=await getRows(u,language);remote++;}catch(err){console.warn('CSV chưa tải được',language,err);}}
+   if(!next[language].length && cached?.[language]?.length)next[language]=cached[language];
+   if(!next[language].length){try{next[language]=await getRows(FALLBACK_COMMENT_URLS[language],language)}catch{}}
+   if(!next[language].length)next[language]=DEFAULT[language];
+ }
+ DATA=next;
+ if(remote===2)try{localStorage.setItem(CACHE_KEY,JSON.stringify(DATA));}catch{}
+ // The personal history is untouched. Past IDs remain stable when Sheets change.
+ choose();renderCalendar();
+ if(config.backgroundImageUrl && /^https:\/\//i.test(config.backgroundImageUrl)){
+   const safe=String(config.backgroundImageUrl).replace(/["'()\\]/g,'');
+   document.documentElement.style.setProperty('--photo','url("'+safe+'")');
+ }
+ if(config.backgroundPosition)document.documentElement.style.setProperty('--wall-position',String(config.backgroundPosition));
+ if(!config.englishCsvUrl&&!config.koreanCsvUrl)notify('Đang dùng comment mẫu · Có thể kết nối Google Sheets sau');
+}
+loadSheets();
+
 </script></body></html>
