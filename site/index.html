@@ -188,6 +188,16 @@ body{margin:0;font-family:Nunito,system-ui,sans-serif;background:var(--melon);co
 .history-day-row{display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:1px solid rgba(56,71,4,.12);gap:12px}
 .history-day-row:last-child{border-bottom:0}
 .history-day-row strong{color:#699407}
+/* Mobile: hiện đầy đủ ảnh CORTIS, không cắt thành viên */
+@media (max-width: 640px) {
+  .bg-photo {
+    background-image: var(--photo);
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: #F4FDCE;
+  }
+}
 </style></head><body>
 <div class="bg-photo"></div><div class="bg-overlay"></div><div class="bg-sparkle"></div>
 <div class="app">
