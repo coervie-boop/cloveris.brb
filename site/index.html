@@ -173,6 +173,17 @@ body{margin:0;font-family:Nunito,system-ui,sans-serif;background:var(--melon);co
   .card .icon { font-size: 20px !important; }
   .menu-foot { margin-top: 8px !important; }
 }
+
+/* 2x2 menu layout: two cards on top, two cards below to save space */
+.cards { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 12px !important; }
+.card { width: 100%; min-height: 102px; padding: 16px 16px 14px; }
+@media (max-width: 640px) {
+  .cards { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 9px !important; }
+  .card { min-height: 92px !important; padding: 14px 12px !important; }
+  .card strong { font-size: 18px !important; }
+  .card span { font-size: 11px !important; }
+}
+
 </style></head><body>
 <div class="bg-photo"></div><div class="bg-overlay"></div><div class="bg-sparkle"></div>
 <div class="app">
@@ -249,9 +260,10 @@ function normalizeRows(rows,language){
   if(!['EN','ENGLISH','KO','KR','KOREAN'].includes(statedLang))continue;
   if(language==='en'&&!['EN','ENGLISH'].includes(statedLang))continue;
   if(language==='ko'&&!['KO','KR','KOREAN'].includes(statedLang))continue;
-  const key=text.replace(/\s+/g,' ').toLowerCase();if(dedup.has(key))continue;dedup.add(key);
+  const cleanText=text.replace(/\s*#CORTIS\s+#코르티스\s*$/i,'').trim();
+  const key=cleanText.replace(/\s+/g,' ').toLowerCase();if(dedup.has(key))continue;dedup.add(key);
   const id=String(x.ID??x.id??'').trim() || (language.toUpperCase()+'-'+String(i+1).padStart(3,'0'));
-  result.push({id,text,vi});
+  result.push({id,text:cleanText,vi});
  }
  return result;
 }
@@ -262,6 +274,32 @@ async function getRows(url,language){
  }
  return normalizeRows(parseSheetCSV(await response.text()),language);
 }
+async function loadThemeSettings(config){
+ let settings={};
+ if(config.settingsCsvUrl){
+  try{
+   const res=await fetch(config.settingsCsvUrl,{cache:'no-store'});
+   if(!res.ok)throw new Error('HTTP '+res.status);
+   for(const row of parseSheetCSV(await res.text())){
+    const k=String(row.KEY||'').trim().toLowerCase();
+    if(k)settings[k]=String(row.VALUE||'').trim();
+   }
+   try{localStorage.setItem('cortis-theme-settings-v1',JSON.stringify(settings))}catch{}
+  }catch(err){
+   console.warn('Không đọc được SETTINGS CSV',err);
+   try{settings=JSON.parse(localStorage.getItem('cortis-theme-settings-v1')||'{}')}catch{}
+  }
+ }
+ const url=String(settings.background_image || config.backgroundImageUrl || '').trim();
+ const position=String(settings.image_position || config.backgroundPosition || 'center 32%').trim();
+ if(/^https:\/\//i.test(url)){
+  const safe=url.replace(/["'()\\]/g,'');
+  document.documentElement.style.setProperty('--photo','url("'+safe+'")');
+ }
+ if(/^(left|right|center|top|bottom|[0-9.%\s-]+)$/i.test(position)){
+  document.documentElement.style.setProperty('--wall-position',position);
+ }
+}
 async function loadSheets(){
  let config={};try{const r=await fetch(CONFIG_URL,{cache:'no-store'});if(r.ok)config=await r.json();}catch{}
  let cached=null;try{cached=JSON.parse(localStorage.getItem(CACHE_KEY)||'null')}catch{}
@@ -269,20 +307,16 @@ async function loadSheets(){
  for(const language of ['en','ko']){
    const u=language==='en'?config.englishCsvUrl:config.koreanCsvUrl;
    if(u){try{next[language]=await getRows(u,language);remote++;}catch(err){console.warn('CSV chưa tải được',language,err);}}
-   if(!next[language].length && cached?.[language]?.length)next[language]=cached[language];
-   if(!next[language].length){try{next[language]=await getRows(FALLBACK_COMMENT_URLS[language],language)}catch{}}
-   if(!next[language].length)next[language]=DEFAULT[language];
+   if(u && !next[language].length && cached?.[language]?.length)next[language]=cached[language];
+   if(language==='en' && !next[language].length){try{next[language]=await getRows(FALLBACK_COMMENT_URLS[language],language)}catch{}}
+   // Không dùng comment mẫu: tab Hàn chưa có dữ liệu sẽ luôn trống.
  }
  DATA=next;
- if(remote===2)try{localStorage.setItem(CACHE_KEY,JSON.stringify(DATA));}catch{}
+ if(remote>0)try{localStorage.setItem(CACHE_KEY,JSON.stringify(DATA));}catch{}
  // The personal history is untouched. Past IDs remain stable when Sheets change.
  choose();renderCalendar();
- if(config.backgroundImageUrl && /^https:\/\//i.test(config.backgroundImageUrl)){
-   const safe=String(config.backgroundImageUrl).replace(/["'()\\]/g,'');
-   document.documentElement.style.setProperty('--photo','url("'+safe+'")');
- }
- if(config.backgroundPosition)document.documentElement.style.setProperty('--wall-position',String(config.backgroundPosition));
- if(!config.englishCsvUrl&&!config.koreanCsvUrl)notify('Đang dùng comment mẫu · Có thể kết nối Google Sheets sau');
+ await loadThemeSettings(config);
+ if(!config.englishCsvUrl&&!config.koreanCsvUrl)notify('Đang dùng dữ liệu tiếng Anh · Chờ kết nối Google Sheets');
 }
 loadSheets();
 
