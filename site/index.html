@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@500;700;800;900&display=swap');
 :root{
   --melon:#F4FDCE; --blush:#F98093; --pistachio:#699407; --grass:#384704; --cream:#FFFDF6; --ink:#334009;
-  --panel:rgba(255,253,246,.94); --line:rgba(255,255,255,.62); --shadow:0 18px 50px rgba(32,50,8,.18); --photo:none; --wall-position:center 32%;
+  --panel:rgba(255,253,246,.94); --line:rgba(255,255,255,.62); --shadow:0 18px 50px rgba(32,50,8,.18); --photo:url('/assets/cortis-background.jpg'); --wall-position:center 32%;
 }
 *{box-sizing:border-box} html,body{height:100%}
 body{margin:0;font-family:Nunito,system-ui,sans-serif;background:var(--melon);color:var(--cream);overflow-x:hidden}
@@ -208,7 +208,7 @@ body{margin:0;font-family:Nunito,system-ui,sans-serif;background:var(--melon);co
 
 const DEFAULT={en:[{id:'EN-001',text:'CORTIS brings such amazing energy to every performance.',vi:'CORTIS mang đến nguồn năng lượng tuyệt vời trong mỗi màn trình diễn.'},{id:'EN-002',text:'Every performance shows how much passion CORTIS puts into their music.',vi:'Mỗi sân khấu thể hiện tâm huyết của CORTIS.'},{id:'EN-003',text:'The teamwork and creativity of CORTIS are truly inspiring.',vi:'Tinh thần đồng đội và sự sáng tạo của CORTIS thật truyền cảm hứng.'}],ko:[{id:'KR-001',text:'CORTIS는 무대마다 정말 멋진 에너지를 보여줘요.',vi:'CORTIS luôn thể hiện năng lượng tuyệt vời trên sân khấu.'},{id:'KR-002',text:'CORTIS의 음악과 무대가 매일 큰 힘이 돼요.',vi:'Âm nhạc và sân khấu CORTIS tiếp thêm động lực mỗi ngày.'},{id:'KR-003',text:'CORTIS의 팀워크와 열정이 정말 인상적이에요.',vi:'Tinh thần đồng đội và nhiệt huyết của CORTIS rất ấn tượng.'}]};
 const $=id=>document.getElementById(id), PKEY='cortis-brb-v4-progress', DKEY='cortis-brb-v4-data', PHOTO='cortis-brb-v4-photo';
-const DEMO_PHOTO = 'https://media.gqjapan.jp/photos/68ce1225fa64fb9eb793d593/3%3A2/w_1600%2Cc_limit/cortis-debut-showcase-21.jpg';
+const DEMO_PHOTO = '/assets/cortis-background.jpg';
 function useDemoPhoto(){ localStorage.setItem(PHOTO, DEMO_PHOTO); loadPhoto(); notify('Đã dùng ảnh demo'); }
 
 let DATA=DEFAULT;
@@ -216,16 +216,18 @@ let progress=JSON.parse(localStorage.getItem(PKEY)||'null')||{used:{en:[],ko:[]}
 // Giữ tương thích với lịch sử cũ: tổng lượt trước đây vẫn còn, dù chưa có số lượt theo ngày.
 progress.dailyCopies = progress.dailyCopies && typeof progress.dailyCopies==='object' && !Array.isArray(progress.dailyCopies) ? progress.dailyCopies : {};
 progress.total = progress.total || {en:0,ko:0};
+progress.total.en=Number(progress.total.en)||0;progress.total.ko=Number(progress.total.ko)||0;
 progress.used = progress.used || {en:[],ko:[]};
+for(const code of ['en','ko'])if(!Array.isArray(progress.used[code]))progress.used[code]=[];
 progress.round = progress.round || {en:1,ko:1};
-progress.dates = progress.dates || [];
-let lang='en',mode='seq',current=null;
+progress.dates = Array.isArray(progress.dates)?progress.dates:[];
+let lang='en',mode='seq',current=null, dataSource='loading';
 function save(){localStorage.setItem(PKEY,JSON.stringify(progress))}
 function notify(msg){const el=$('toast');el.textContent=msg;el.classList.add('show');clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>el.classList.remove('show'),2400)}
 function openOverlay(id){$('heartLoader').classList.add('active');setTimeout(()=>$('heartLoader').classList.remove('active'),540);$(id).classList.add('show'); if(id==='checkinOverlay')renderCalendar(); if(id==='historyOverlay')renderHistory(); if(id==='commentsOverlay')render(); document.body.style.overflow='hidden'}
 function closeOverlay(id){$(id).classList.remove('show'); if(!document.querySelector('.overlay.show'))document.body.style.overflow=''}
 document.querySelectorAll('.overlay').forEach(el=>el.addEventListener('click',e=>{if(e.target===el)closeOverlay(el.id)}));
-function today(){return new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Ho_Chi_Minh',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date())}
+function today(){const a=Object.fromEntries(new Intl.DateTimeFormat('en-US',{timeZone:'Asia/Ho_Chi_Minh',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()).filter(x=>x.type!=='literal').map(x=>[x.type,x.value]));return `${a.year}-${a.month}-${a.day}`;}
 function free(){return DATA[lang].filter(x=>!progress.used[lang].includes(x.id))}
 // "Next" advances through the un-copied pool; "Đổi câu" chooses a different random candidate.
 // Browsing never marks a comment used; only successful Copy does.
@@ -259,7 +261,7 @@ function longest(){let dates=[...new Set(progress.dates)].sort(),max=0,num=0,las
 function render(){
  const n=DATA[lang].length, usedSet=new Set(progress.used[lang]);
  const k=DATA[lang].filter(c=>usedSet.has(c.id)).length,completed=n>0&&k===n;
- $('progressText').textContent= completed?`Đã sử dụng hết ${n} comment · Vòng ${progress.round[lang]} hoàn thành!`:`Vòng ${progress.round[lang]} · ${k}/${n}`;
+ $('progressText').textContent= completed?`Đã sử dụng hết ${n} comment · Vòng ${progress.round[lang]} hoàn thành!`:`Vòng ${progress.round[lang]} · ${k}/${n}${lang==='en'&&dataSource==='fallback'?' · Đang dùng kho dự phòng':''}`;
  $('progressFill').style.width=(n?100*k/n:0)+'%';
  $('cId').textContent=completed?'HOÀN THÀNH':(current?.id||'CHƯA CÓ');
  $('cText').textContent=completed?`Bạn đã dùng hết ${n} comment trong vòng này. Nhấn “Bắt đầu vòng mới” để dùng lại kho comment.`:(current?.text||'Chưa có comment cho ngôn ngữ này.');
@@ -278,7 +280,7 @@ function renderHistory(){
  $('todayCopies').textContent=daily[today()]||0;
  const days=Object.entries(daily).filter(([day,count])=>/^\d{4}-\d{2}-\d{2}$/.test(day)&&Number(count)>0).sort((a,b)=>b[0].localeCompare(a[0]));
  const container=$('dailyHistory');container.replaceChildren();
- if(!days.length){container.textContent='Chưa có lượt copy được ghi nhận theo ngày. Lượt copy mới sẽ xuất hiện tại đây.';}
+ if(!days.length){container.textContent='Chưa có lượt copy được ghi nhận theo ngày. Bấm Copy một câu để bắt đầu thống kê. Các lượt cũ (nếu có) nằm ở phía dưới.';}
  for(const [day,count] of days){
    const r=document.createElement('div');r.className='history-day-row';
    const d=document.createElement('span');const [y,m,dd]=day.split('-');d.textContent=`${dd}/${m}/${y}`;
@@ -292,11 +294,12 @@ function renderHistory(){
 }
 function renderCalendar(){const d=new Date(today()+'T12:00:00+07:00'),y=d.getFullYear(),m=d.getMonth(),len=new Date(y,m+1,0).getDate(); $('streak').textContent=streak()+' ngày'; $('maxStreak').textContent=longest()+' ngày'; $('daysTotal').textContent=progress.dates.length; $('calendarTitle').textContent=`Lịch ${m+1}/${y}`; let html=''; for(let j=0;j<(new Date(y,m,1).getDay()+6)%7;j++)html+='<div></div>'; for(let day=1;day<=len;day++){const ds=`${y}-${String(m+1).padStart(2,'0')}-${String(day).padStart(2,'0')}`; html+=`<div class="day ${progress.dates.includes(ds)?'done':''} ${ds===today()?'today':''}">${day}</div>`} $('calendar').innerHTML=html;}
 async function copyComment(){
- if(!current)return;
+ if(!current || $('copyBtn').disabled)return;
+ $('copyBtn').disabled=true;
  const copied={...current}, copiedLang=lang;
  const value=copied.text.trim().replace(/\s*#CORTIS\s+#코르티스\s*$/i,'').trim()+'\n\n#CORTIS #코르티스';
  try{await navigator.clipboard.writeText(value)}catch{
-  const t=document.createElement('textarea');t.value=value;document.body.appendChild(t);t.select();const ok=document.execCommand('copy');t.remove();if(!ok){notify('Không thể copy');return;}
+  const t=document.createElement('textarea');t.value=value;document.body.appendChild(t);t.select();const ok=document.execCommand('copy');t.remove();if(!ok){$('copyBtn').disabled=false;notify('Không thể copy');return;}
  }
  // Do not record a duplicate in the same cycle.
  if(progress.used[copiedLang].includes(copied.id)){notify('Câu này đã được copy trong vòng hiện tại');choose('next');return;}
@@ -317,7 +320,7 @@ function openXPage(){window.open('https://x.com/cortishield','_blank')}
 // Google Sheets integration: fill the URLs later in site/sheets-config.json.
 // Only public CSV exports. No tokens or administrator credentials in this site.
 const CONFIG_URL = './sheets-config.json';
-const CACHE_KEY='cortis-sheet-cache-v1';
+const CACHE_KEY='cortis-sheet-cache-v3';
 const FALLBACK_COMMENT_URLS={en:'./data/comments-en.json',ko:'./data/comments-ko.json'};
 function parseSheetCSV(raw){
  const rows=[];let row=[],part='',quoted=false;
@@ -330,7 +333,10 @@ function parseSheetCSV(raw){
  }
  row.push(part);if(row.some(x=>x.trim()))rows.push(row);
  if(!rows.length)return [];
- const headers=rows.shift().map(x=>x.trim().replace(/^\uFEFF/,'').toUpperCase());
+ const headerIndex=rows.findIndex(r=>r.map(x=>x.trim().replace(/^\uFEFF/,'').toUpperCase()).includes('COMMENT') && r.map(x=>x.trim().toUpperCase()).includes('ID'));
+ if(headerIndex<0)throw new Error('Không tìm thấy hàng tiêu đề CSV');
+ const headers=rows[headerIndex].map(x=>x.trim().replace(/^\uFEFF/,'').toUpperCase());
+ rows.splice(0,headerIndex+1);
  return rows.map(cells=>Object.fromEntries(headers.map((h,i)=>[h,(cells[i]||'').trim()])));
 }
 function normalizeRows(rows,language){
@@ -375,9 +381,9 @@ async function loadThemeSettings(config){
    try{settings=JSON.parse(localStorage.getItem('cortis-theme-settings-v1')||'{}')}catch{}
   }
  }
- const url=String(settings.background_image || config.backgroundImageUrl || '').trim();
+ const url=String(settings.background_image || config.backgroundImageUrl || DEMO_PHOTO).trim();
  const position=String(settings.image_position || config.backgroundPosition || 'center 32%').trim();
- if(/^https:\/\//i.test(url)){
+ if(/^https:\/\//i.test(url) || url.startsWith('/assets/')){
   const safe=url.replace(/["'()\\]/g,'');
   document.documentElement.style.setProperty('--photo','url("'+safe+'")');
  }
@@ -391,12 +397,14 @@ async function loadSheets(){
  const next={en:[],ko:[]};let remote=0;
  for(const language of ['en','ko']){
    const u=language==='en'?config.englishCsvUrl:config.koreanCsvUrl;
-   if(u){try{next[language]=await getRows(u,language);remote++;}catch(err){console.warn('CSV chưa tải được',language,err);}}
+   if(u){try{next[language]=await getRows(u+(u.includes('?')?'&':'?')+'_ts='+Date.now(),language);if(next[language].length)remote++;}catch(err){console.warn('CSV chưa tải được',language,err);}}
    if(u && !next[language].length && cached?.[language]?.length)next[language]=cached[language];
    if(language==='en' && !next[language].length){try{next[language]=await getRows(FALLBACK_COMMENT_URLS[language],language)}catch{}}
    // Không dùng comment mẫu: tab Hàn chưa có dữ liệu sẽ luôn trống.
  }
  DATA=next;
+ dataSource=remote>0?'sheets':'fallback';
+ if(remote===0 && config.englishCsvUrl){notify('Đang dùng dữ liệu dự phòng; chưa lấy được Google Sheets mới');}
  if(remote>0)try{localStorage.setItem(CACHE_KEY,JSON.stringify(DATA));}catch{}
  // The personal history is untouched. Past IDs remain stable when Sheets change.
  current=null;choose();renderCalendar();
