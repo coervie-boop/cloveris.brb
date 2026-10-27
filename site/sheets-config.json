@@ -1,7 +1,7 @@
 {
-  "englishCsvUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSASRBKEiLc56BHjdDwUvzKwomKDPC4O2pIyTCMkxnPIJNp2Nn10qMGFmj5hJKEdZJ9f9K6eNVmvoeM/pub?gid=0&single=true&output=csv",
+  "englishCsvUrl": "/api/sheets?kind=en",
   "koreanCsvUrl": "",
   "backgroundImageUrl": "",
   "backgroundPosition": "center 32%",
-  "settingsCsvUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSASRBKEiLc56BHjdDwUvzKwomKDPC4O2pIyTCMkxnPIJNp2Nn10qMGFmj5hJKEdZJ9f9K6eNVmvoeM/pub?gid=504546554&single=true&output=csv"
+  "settingsCsvUrl": "/api/sheets?kind=settings"
 }
