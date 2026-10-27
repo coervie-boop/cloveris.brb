@@ -1,17 +1,4223 @@
 [
   {
-    "id": "EN-001",
-    "text": "CORTIS brings such amazing energy to every performance.",
-    "vi": "CORTIS mang đến nguồn năng lượng tuyệt vời trong mỗi màn trình diễn."
+    "ID": "EN-001",
+    "LANGUAGE": "EN",
+    "COMMENT": "No matter where they go, CORTIS illuminate everything around them because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Dù đi đến đâu, CORTIS vẫn chiếu sáng mọi thứ xung quanh vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
   },
   {
-    "id": "EN-002",
-    "text": "Every performance shows how much passion CORTIS puts into their music.",
-    "vi": "Mỗi sân khấu thể hiện tâm huyết của CORTIS."
+    "ID": "EN-002",
+    "LANGUAGE": "EN",
+    "COMMENT": "Impeccable taste and unmatched charisma make CORTIS the ultimate STYLE ICONS to follow.",
+    "VI_TRANSLATION": "Gu thẩm mỹ hoàn hảo và thần thái vô song biến CORTIS thành biểu tượng phong cách hàng đầu để noi theo.",
+    "STATUS": "ACTIVE"
   },
   {
-    "id": "EN-003",
-    "text": "The teamwork and creativity of CORTIS are truly inspiring.",
-    "vi": "Tinh thần đồng đội và sự sáng tạo của CORTIS thật truyền cảm hứng."
+    "ID": "EN-003",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS make every outfit look like a masterpiece, making them true leaders in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS biến mọi trang phục thành kiệt tác, khẳng định vị thế dẫn đầu trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-004",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS are the complete package: true STYLE ICONS who were simply BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS là sự kết hợp hoàn hảo: những biểu tượng phong cách thực sự sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-005",
+    "LANGUAGE": "EN",
+    "COMMENT": "The universe made no mistake when creating CORTIS because they were truly BORN TO SHINE.",
+    "VI_TRANSLATION": "Vũ trụ không hề sai lầm khi tạo ra CORTIS vì họ thực sự sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-006",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS continue to redefine modern elegance as the ultimate STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS tiếp tục định nghĩa lại sự thanh lịch hiện đại với tư cách là biểu tượng phong cách đỉnh cao.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-007",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every single look from CORTIS is a masterclass in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Mỗi diện mạo của CORTIS đều là một bài học đỉnh cao về thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-008",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their star power is undeniable—CORTIS were always meant and BORN TO SHINE.",
+    "VI_TRANSLATION": "Hào quang ngôi sao của họ là không thể phủ nhận—CORTIS luôn được định sẵn để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-009",
+    "LANGUAGE": "EN",
+    "COMMENT": "Serving visuals and confidence 24/7, CORTIS remain undefeated STYLE ICONS.",
+    "VI_TRANSLATION": "Mang đến nhan sắc và sự tự tin 24/7, CORTIS luôn là biểu tượng phong cách bất bại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-010",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS effortlessly turn every sidewalk into a runway for BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS dễ dàng biến mọi vỉa hè thành sàn trình diễn thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-011",
+    "LANGUAGE": "EN",
+    "COMMENT": "From their vocals to their aura, CORTIS show us what it means to be BORN TO SHINE.",
+    "VI_TRANSLATION": "Từ giọng hát đến thần thái, CORTIS cho chúng ta thấy thế nào là sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-012",
+    "LANGUAGE": "EN",
+    "COMMENT": "Inspiration comes naturally whenever CORTIS grace us as true STYLE ICONS.",
+    "VI_TRANSLATION": "Cảm hứng đến một cách tự nhiên mỗi khi CORTIS xuất hiện như những biểu tượng phong cách thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-013",
+    "LANGUAGE": "EN",
+    "COMMENT": "Unapologetic, stylish, and iconic—CORTIS rule the world of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Tự tin, thời thượng và mang tính biểu tượng—CORTIS thống trị thế giới thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-014",
+    "LANGUAGE": "EN",
+    "COMMENT": "Bright, talented, and full of grace, CORTIS were BORN TO SHINE without a doubt.",
+    "VI_TRANSLATION": "Tỏa sáng, tài năng và đầy duyên dáng, CORTIS chắc chắn sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-015",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS blend sophistication and youthful energy like no other STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS hòa quyện sự tinh tế và năng lượng trẻ trung mà không biểu tượng phong cách nào sánh bằng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-016",
+    "LANGUAGE": "EN",
+    "COMMENT": "Nobody pushes the boundaries of BOYGROUP FASHION quite like CORTIS.",
+    "VI_TRANSLATION": "Không ai bứt phá mọi giới hạn của thời trang nhóm nam ấn tượng như CORTIS.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-017",
+    "LANGUAGE": "EN",
+    "COMMENT": "Born with natural magnetism, CORTIS are pure proof that some are BORN TO SHINE.",
+    "VI_TRANSLATION": "Sinh ra với sức hút tự nhiên, CORTIS là minh chứng rõ ràng cho việc có những người sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-018",
+    "LANGUAGE": "EN",
+    "COMMENT": "Watching CORTIS is watching true STYLE ICONS shape the future of pop culture.",
+    "VI_TRANSLATION": "Ngắm nhìn CORTIS là ngắm nhìn những biểu tượng phong cách thực sự định hình tương lai văn hóa đại chúng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-019",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring an unmatched level of versatility to BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS mang đến mức độ biến hóa linh hoạt vô song cho thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-020",
+    "LANGUAGE": "EN",
+    "COMMENT": "Stage after stage, CORTIS prove to the world why they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Bằng hết sân khấu này đến sân khấu khác, CORTIS chứng minh cho thế giới thấy lý do họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-021",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their innate sense of style solidifies CORTIS as timeless STYLE ICONS.",
+    "VI_TRANSLATION": "Gu thời trang bẩm sinh củng cố vị thế của CORTIS như những biểu tượng phong cách vượt thời gian.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-022",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS make history with every stride they take in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS tạo nên lịch sử qua từng bước tiến trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-023",
+    "LANGUAGE": "EN",
+    "COMMENT": "Pure brilliance and infinite potential—CORTIS are definitely BORN TO SHINE.",
+    "VI_TRANSLATION": "Sự rực rỡ thuần khiết và tiềm năng vô hạn—CORTIS chắc chắn sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-024",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS deliver unmatched aura every single day like the STYLE ICONS they are.",
+    "VI_TRANSLATION": "CORTIS thể hiện thần thái đỉnh cao mỗi ngày đúng chất những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-025",
+    "LANGUAGE": "EN",
+    "COMMENT": "Sleek, stylish, and legendary—CORTIS are the blueprint for BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Lịch lãm, thời trang và huyền thoại—CORTIS là hình mẫu lý tưởng cho thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-026",
+    "LANGUAGE": "EN",
+    "COMMENT": "The spotlight naturally belongs to CORTIS because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Tiêu điểm tự nhiên thuộc về CORTIS vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-027",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS captivate everyone effortlessly, proving their place as STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS cuốn hút mọi người một cách dễ dàng, khẳng định vị thế biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-028",
+    "LANGUAGE": "EN",
+    "COMMENT": "Setting the trend bar higher every time, CORTIS own BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Liên tục nâng cao tiêu chuẩn xu hướng, CORTIS làm chủ thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-029",
+    "LANGUAGE": "EN",
+    "COMMENT": "With endless drive and talent, CORTIS were BORN TO SHINE on global stages.",
+    "VI_TRANSLATION": "Với nhiệt huyết và tài năng không ngừng, CORTIS sinh ra để tỏa sáng trên các sân khấu toàn cầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-030",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS embody pure perfection and stand tall as generation-defining STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS đại diện cho sự hoàn hảo thuần khiết và đứng vững như biểu tượng phong cách định hình thế hệ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-031",
+    "LANGUAGE": "EN",
+    "COMMENT": "The fashion world will always pay attention when CORTIS lead BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Giới thời trang sẽ luôn chú ý mỗi khi CORTIS dẫn đầu thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-032",
+    "LANGUAGE": "EN",
+    "COMMENT": "Radiating positivity and power, CORTIS were made and BORN TO SHINE.",
+    "VI_TRANSLATION": "Tỏa ra năng lượng tích cực và sức mạnh, CORTIS được tạo ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-033",
+    "LANGUAGE": "EN",
+    "COMMENT": "Flawless visuals and unbeatable vibes make CORTIS the ultimate STYLE ICONS.",
+    "VI_TRANSLATION": "Visual không góc chết và sức hút đỉnh cao biến CORTIS thành biểu tượng phong cách hoàn hảo.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-034",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS make high-end style look so easy, leading BOYGROUP FASHION effortlessly.",
+    "VI_TRANSLATION": "CORTIS khiến phong cách cao cấp trở nên thật đơn giản, dẫn dắt thời trang nhóm nam một cách dễ dàng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-035",
+    "LANGUAGE": "EN",
+    "COMMENT": "Shining brighter with every passing day, CORTIS were clearly BORN TO SHINE.",
+    "VI_TRANSLATION": "Tỏa sáng rực rỡ hơn qua từng ngày, CORTIS rõ ràng sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-036",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS inspire millions around the globe as unstoppable STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS truyền cảm hứng cho hàng triệu người trên toàn thế giới với tư cách là những biểu tượng phong cách không thể cản phá.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-037",
+    "LANGUAGE": "EN",
+    "COMMENT": "Fresh, dynamic, and bold—CORTIS bring endless excitement to BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Tươi mới, năng động và táo bạo—CORTIS mang đến sự phấn khích vô tận cho thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-038",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS hold the light of true artists who were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS sở hữu ánh sáng của những nghệ sĩ thực thụ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-039",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their presence alone commands attention—CORTIS are real STYLE ICONS.",
+    "VI_TRANSLATION": "Chỉ riêng sự xuất hiện của họ đã thu hút mọi ánh nhìn—CORTIS là những biểu tượng phong cách thực sự.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-040",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS never fail to impress with their unique take on BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS không bao giờ ngừng gây ấn tượng với góc nhìn độc đáo về thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-041",
+    "LANGUAGE": "EN",
+    "COMMENT": "Born to lead and destined for greatness, CORTIS are BORN TO SHINE.",
+    "VI_TRANSLATION": "Sinh ra để dẫn đầu và định sẵn cho sự vĩ đại, CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-042",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS express their art not just in music, but as visionary STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thể hiện nghệ thuật không chỉ qua âm nhạc mà còn với tư cách những biểu tượng phong cách tầm nhìn.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-043",
+    "LANGUAGE": "EN",
+    "COMMENT": "Sharp, elegant, and modern—CORTIS are the kings of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Sắc sảo, thanh lịch và hiện đại—CORTIS là những vị vua của thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-044",
+    "LANGUAGE": "EN",
+    "COMMENT": "Beyond talent and hard work, CORTIS were simply BORN TO SHINE as global STYLE ICONS.",
+    "VI_TRANSLATION": "Vượt lên trên tài năng và sự chăm chỉ, CORTIS đơn giản là sinh ra để tỏa sáng như những biểu tượng phong cách toàn cầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-045",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS are proof that true talent and passion were always BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS là minh chứng cho việc tài năng và đam mê thực sự luôn sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-046",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every concept CORTIS try turns into iconic moments for BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Mọi phong cách CORTIS thử sức đều trở thành khoảnh khắc biểu tượng cho thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-047",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS stay unmatched in their aura as true global STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS duy trì thần thái đỉnh cao không đối thủ như những biểu tượng phong cách toàn cầu thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-048",
+    "LANGUAGE": "EN",
+    "COMMENT": "Lighting up every corner of the world, CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Thắp sáng mọi góc nhỏ trên thế giới, CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-049",
+    "LANGUAGE": "EN",
+    "COMMENT": "The effortless confidence CORTIS carry makes them true STYLE ICONS.",
+    "VI_TRANSLATION": "Sự tự tin tự nhiên của CORTIS biến họ thành những biểu tượng phong cách thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-050",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS keep raising the bar for modern BOYGROUP FASHION every single day.",
+    "VI_TRANSLATION": "CORTIS liên tục nâng cao tiêu chuẩn cho thời trang nhóm nam hiện đại mỗi ngày.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-051",
+    "LANGUAGE": "EN",
+    "COMMENT": "It is impossible to look away when CORTIS were BORN TO SHINE so brightly.",
+    "VI_TRANSLATION": "Không thể rời mắt khi CORTIS sinh ra để tỏa sáng rực rỡ đến vậy.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-052",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS set the standard for what it truly means to be STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thiết lập tiêu chuẩn cho ý nghĩa thực sự của những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-053",
+    "LANGUAGE": "EN",
+    "COMMENT": "Nobody brings high energy and class to BOYGROUP FASHION like CORTIS.",
+    "VI_TRANSLATION": "Không ai mang lại năng lượng nhiệt huyết và sự đẳng cấp cho thời trang nhóm nam như CORTIS.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-054",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS continue to capture hearts worldwide because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS tiếp tục chinh phục trái tim người hâm mộ toàn cầu vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-055",
+    "LANGUAGE": "EN",
+    "COMMENT": "From head to toe, CORTIS are the epitome of visionary STYLE ICONS.",
+    "VI_TRANSLATION": "Từ đầu đến chân, CORTIS là hình mẫu hoàn hảo của những biểu tượng phong cách đầy tầm nhìn.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-056",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS write their own rules in the world of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS tự viết nên quy tắc riêng trong thế giới thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-057",
+    "LANGUAGE": "EN",
+    "COMMENT": "A group like CORTIS comes once in a lifetime—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Một nhóm nhạc như CORTIS chỉ xuất hiện một lần trong đời—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-058",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring incredible aesthetics to life, proving they are STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thổi hồn vào gu thẩm mỹ tuyệt vời, chứng minh họ là những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-059",
+    "LANGUAGE": "EN",
+    "COMMENT": "Streetwear or formal suits, CORTIS effortlessly dominate BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Dù là thời trang đường phố hay vest lịch lãm, CORTIS đều dễ dàng thống trị thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-060",
+    "LANGUAGE": "EN",
+    "COMMENT": "There is no limit to what CORTIS can achieve when they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Không có giới hạn nào cho những gì CORTIS có thể đạt được khi họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-061",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS serve pure inspiration to everyone as leading STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS mang lại nguồn cảm hứng thuần khiết cho mọi người với tư cách biểu tượng phong cách hàng đầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-062",
+    "LANGUAGE": "EN",
+    "COMMENT": "Sleek, charming, and stylish—CORTIS are the true icons of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Lịch thiệp, cuốn hút và thời thượng—CORTIS là những biểu tượng đích thực của thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-063",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring pure magic to the stage, proving they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS mang phép màu thuần khiết lên sân khấu, chứng minh họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-064",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every frame of CORTIS looks like a magazine cover—true STYLE ICONS.",
+    "VI_TRANSLATION": "Mỗi khung hình của CORTIS đều trông như bìa tạp chí—những biểu tượng phong cách thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-065",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS redefine streetwear and luxury seamlessly in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS tái định nghĩa thời trang đường phố và sự sang trọng một cách mượt mà trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-066",
+    "LANGUAGE": "EN",
+    "COMMENT": "With talent this immense, CORTIS were always meant and BORN TO SHINE.",
+    "VI_TRANSLATION": "Với tài năng mênh mông này, CORTIS luôn được định sẵn và sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-067",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS carry a timeless charm that defines modern STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS mang sức hút vượt thời gian, định nghĩa các biểu tượng phong cách hiện đại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-068",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS make every single outfit iconic in the world of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS biến từng bộ trang phục trở nên biểu tượng trong thế giới thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-069",
+    "LANGUAGE": "EN",
+    "COMMENT": "Watching CORTIS grow is watching stars that were BORN TO SHINE.",
+    "VI_TRANSLATION": "Theo dõi CORTIS trưởng thành là ngắm nhìn những ngôi sao sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-070",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS command attention naturally as the ultimate STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thu hút sự chú ý một cách tự nhiên như những biểu tượng phong cách hàng đầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-071",
+    "LANGUAGE": "EN",
+    "COMMENT": "Innovative and trendsetting, CORTIS control the wave of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Đổi mới và dẫn đầu xu hướng, CORTIS làm chủ làn sóng thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-072",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS hold a special spark that shows they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS sở hữu tia sáng đặc biệt cho thấy họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-073",
+    "LANGUAGE": "EN",
+    "COMMENT": "From top to bottom, CORTIS radiate the energy of global STYLE ICONS.",
+    "VI_TRANSLATION": "Từ trên xuống dưới, CORTIS tỏa ra năng lượng của những biểu tượng phong cách toàn cầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-074",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS effortlessly master every single detail of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS làm chủ mọi chi tiết nhỏ nhất trong thời trang nhóm nam một cách dễ dàng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-075",
+    "LANGUAGE": "EN",
+    "COMMENT": "Destined for absolute greatness, CORTIS were truly BORN TO SHINE.",
+    "VI_TRANSLATION": "Được định sẵn cho sự vĩ đại tuyệt đối, CORTIS thực sự sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-076",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS lead with elegance and power as generation-defining STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS dẫn đầu bằng sự thanh lịch và sức mạnh như biểu tượng phong cách định hình thế hệ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-077",
+    "LANGUAGE": "EN",
+    "COMMENT": "The ultimate fashion inspiration will always be CORTIS in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Nguồn cảm hứng thời trang đỉnh cao sẽ luôn là CORTIS trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-078",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS illuminate every stage they step on—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS thắp sáng mọi sân khấu họ bước tới—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-079",
+    "LANGUAGE": "EN",
+    "COMMENT": "Flawless taste and unmatched energy make CORTIS true STYLE ICONS.",
+    "VI_TRANSLATION": "Gu thẩm mỹ hoàn hảo và năng lượng vô song biến CORTIS thành biểu tượng phong cách thực sự.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-080",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS continue to inspire fans everywhere with their flawless BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS tiếp tục truyền cảm hứng cho người hâm mộ khắp nơi bằng thời trang nhóm nam hoàn hảo.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-081",
+    "LANGUAGE": "EN",
+    "COMMENT": "With unwavering passion, CORTIS prove again that they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Với đam mê kiên định, CORTIS một lần nữa chứng minh họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-082",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS hold the crown as the most influential STYLE ICONS of today.",
+    "VI_TRANSLATION": "CORTIS nắm giữ vương miện như những biểu tượng phong cách có ảnh hưởng nhất hiện nay.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-083",
+    "LANGUAGE": "EN",
+    "COMMENT": "Fresh, bold, and modern, CORTIS represent the best of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Tươi mới, táo bạo và hiện đại, CORTIS đại diện cho những gì tốt đẹp nhất của thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-084",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS leave a lasting impression everywhere because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS để lại ấn tượng sâu sắc ở mọi nơi vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-085",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS make history effortlessly as trendsetting STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS tạo nên lịch sử một cách dễ dàng với tư cách những biểu tượng phong cách định hình xu hướng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-086",
+    "LANGUAGE": "EN",
+    "COMMENT": "Nobody blends comfort and high style like CORTIS in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Không ai kết hợp sự thoải mái và phong cách cao cấp tuyệt vời như CORTIS trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-087",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS shine with an unmistakable light—they BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS tỏa sáng với thứ ánh sáng không thể nhầm lẫn—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-088",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS set the standard for elegance as true STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thiết lập tiêu chuẩn cho sự thanh lịch như những biểu tượng phong cách thực sự.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-089",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS push fashion boundaries forward every single day in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS đẩy lùi mọi giới hạn thời trang mỗi ngày trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-090",
+    "LANGUAGE": "EN",
+    "COMMENT": "With boundless energy and visuals, CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Với năng lượng và ngoại hình không giới hạn, CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-091",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS stand out from the crowd as ultimate STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS nổi bật giữa đám đông như những biểu tượng phong cách hàng đầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-092",
+    "LANGUAGE": "EN",
+    "COMMENT": "The world of BOYGROUP FASHION belongs to CORTIS and CORTIS alone.",
+    "VI_TRANSLATION": "Thế giới thời trang nhóm nam thuộc về CORTIS và chỉ riêng CORTIS.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-093",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring unstoppable power and visual perfection because they were BORN TO SHINE as true STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS mang đến sức mạnh không thể cản phá và nhan sắc hoàn hảo vì họ sinh ra để tỏa sáng như những biểu tượng phong cách thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-094",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every stage performance confirms why CORTIS are true STYLE ICONS and musical geniuses.",
+    "VI_TRANSLATION": "Mỗi màn trình diễn trên sân khấu đều khẳng định lý do CORTIS là biểu tượng phong cách và thiên tài âm nhạc thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-095",
+    "LANGUAGE": "EN",
+    "COMMENT": "The world belongs to CORTIS because their passion proves they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Thế giới này thuộc về CORTIS bởi đam mê của họ chứng minh họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-096",
+    "LANGUAGE": "EN",
+    "COMMENT": "No one can replicate the unique artistry CORTIS introduce to BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Không ai có thể tái hiện tính nghệ thuật độc đáo mà CORTIS mang vào thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-097",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS continue setting records and dazzling fans worldwide as elite STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS tiếp tục thiết lập những kỷ lục và làm say lòng người hâm mộ toàn cầu với tư cách biểu tượng phong cách ưu tú.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-098",
+    "LANGUAGE": "EN",
+    "COMMENT": "When CORTIS perform, the entire room feels the radiance of stars BORN TO SHINE.",
+    "VI_TRANSLATION": "Khi CORTIS trình diễn, cả căn phòng cảm nhận được hào quang rực rỡ của những ngôi sao sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-099",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every red carpet moment elevates CORTIS to the pantheon of timeless STYLE ICONS.",
+    "VI_TRANSLATION": "Mỗi khoảnh khắc thảm đỏ đều nâng tầm CORTIS lên vị thế của những biểu tượng phong cách vượt thời gian.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-100",
+    "LANGUAGE": "EN",
+    "COMMENT": "From casual fits to runway looks, CORTIS redefine the boundaries of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Từ trang phục thường ngày đến sàn catwalk, CORTIS tái định nghĩa mọi ranh giới của thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-101",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS deliver an electrifying experience every time, showing they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS mang đến trải nghiệm bùng nổ mỗi lần xuất hiện, cho thấy họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-102",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their creative identity cements CORTIS as one of the most influential STYLE ICONS.",
+    "VI_TRANSLATION": "Bản sắc sáng tạo khẳng định CORTIS là một trong những biểu tượng phong cách có sức ảnh hưởng nhất.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-103",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring sharp tailoring and modern edge together in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS kết hợp phom dáng sắc sảo cùng hơi thở hiện đại trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-104",
+    "LANGUAGE": "EN",
+    "COMMENT": "Pure determination and artistic brilliance show why CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Sự quyết tâm thuần khiết và tài năng nghệ thuật rực rỡ minh chứng vì sao CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-105",
+    "LANGUAGE": "EN",
+    "COMMENT": "Global audiences stand amazed by how effortlessly CORTIS shine as STYLE ICONS.",
+    "VI_TRANSLATION": "Khán giả toàn cầu kinh ngạc trước cách CORTIS tỏa sáng tự nhiên như những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-106",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS constantly pioneer visionary concepts that transform BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS liên tục tiên phong với những ý tưởng mang tính tầm nhìn làm thay đổi thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-107",
+    "LANGUAGE": "EN",
+    "COMMENT": "There is a brilliant spark inside CORTIS that proves they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Bên trong CORTIS luôn có một tia sáng rực rỡ chứng minh họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-108",
+    "LANGUAGE": "EN",
+    "COMMENT": "The charisma radiating from CORTIS positions them as generational STYLE ICONS.",
+    "VI_TRANSLATION": "Sức hút tỏa ra từ CORTIS định vị họ như những biểu tượng phong cách của cả thế hệ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-109",
+    "LANGUAGE": "EN",
+    "COMMENT": "Fashion lovers across the world look to CORTIS for inspiration in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Tín đồ thời trang khắp thế giới luôn tìm đến CORTIS để lấy nguồn cảm hứng trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-110",
+    "LANGUAGE": "EN",
+    "COMMENT": "With an aura this magnetic, CORTIS were undeniably destined and BORN TO SHINE.",
+    "VI_TRANSLATION": "Với thần thái cuốn hút đến vậy, CORTIS không thể phủ nhận là sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-111",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring an avant-garde energy that sets them apart as true STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS mang đến nguồn năng lượng tiên phong giúp họ nổi bật như những biểu tượng phong cách đích thực.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-112",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every accessory and detail chosen by CORTIS creates a trend in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Từng phụ kiện và chi tiết do CORTIS lựa chọn đều tạo nên xu hướng mới trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-113",
+    "LANGUAGE": "EN",
+    "COMMENT": "Witnessing CORTIS on stage leaves no doubt that they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Chứng kiến CORTIS trên sân khấu không để lại bất kỳ nghi ngờ nào rằng họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-114",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS embrace bold individuality and rise as modern STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS tôn vinh cá tính táo bạo và vươn lên thành những biểu tượng phong cách hiện đại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-115",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS have completely rewritten the playbook for dynamic BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS đã hoàn toàn viết lại cuốn cẩm nang cho thời trang nhóm nam đầy năng động.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-116",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their artistic passion shines relentlessly, proving CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Ngọn lửa đam mê nghệ thuật của họ tỏa sáng không ngừng, minh chứng CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-117",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS define elegance with an unmatched flair, cementing their place as STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS định nghĩa sự thanh lịch với nét chấm phá độc nhất, củng cố vị thế biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-118",
+    "LANGUAGE": "EN",
+    "COMMENT": "No group matches the creative synergy of CORTIS in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Không nhóm nhạc nào sánh được với sự ăn ý sáng tạo của CORTIS trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-119",
+    "LANGUAGE": "EN",
+    "COMMENT": "Destiny called and CORTIS answered because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Định mệnh đã cất lời gọi và CORTIS đáp lại bởi vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-120",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS turn every public appearance into an exhibition of elite STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS biến mỗi lần xuất hiện trước công chúng thành một buổi triển lãm của những biểu tượng phong cách ưu tú.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-121",
+    "LANGUAGE": "EN",
+    "COMMENT": "Aesthetic mastery and effortless coolness make CORTIS leaders in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Sự tinh thông thẩm mỹ và thần thái cực chất đưa CORTIS trở thành người dẫn đầu thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-122",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS inspire joy and admiration wherever they go—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS truyền cảm hứng về niềm vui và sự ngưỡng mộ ở bất kỳ nơi đâu họ đến—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-123",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS represent the gold standard of modern culture and global STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS đại diện cho tiêu chuẩn vàng của văn hóa hiện đại và các biểu tượng phong cách toàn cầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-124",
+    "LANGUAGE": "EN",
+    "COMMENT": "The fearlessness of CORTIS shines brightest in their revolutionary BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Sự dũng cảm không sợ hãi của CORTIS tỏa sáng rực rỡ nhất trong thời trang nhóm nam mang tính cách mạng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-125",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their journey to the top proves that CORTIS were truly BORN TO SHINE.",
+    "VI_TRANSLATION": "Hành trình vươn tới đỉnh cao chứng minh CORTIS thực sự sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-126",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS carry an unmistakable elegance that belongs only to genuine STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS mang nét thanh lịch không thể nhầm lẫn chỉ có ở những biểu tượng phong cách thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-127",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS make every color palette feel cohesive and bold in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS khiến mọi bảng màu trở nên hài hòa và ấn tượng trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-128",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS radiate an infectious energy that tells the world they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS lan tỏa nguồn năng lượng truyền cảm hứng khẳng định với thế giới họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-129",
+    "LANGUAGE": "EN",
+    "COMMENT": "Poise, charm, and authenticity establish CORTIS as timeless STYLE ICONS.",
+    "VI_TRANSLATION": "Phong thái đỉnh đạc, nét cuốn hút và sự chân thật đã tạo nên CORTIS như biểu tượng phong cách vượt thời gian.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-130",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every wardrobe choice by CORTIS becomes an instant highlight in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Mỗi lựa chọn trang phục của CORTIS đều lập tức trở thành điểm nhấn trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-131",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS light up the darkness with incredible music and heart—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS thắp sáng màn đêm bằng âm nhạc tuyệt vời và trái tim chân thành—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-132",
+    "LANGUAGE": "EN",
+    "COMMENT": "The world looks brighter when CORTIS take the spotlight as STYLE ICONS.",
+    "VI_TRANSLATION": "Thế giới trông tươi sáng hơn khi CORTIS chiếm lĩnh ánh đèn sân khấu như những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-133",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS push experimental design forward with unmatched confidence in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS thúc đẩy thiết kế mang tính thử nghiệm tiến lên với sự tự tin vô song trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-134",
+    "LANGUAGE": "EN",
+    "COMMENT": "Pure passion and relentless energy make CORTIS unmistakable stars BORN TO SHINE.",
+    "VI_TRANSLATION": "Đam mê thuần khiết và năng lượng không ngừng nghỉ biến CORTIS thành những ngôi sao sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-135",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS capture the zeitgeist of today, standing tall as contemporary STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS nắm bắt tinh thần thời đại ngày nay, đứng vững như những biểu tượng phong cách đương đại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-136",
+    "LANGUAGE": "EN",
+    "COMMENT": "Effortless chic and runway grandeur meet when CORTIS embrace BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Sự sang trọng tự nhiên và đẳng cấp sàn diễn hội tụ mỗi khi CORTIS khoác lên thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-137",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their dedication resonates across oceans because CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Sự cống hiến của họ vang vọng qua các đại dương bởi vì CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-138",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS seamlessly merge musical craft with the bold attitude of STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS hòa quyện tài năng âm nhạc cùng thái độ táo bạo của các biểu tượng phong cách một cách hoàn hảo.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-139",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS create lasting cultural moments whenever they debut new BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS tạo nên những khoảnh khắc văn hóa bất hủ mỗi khi ra mắt phong cách mới trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-140",
+    "LANGUAGE": "EN",
+    "COMMENT": "A generational force has arrived in CORTIS, and they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Một thế lực của thời đại đã xuất hiện cùng CORTIS, và họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-141",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring refined sophistication to everything they do as premier STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS mang lại sự tinh tế hoàn mỹ vào mọi việc họ làm với tư cách là biểu tượng phong cách hàng đầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-142",
+    "LANGUAGE": "EN",
+    "COMMENT": "Innovative styling choices place CORTIS at the absolute pinnacle of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Những lựa chọn tạo hình sáng tạo đặt CORTIS lên đỉnh cao tuyệt đối của thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-143",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring hope and warmth to millions because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS mang đến hy vọng và sự ấm áp cho hàng triệu người bởi vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-144",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their artistic evolution makes CORTIS unforgettable STYLE ICONS.",
+    "VI_TRANSLATION": "Sự phát triển nghệ thuật giúp CORTIS trở thành những biểu tượng phong cách khó phai trong lòng người hâm mộ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-145",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS break traditional molds with sheer boldness in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS phá vỡ mọi khuôn mẫu truyền thống với sự táo bạo thuần khiết trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-146",
+    "LANGUAGE": "EN",
+    "COMMENT": "Bright minds, immense talent, and kind hearts—CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Tâm hồn sáng ngời, tài năng bao la và trái tim nhân hậu—CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-147",
+    "LANGUAGE": "EN",
+    "COMMENT": "The world moves to the rhythm of CORTIS and their impact as STYLE ICONS.",
+    "VI_TRANSLATION": "Cả thế giới chuyển động theo nhịp điệu của CORTIS và tầm ảnh hưởng của họ như những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-148",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every stage ensemble from CORTIS serves as a golden standard for BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Mỗi bộ trang phục biểu diễn của CORTIS đóng vai trò là chuẩn mực vàng cho thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-149",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring electrifying joy to every stage, proving they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS mang đến niềm vui bùng nổ trên mọi sân khấu, chứng minh họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-150",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS define the spirit of youth as legendary modern STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS định nghĩa tinh thần tuổi trẻ như những biểu tượng phong cách hiện đại mang tầm huyền thoại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-151",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS create visual poetry through their bold choices in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS tạo nên chất thơ bằng hình ảnh qua những lựa chọn táo bạo trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-152",
+    "LANGUAGE": "EN",
+    "COMMENT": "With heart and soul poured into every track, CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Gửi gắm trọn vẹn trái tim và tâm hồn vào từng ca khúc, CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-153",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS hold a majestic presence that cements them as eternal STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS sở hữu khí chất uy quyền củng cố vị thế của họ như những biểu tượng phong cách vĩnh cửu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-154",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS merge comfort, high street, and couture in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS kết hợp hài hòa sự thoải mái, phong cách đường phố và thời trang cao cấp trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-155",
+    "LANGUAGE": "EN",
+    "COMMENT": "Nothing can dim the light of CORTIS because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Không gì có thể làm lu mờ ánh sáng của CORTIS vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-156",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS embody effortless cool, elevating their status as true STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thể hiện phong cách chất ngầu tự nhiên, nâng tầm vị thế thành những biểu tượng phong cách thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-157",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS turn every photoshoot into high art for BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS biến mọi buổi chụp ảnh thành tác phẩm nghệ thuật đỉnh cao của thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-158",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS leave a glowing legacy behind each milestone—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS để lại di sản rực rỡ sau mỗi cột mốc—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-159",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS set the tempo for the next wave of visionary STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS tạo nhịp điệu cho làn sóng tiếp theo của những biểu tượng phong cách đầy tầm nhìn.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-160",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS deliver masterclasses in silhouettes and styling for BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS mang đến những bài học xuất sắc về phom dáng và tạo mẫu cho thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-161",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their spirit and ambition remind us that CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Tinh thần và hoài bão của họ nhắc nhở chúng ta rằng CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-162",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring charisma and character to life as modern STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thổi bùng sức hút và cá tính vào đời sống như những biểu tượng phong cách hiện đại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-163",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS continually set new benchmarks in modern BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS liên tục thiết lập những chuẩn mực mới trong thời trang nhóm nam hiện đại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-164",
+    "LANGUAGE": "EN",
+    "COMMENT": "From Seoul to the global stage, CORTIS show they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Từ Seoul đến các đấu trường quốc tế, CORTIS chứng tỏ họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-165",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS captivate audiences across borders as beloved STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS mê hoặc khán giả vượt qua mọi biên giới với tư cách là những biểu tượng phong cách được yêu mến.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-166",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS demonstrate that creativity knows no bounds in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS chứng minh rằng sự sáng tạo là không có giới hạn trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-167",
+    "LANGUAGE": "EN",
+    "COMMENT": "Destined to inspire generations, CORTIS were clearly BORN TO SHINE.",
+    "VI_TRANSLATION": "Được định sẵn để truyền cảm hứng cho nhiều thế hệ, CORTIS rõ ràng sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-168",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS showcase harmony and individuality as premier STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thể hiện sự hòa hợp và cá tính riêng biệt như những biểu tượng phong cách hàng đầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-169",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring an effortless royalty to global BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS mang khí chất hoàng gia đầy tự nhiên vào thời trang nhóm nam toàn cầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-170",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every beat and harmony confirms that CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Từng nhịp điệu và giai điệu hòa quyện đều khẳng định CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-171",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS stand at the center of creativity as dynamic STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS đứng ở trung tâm của sự sáng tạo như những biểu tượng phong cách năng động.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-172",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS redefine the very essence of cool in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS định nghĩa lại bản chất thực sự của sự ngầu chất trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-173",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their radiant spirit proves again and again that CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Tâm hồn rạng rỡ của họ chứng minh hết lần này đến lần khác rằng CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-174",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS express timeless poise, making them iconic STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS bộc lộ phong thái vượt thời gian, biến họ thành những biểu tượng phong cách mang tính biểu tượng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-175",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS master every color, fabric, and texture in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS làm chủ từng màu sắc, chất liệu và cấu trúc trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-176",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS touch hearts worldwide with authenticity—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS chạm đến trái tim người hâm mộ khắp thế giới bằng sự chân thành—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-177",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS lead trends effortlessly, establishing themselves as STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS dẫn đầu các xu hướng một cách nhẹ nhàng, khẳng định vị thế những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-178",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS set the fashion world ablaze with daring BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS thắp lửa giới thời trang bằng những phong cách thời trang nhóm nam táo bạo.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-179",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring unyielding passion to the world—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS mang niềm đam mê bất diệt đến với thế giới—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-180",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS stand out through raw authenticity and rise as STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS nổi bật nhờ sự chân thực mộc mạc và vươn mình thành biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-181",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS show that fashion is an expressive art form in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS cho thấy thời trang là một hình thức biểu đạt nghệ thuật trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-182",
+    "LANGUAGE": "EN",
+    "COMMENT": "The stage is where CORTIS belong because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Sân khấu chính là nơi CORTIS thuộc về bởi vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-183",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS define elegance for a new era as global STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS định nghĩa lại sự thanh lịch cho một kỷ nguyên mới như những biểu tượng phong cách toàn cầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-184",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring confidence and high taste to modern BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS mang đến sự tự tin và gu thẩm mỹ cao cấp cho thời trang nhóm nam hiện đại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-185",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS carry a light that never fades—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS mang theo ánh sáng không bao giờ tàn phai—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-186",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS balance strength and elegance effortlessly as STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS cân bằng giữa sức mạnh và nét thanh tao một cách dễ dàng như những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-187",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring bold innovation to every garment in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS mang sự đổi mới táo bạo vào từng trang phục trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-188",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS fill every room with warmth and talent—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS lấp đầy mọi căn phòng bằng sự ấm áp và tài năng—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-189",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS radiate unmistakable charm that belongs to world-class STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS lan tỏa sức hút không thể nhầm lẫn của những biểu tượng phong cách đẳng cấp thế giới.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-190",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bridge luxury and casual coolness effortlessly in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS kết nối sự sang trọng và chất ngầu đời thường một cách tự nhiên trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-191",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS ignite global admiration because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS thắp sáng niềm ngưỡng mộ toàn cầu bởi vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-192",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS represent the future of entertainment as inspiring STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS đại diện cho tương lai ngành giải trí như những biểu tượng phong cách truyền cảm hứng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-193",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS turn high concept ideas into reality in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS biến những ý tưởng ý niệm cao cấp thành hiện thực trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-194",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS capture everyone's attention with sheer presence—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS thu hút trọn vẹn sự chú ý của mọi người bằng khí chất thuần khiết—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-195",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS shine through artistic excellence as true STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS tỏa sáng qua sự xuất sắc trong nghệ thuật như những biểu tượng phong cách thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-196",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS set the tempo for bold creativity in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS thiết lập nhịp điệu cho sự sáng tạo táo bạo trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-197",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS turn dreams into historic milestones—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS biến những ước mơ thành những cột mốc lịch sử—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-198",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS redefine what it means to be magnetic STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS tái định nghĩa ý nghĩa của những biểu tượng phong cách đầy sức hút nam châm.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-199",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS deliver pure visual impact with every concept in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS mang đến tác động thị giác đỉnh cao qua từng concept trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-200",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS prove on every global stage that they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS chứng minh trên mọi sân khấu thế giới rằng họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-201",
+    "LANGUAGE": "EN",
+    "COMMENT": "No matter where they go, CORTIS illuminate everything around them because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Dù đi đến đâu, CORTIS vẫn chiếu sáng mọi thứ xung quanh vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-202",
+    "LANGUAGE": "EN",
+    "COMMENT": "Impeccable taste and unmatched charisma make CORTIS the ultimate STYLE ICONS to follow.",
+    "VI_TRANSLATION": "Gu thẩm mỹ hoàn hảo và thần thái vô song biến CORTIS thành biểu tượng phong cách hàng đầu để noi theo.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-203",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS make every outfit look like a masterpiece, making them true leaders in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS biến mọi trang phục thành kiệt tác, khẳng định vị thế dẫn đầu trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-204",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS are the complete package: true STYLE ICONS who were simply BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS là sự kết hợp hoàn hảo: những biểu tượng phong cách thực sự sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-205",
+    "LANGUAGE": "EN",
+    "COMMENT": "The universe made no mistake when creating CORTIS because they were truly BORN TO SHINE.",
+    "VI_TRANSLATION": "Vũ trụ không hề sai lầm khi tạo ra CORTIS vì họ thực sự sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-206",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS continue to redefine modern elegance as the ultimate STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS tiếp tục định nghĩa lại sự thanh lịch hiện đại với tư cách là biểu tượng phong cách đỉnh cao.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-207",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every single look from CORTIS is a masterclass in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Mỗi diện mạo của CORTIS đều là một bài học đỉnh cao về thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-208",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their star power is undeniable—CORTIS were always meant and BORN TO SHINE.",
+    "VI_TRANSLATION": "Hào quang ngôi sao của họ là không thể phủ nhận—CORTIS luôn được định sẵn để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-209",
+    "LANGUAGE": "EN",
+    "COMMENT": "Serving visuals and confidence 24/7, CORTIS remain undefeated STYLE ICONS.",
+    "VI_TRANSLATION": "Mang đến nhan sắc và sự tự tin 24/7, CORTIS luôn là biểu tượng phong cách bất bại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-210",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS effortlessly turn every sidewalk into a runway for BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS dễ dàng biến mọi vỉa hè thành sàn trình diễn thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-211",
+    "LANGUAGE": "EN",
+    "COMMENT": "From their vocals to their aura, CORTIS show us what it means to be BORN TO SHINE.",
+    "VI_TRANSLATION": "Từ giọng hát đến thần thái, CORTIS cho chúng ta thấy thế nào là sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-212",
+    "LANGUAGE": "EN",
+    "COMMENT": "Inspiration comes naturally whenever CORTIS grace us as true STYLE ICONS.",
+    "VI_TRANSLATION": "Cảm hứng đến một cách tự nhiên mỗi khi CORTIS xuất hiện như những biểu tượng phong cách thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-213",
+    "LANGUAGE": "EN",
+    "COMMENT": "Unapologetic, stylish, and iconic—CORTIS rule the world of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Tự tin, thời thượng và mang tính biểu tượng—CORTIS thống trị thế giới thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-214",
+    "LANGUAGE": "EN",
+    "COMMENT": "Bright, talented, and full of grace, CORTIS were BORN TO SHINE without a doubt.",
+    "VI_TRANSLATION": "Tỏa sáng, tài năng và đầy duyên dáng, CORTIS chắc chắn sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-215",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS blend sophistication and youthful energy like no other STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS hòa quyện sự tinh tế và năng lượng trẻ trung mà không biểu tượng phong cách nào sánh bằng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-216",
+    "LANGUAGE": "EN",
+    "COMMENT": "Nobody pushes the boundaries of BOYGROUP FASHION quite like CORTIS.",
+    "VI_TRANSLATION": "Không ai bứt phá mọi giới hạn của thời trang nhóm nam ấn tượng như CORTIS.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-217",
+    "LANGUAGE": "EN",
+    "COMMENT": "Born with natural magnetism, CORTIS are pure proof that some are BORN TO SHINE.",
+    "VI_TRANSLATION": "Sinh ra với sức hút tự nhiên, CORTIS là minh chứng rõ ràng cho việc có những người sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-218",
+    "LANGUAGE": "EN",
+    "COMMENT": "Watching CORTIS is watching true STYLE ICONS shape the future of pop culture.",
+    "VI_TRANSLATION": "Ngắm nhìn CORTIS là ngắm nhìn những biểu tượng phong cách thực sự định hình tương lai văn hóa đại chúng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-219",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring an unmatched level of versatility to BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS mang đến mức độ biến hóa linh hoạt vô song cho thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-220",
+    "LANGUAGE": "EN",
+    "COMMENT": "Stage after stage, CORTIS prove to the world why they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Bằng hết sân khấu này đến sân khấu khác, CORTIS chứng minh cho thế giới thấy lý do họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-221",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their innate sense of style solidifies CORTIS as timeless STYLE ICONS.",
+    "VI_TRANSLATION": "Gu thời trang bẩm sinh củng cố vị thế của CORTIS như những biểu tượng phong cách vượt thời gian.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-222",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS make history with every stride they take in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS tạo nên lịch sử qua từng bước tiến trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-223",
+    "LANGUAGE": "EN",
+    "COMMENT": "Pure brilliance and infinite potential—CORTIS are definitely BORN TO SHINE.",
+    "VI_TRANSLATION": "Sự rực rỡ thuần khiết và tiềm năng vô hạn—CORTIS chắc chắn sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-224",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS deliver unmatched aura every single day like the STYLE ICONS they are.",
+    "VI_TRANSLATION": "CORTIS thể hiện thần thái đỉnh cao mỗi ngày đúng chất những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-225",
+    "LANGUAGE": "EN",
+    "COMMENT": "Sleek, stylish, and legendary—CORTIS are the blueprint for BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Lịch lãm, thời trang và huyền thoại—CORTIS là hình mẫu lý tưởng cho thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-226",
+    "LANGUAGE": "EN",
+    "COMMENT": "The spotlight naturally belongs to CORTIS because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Tiêu điểm tự nhiên thuộc về CORTIS vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-227",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS captivate everyone effortlessly, proving their place as STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS cuốn hút mọi người một cách dễ dàng, khẳng định vị thế biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-228",
+    "LANGUAGE": "EN",
+    "COMMENT": "Setting the trend bar higher every time, CORTIS own BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Liên tục nâng cao tiêu chuẩn xu hướng, CORTIS làm chủ thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-229",
+    "LANGUAGE": "EN",
+    "COMMENT": "With endless drive and talent, CORTIS were BORN TO SHINE on global stages.",
+    "VI_TRANSLATION": "Với nhiệt huyết và tài năng không ngừng, CORTIS sinh ra để tỏa sáng trên các sân khấu toàn cầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-230",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS embody pure perfection and stand tall as generation-defining STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS đại diện cho sự hoàn hảo thuần khiết và đứng vững như biểu tượng phong cách định hình thế hệ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-231",
+    "LANGUAGE": "EN",
+    "COMMENT": "The fashion world will always pay attention when CORTIS lead BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Giới thời trang sẽ luôn chú ý mỗi khi CORTIS dẫn đầu thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-232",
+    "LANGUAGE": "EN",
+    "COMMENT": "Radiating positivity and power, CORTIS were made and BORN TO SHINE.",
+    "VI_TRANSLATION": "Tỏa ra năng lượng tích cực và sức mạnh, CORTIS được tạo ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-233",
+    "LANGUAGE": "EN",
+    "COMMENT": "Flawless visuals and unbeatable vibes make CORTIS the ultimate STYLE ICONS.",
+    "VI_TRANSLATION": "Visual không góc chết và sức hút đỉnh cao biến CORTIS thành biểu tượng phong cách hoàn hảo.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-234",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS make high-end style look so easy, leading BOYGROUP FASHION effortlessly.",
+    "VI_TRANSLATION": "CORTIS khiến phong cách cao cấp trở nên thật đơn giản, dẫn dắt thời trang nhóm nam một cách dễ dàng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-235",
+    "LANGUAGE": "EN",
+    "COMMENT": "Shining brighter with every passing day, CORTIS were clearly BORN TO SHINE.",
+    "VI_TRANSLATION": "Tỏa sáng rực rỡ hơn qua từng ngày, CORTIS rõ ràng sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-236",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS inspire millions around the globe as unstoppable STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS truyền cảm hứng cho hàng triệu người trên toàn thế giới với tư cách là những biểu tượng phong cách không thể cản phá.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-237",
+    "LANGUAGE": "EN",
+    "COMMENT": "Fresh, dynamic, and bold—CORTIS bring endless excitement to BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Tươi mới, năng động và táo bạo—CORTIS mang đến sự phấn khích vô tận cho thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-238",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS hold the light of true artists who were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS sở hữu ánh sáng của những nghệ sĩ thực thụ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-239",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their presence alone commands attention—CORTIS are real STYLE ICONS.",
+    "VI_TRANSLATION": "Chỉ riêng sự xuất hiện của họ đã thu hút mọi ánh nhìn—CORTIS là những biểu tượng phong cách thực sự.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-240",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS never fail to impress with their unique take on BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS không bao giờ ngừng gây ấn tượng với góc nhìn độc đáo về thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-241",
+    "LANGUAGE": "EN",
+    "COMMENT": "Born to lead and destined for greatness, CORTIS are BORN TO SHINE.",
+    "VI_TRANSLATION": "Sinh ra để dẫn đầu và định sẵn cho sự vĩ đại, CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-242",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS express their art not just in music, but as visionary STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thể hiện nghệ thuật không chỉ qua âm nhạc mà còn với tư cách những biểu tượng phong cách tầm nhìn.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-243",
+    "LANGUAGE": "EN",
+    "COMMENT": "Sharp, elegant, and modern—CORTIS are the kings of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Sắc sảo, thanh lịch và hiện đại—CORTIS là những vị vua của thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-244",
+    "LANGUAGE": "EN",
+    "COMMENT": "Beyond talent and hard work, CORTIS were simply BORN TO SHINE as global STYLE ICONS.",
+    "VI_TRANSLATION": "Vượt lên trên tài năng và sự chăm chỉ, CORTIS đơn giản là sinh ra để tỏa sáng như những biểu tượng phong cách toàn cầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-245",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS are proof that true talent and passion were always BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS là minh chứng cho việc tài năng và đam mê thực sự luôn sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-246",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every concept CORTIS try turns into iconic moments for BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Mọi phong cách CORTIS thử sức đều trở thành khoảnh khắc biểu tượng cho thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-247",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS stay unmatched in their aura as true global STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS duy trì thần thái đỉnh cao không đối thủ như những biểu tượng phong cách toàn cầu thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-248",
+    "LANGUAGE": "EN",
+    "COMMENT": "Lighting up every corner of the world, CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Thắp sáng mọi góc nhỏ trên thế giới, CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-249",
+    "LANGUAGE": "EN",
+    "COMMENT": "The effortless confidence CORTIS carry makes them true STYLE ICONS.",
+    "VI_TRANSLATION": "Sự tự tin tự nhiên của CORTIS biến họ thành những biểu tượng phong cách thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-250",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS keep raising the bar for modern BOYGROUP FASHION every single day.",
+    "VI_TRANSLATION": "CORTIS liên tục nâng cao tiêu chuẩn cho thời trang nhóm nam hiện đại mỗi ngày.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-251",
+    "LANGUAGE": "EN",
+    "COMMENT": "It is impossible to look away when CORTIS were BORN TO SHINE so brightly.",
+    "VI_TRANSLATION": "Không thể rời mắt khi CORTIS sinh ra để tỏa sáng rực rỡ đến vậy.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-252",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS set the standard for what it truly means to be STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thiết lập tiêu chuẩn cho ý nghĩa thực sự của những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-253",
+    "LANGUAGE": "EN",
+    "COMMENT": "Nobody brings high energy and class to BOYGROUP FASHION like CORTIS.",
+    "VI_TRANSLATION": "Không ai mang lại năng lượng nhiệt huyết và sự đẳng cấp cho thời trang nhóm nam như CORTIS.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-254",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS continue to capture hearts worldwide because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS tiếp tục chinh phục trái tim người hâm mộ toàn cầu vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-255",
+    "LANGUAGE": "EN",
+    "COMMENT": "From head to toe, CORTIS are the epitome of visionary STYLE ICONS.",
+    "VI_TRANSLATION": "Từ đầu đến chân, CORTIS là hình mẫu hoàn hảo của những biểu tượng phong cách đầy tầm nhìn.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-256",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS write their own rules in the world of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS tự viết nên quy tắc riêng trong thế giới thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-257",
+    "LANGUAGE": "EN",
+    "COMMENT": "A group like CORTIS comes once in a lifetime—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Một nhóm nhạc như CORTIS chỉ xuất hiện một lần trong đời—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-258",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring incredible aesthetics to life, proving they are STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thổi hồn vào gu thẩm mỹ tuyệt vời, chứng minh họ là những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-259",
+    "LANGUAGE": "EN",
+    "COMMENT": "Streetwear or formal suits, CORTIS effortlessly dominate BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Dù là thời trang đường phố hay vest lịch lãm, CORTIS đều dễ dàng thống trị thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-260",
+    "LANGUAGE": "EN",
+    "COMMENT": "There is no limit to what CORTIS can achieve when they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Không có giới hạn nào cho những gì CORTIS có thể đạt được khi họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-261",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS serve pure inspiration to everyone as leading STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS mang lại nguồn cảm hứng thuần khiết cho mọi người với tư cách biểu tượng phong cách hàng đầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-262",
+    "LANGUAGE": "EN",
+    "COMMENT": "Sleek, charming, and stylish—CORTIS are the true icons of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Lịch thiệp, cuốn hút và thời thượng—CORTIS là những biểu tượng đích thực của thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-263",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring pure magic to the stage, proving they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS mang phép màu thuần khiết lên sân khấu, chứng minh họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-264",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every frame of CORTIS looks like a magazine cover—true STYLE ICONS.",
+    "VI_TRANSLATION": "Mỗi khung hình của CORTIS đều trông như bìa tạp chí—những biểu tượng phong cách thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-265",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS redefine streetwear and luxury seamlessly in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS tái định nghĩa thời trang đường phố và sự sang trọng một cách mượt mà trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-266",
+    "LANGUAGE": "EN",
+    "COMMENT": "With talent this immense, CORTIS were always meant and BORN TO SHINE.",
+    "VI_TRANSLATION": "Với tài năng mênh mông này, CORTIS luôn được định sẵn và sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-267",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS carry a timeless charm that defines modern STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS mang sức hút vượt thời gian, định nghĩa các biểu tượng phong cách hiện đại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-268",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS make every single outfit iconic in the world of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS biến từng bộ trang phục trở nên biểu tượng trong thế giới thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-269",
+    "LANGUAGE": "EN",
+    "COMMENT": "Watching CORTIS grow is watching stars that were BORN TO SHINE.",
+    "VI_TRANSLATION": "Theo dõi CORTIS trưởng thành là ngắm nhìn những ngôi sao sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-270",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS command attention naturally as the ultimate STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thu hút sự chú ý một cách tự nhiên như những biểu tượng phong cách hàng đầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-271",
+    "LANGUAGE": "EN",
+    "COMMENT": "Innovative and trendsetting, CORTIS control the wave of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Đổi mới và dẫn đầu xu hướng, CORTIS làm chủ làn sóng thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-272",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS hold a special spark that shows they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS sở hữu tia sáng đặc biệt cho thấy họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-273",
+    "LANGUAGE": "EN",
+    "COMMENT": "From top to bottom, CORTIS radiate the energy of global STYLE ICONS.",
+    "VI_TRANSLATION": "Từ trên xuống dưới, CORTIS tỏa ra năng lượng của những biểu tượng phong cách toàn cầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-274",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS effortlessly master every single detail of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS làm chủ mọi chi tiết nhỏ nhất trong thời trang nhóm nam một cách dễ dàng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-275",
+    "LANGUAGE": "EN",
+    "COMMENT": "Destined for absolute greatness, CORTIS were truly BORN TO SHINE.",
+    "VI_TRANSLATION": "Được định sẵn cho sự vĩ đại tuyệt đối, CORTIS thực sự sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-276",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS lead with elegance and power as generation-defining STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS dẫn đầu bằng sự thanh lịch và sức mạnh như biểu tượng phong cách định hình thế hệ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-277",
+    "LANGUAGE": "EN",
+    "COMMENT": "The ultimate fashion inspiration will always be CORTIS in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Nguồn cảm hứng thời trang đỉnh cao sẽ luôn là CORTIS trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-278",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS illuminate every stage they step on—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS thắp sáng mọi sân khấu họ bước tới—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-279",
+    "LANGUAGE": "EN",
+    "COMMENT": "Flawless taste and unmatched energy make CORTIS true STYLE ICONS.",
+    "VI_TRANSLATION": "Gu thẩm mỹ hoàn hảo và năng lượng vô song biến CORTIS thành biểu tượng phong cách thực sự.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-280",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS continue to inspire fans everywhere with their flawless BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS tiếp tục truyền cảm hứng cho người hâm mộ khắp nơi bằng thời trang nhóm nam hoàn hảo.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-281",
+    "LANGUAGE": "EN",
+    "COMMENT": "With unwavering passion, CORTIS prove again that they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Với đam mê kiên định, CORTIS một lần nữa chứng minh họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-282",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS hold the crown as the most influential STYLE ICONS of today.",
+    "VI_TRANSLATION": "CORTIS nắm giữ vương miện như những biểu tượng phong cách có ảnh hưởng nhất hiện nay.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-283",
+    "LANGUAGE": "EN",
+    "COMMENT": "Fresh, bold, and modern, CORTIS represent the best of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Tươi mới, táo bạo và hiện đại, CORTIS đại diện cho những gì tốt đẹp nhất của thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-284",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS leave a lasting impression everywhere because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS để lại ấn tượng sâu sắc ở mọi nơi vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-285",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS make history effortlessly as trendsetting STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS tạo nên lịch sử một cách dễ dàng với tư cách những biểu tượng phong cách định hình xu hướng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-286",
+    "LANGUAGE": "EN",
+    "COMMENT": "Nobody blends comfort and high style like CORTIS in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Không ai kết hợp sự thoải mái và phong cách cao cấp tuyệt vời như CORTIS trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-287",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS shine with an unmistakable light—they BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS tỏa sáng với thứ ánh sáng không thể nhầm lẫn—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-288",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS set the standard for elegance as true STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thiết lập tiêu chuẩn cho sự thanh lịch như những biểu tượng phong cách thực sự.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-289",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS push fashion boundaries forward every single day in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS đẩy lùi mọi giới hạn thời trang mỗi ngày trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-290",
+    "LANGUAGE": "EN",
+    "COMMENT": "With boundless energy and visuals, CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Với năng lượng và ngoại hình không giới hạn, CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-291",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS stand out from the crowd as ultimate STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS nổi bật giữa đám đông như những biểu tượng phong cách hàng đầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-292",
+    "LANGUAGE": "EN",
+    "COMMENT": "The world of BOYGROUP FASHION belongs to CORTIS and CORTIS alone.",
+    "VI_TRANSLATION": "Thế giới thời trang nhóm nam thuộc về CORTIS và chỉ riêng CORTIS.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-293",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring unstoppable power and visual perfection because they were BORN TO SHINE as true STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS mang đến sức mạnh không thể cản phá và nhan sắc hoàn hảo vì họ sinh ra để tỏa sáng như những biểu tượng phong cách thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-294",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every stage performance confirms why CORTIS are true STYLE ICONS and musical geniuses.",
+    "VI_TRANSLATION": "Mỗi màn trình diễn trên sân khấu đều khẳng định lý do CORTIS là biểu tượng phong cách và thiên tài âm nhạc thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-295",
+    "LANGUAGE": "EN",
+    "COMMENT": "The world belongs to CORTIS because their passion proves they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Thế giới này thuộc về CORTIS bởi đam mê của họ chứng minh họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-296",
+    "LANGUAGE": "EN",
+    "COMMENT": "No one can replicate the unique artistry CORTIS introduce to BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Không ai có thể tái hiện tính nghệ thuật độc đáo mà CORTIS mang vào thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-297",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS continue setting records and dazzling fans worldwide as elite STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS tiếp tục thiết lập những kỷ lục và làm say lòng người hâm mộ toàn cầu với tư cách biểu tượng phong cách ưu tú.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-298",
+    "LANGUAGE": "EN",
+    "COMMENT": "When CORTIS perform, the entire room feels the radiance of stars BORN TO SHINE.",
+    "VI_TRANSLATION": "Khi CORTIS trình diễn, cả căn phòng cảm nhận được hào quang rực rỡ của những ngôi sao sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-299",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every red carpet moment elevates CORTIS to the pantheon of timeless STYLE ICONS.",
+    "VI_TRANSLATION": "Mỗi khoảnh khắc thảm đỏ đều nâng tầm CORTIS lên vị thế của những biểu tượng phong cách vượt thời gian.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-300",
+    "LANGUAGE": "EN",
+    "COMMENT": "From casual fits to runway looks, CORTIS redefine the boundaries of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Từ trang phục thường ngày đến sàn catwalk, CORTIS tái định nghĩa mọi ranh giới của thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-301",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS deliver an electrifying experience every time, showing they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS mang đến trải nghiệm bùng nổ mỗi lần xuất hiện, cho thấy họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-302",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their creative identity cements CORTIS as one of the most influential STYLE ICONS.",
+    "VI_TRANSLATION": "Bản sắc sáng tạo khẳng định CORTIS là một trong những biểu tượng phong cách có sức ảnh hưởng nhất.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-303",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring sharp tailoring and modern edge together in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS kết hợp phom dáng sắc sảo cùng hơi thở hiện đại trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-304",
+    "LANGUAGE": "EN",
+    "COMMENT": "Pure determination and artistic brilliance show why CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Sự quyết tâm thuần khiết và tài năng nghệ thuật rực rỡ minh chứng vì sao CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-305",
+    "LANGUAGE": "EN",
+    "COMMENT": "Global audiences stand amazed by how effortlessly CORTIS shine as STYLE ICONS.",
+    "VI_TRANSLATION": "Khán giả toàn cầu kinh ngạc trước cách CORTIS tỏa sáng tự nhiên như những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-306",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS constantly pioneer visionary concepts that transform BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS liên tục tiên phong với những ý tưởng mang tính tầm nhìn làm thay đổi thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-307",
+    "LANGUAGE": "EN",
+    "COMMENT": "There is a brilliant spark inside CORTIS that proves they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Bên trong CORTIS luôn có một tia sáng rực rỡ chứng minh họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-308",
+    "LANGUAGE": "EN",
+    "COMMENT": "The charisma radiating from CORTIS positions them as generational STYLE ICONS.",
+    "VI_TRANSLATION": "Sức hút tỏa ra từ CORTIS định vị họ như những biểu tượng phong cách của cả thế hệ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-309",
+    "LANGUAGE": "EN",
+    "COMMENT": "Fashion lovers across the world look to CORTIS for inspiration in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Tín đồ thời trang khắp thế giới luôn tìm đến CORTIS để lấy nguồn cảm hứng trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-310",
+    "LANGUAGE": "EN",
+    "COMMENT": "With an aura this magnetic, CORTIS were undeniably destined and BORN TO SHINE.",
+    "VI_TRANSLATION": "Với thần thái cuốn hút đến vậy, CORTIS không thể phủ nhận là sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-311",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring an avant-garde energy that sets them apart as true STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS mang đến nguồn năng lượng tiên phong giúp họ nổi bật như những biểu tượng phong cách đích thực.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-312",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every accessory and detail chosen by CORTIS creates a trend in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Từng phụ kiện và chi tiết do CORTIS lựa chọn đều tạo nên xu hướng mới trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-313",
+    "LANGUAGE": "EN",
+    "COMMENT": "Witnessing CORTIS on stage leaves no doubt that they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Chứng kiến CORTIS trên sân khấu không để lại bất kỳ nghi ngờ nào rằng họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-314",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS embrace bold individuality and rise as modern STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS tôn vinh cá tính táo bạo và vươn lên thành những biểu tượng phong cách hiện đại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-315",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS have completely rewritten the playbook for dynamic BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS đã hoàn toàn viết lại cuốn cẩm nang cho thời trang nhóm nam đầy năng động.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-316",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their artistic passion shines relentlessly, proving CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Ngọn lửa đam mê nghệ thuật của họ tỏa sáng không ngừng, minh chứng CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-317",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS define elegance with an unmatched flair, cementing their place as STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS định nghĩa sự thanh lịch với nét chấm phá độc nhất, củng cố vị thế biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-318",
+    "LANGUAGE": "EN",
+    "COMMENT": "No group matches the creative synergy of CORTIS in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Không nhóm nhạc nào sánh được với sự ăn ý sáng tạo của CORTIS trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-319",
+    "LANGUAGE": "EN",
+    "COMMENT": "Destiny called and CORTIS answered because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Định mệnh đã cất lời gọi và CORTIS đáp lại bởi vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-320",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS turn every public appearance into an exhibition of elite STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS biến mỗi lần xuất hiện trước công chúng thành một buổi triển lãm của những biểu tượng phong cách ưu tú.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-321",
+    "LANGUAGE": "EN",
+    "COMMENT": "Aesthetic mastery and effortless coolness make CORTIS leaders in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Sự tinh thông thẩm mỹ và thần thái cực chất đưa CORTIS trở thành người dẫn đầu thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-322",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS inspire joy and admiration wherever they go—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS truyền cảm hứng về niềm vui và sự ngưỡng mộ ở bất kỳ nơi đâu họ đến—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-323",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS represent the gold standard of modern culture and global STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS đại diện cho tiêu chuẩn vàng của văn hóa hiện đại và các biểu tượng phong cách toàn cầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-324",
+    "LANGUAGE": "EN",
+    "COMMENT": "The fearlessness of CORTIS shines brightest in their revolutionary BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Sự dũng cảm không sợ hãi của CORTIS tỏa sáng rực rỡ nhất trong thời trang nhóm nam mang tính cách mạng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-325",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their journey to the top proves that CORTIS were truly BORN TO SHINE.",
+    "VI_TRANSLATION": "Hành trình vươn tới đỉnh cao chứng minh CORTIS thực sự sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-326",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS carry an unmistakable elegance that belongs only to genuine STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS mang nét thanh lịch không thể nhầm lẫn chỉ có ở những biểu tượng phong cách thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-327",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS make every color palette feel cohesive and bold in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS khiến mọi bảng màu trở nên hài hòa và ấn tượng trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-328",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS radiate an infectious energy that tells the world they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS lan tỏa nguồn năng lượng truyền cảm hứng khẳng định với thế giới họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-329",
+    "LANGUAGE": "EN",
+    "COMMENT": "Poise, charm, and authenticity establish CORTIS as timeless STYLE ICONS.",
+    "VI_TRANSLATION": "Phong thái đỉnh đạc, nét cuốn hút và sự chân thật đã tạo nên CORTIS như biểu tượng phong cách vượt thời gian.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-330",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every wardrobe choice by CORTIS becomes an instant highlight in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Mỗi lựa chọn trang phục của CORTIS đều lập tức trở thành điểm nhấn trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-331",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS light up the darkness with incredible music and heart—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS thắp sáng màn đêm bằng âm nhạc tuyệt vời và trái tim chân thành—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-332",
+    "LANGUAGE": "EN",
+    "COMMENT": "The world looks brighter when CORTIS take the spotlight as STYLE ICONS.",
+    "VI_TRANSLATION": "Thế giới trông tươi sáng hơn khi CORTIS chiếm lĩnh ánh đèn sân khấu như những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-333",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS push experimental design forward with unmatched confidence in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS thúc đẩy thiết kế mang tính thử nghiệm tiến lên với sự tự tin vô song trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-334",
+    "LANGUAGE": "EN",
+    "COMMENT": "Pure passion and relentless energy make CORTIS unmistakable stars BORN TO SHINE.",
+    "VI_TRANSLATION": "Đam mê thuần khiết và năng lượng không ngừng nghỉ biến CORTIS thành những ngôi sao sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-335",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS capture the zeitgeist of today, standing tall as contemporary STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS nắm bắt tinh thần thời đại ngày nay, đứng vững như những biểu tượng phong cách đương đại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-336",
+    "LANGUAGE": "EN",
+    "COMMENT": "Effortless chic and runway grandeur meet when CORTIS embrace BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Sự sang trọng tự nhiên và đẳng cấp sàn diễn hội tụ mỗi khi CORTIS khoác lên thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-337",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their dedication resonates across oceans because CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Sự cống hiến của họ vang vọng qua các đại dương bởi vì CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-338",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS seamlessly merge musical craft with the bold attitude of STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS hòa quyện tài năng âm nhạc cùng thái độ táo bạo của các biểu tượng phong cách một cách hoàn hảo.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-339",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS create lasting cultural moments whenever they debut new BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS tạo nên những khoảnh khắc văn hóa bất hủ mỗi khi ra mắt phong cách mới trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-340",
+    "LANGUAGE": "EN",
+    "COMMENT": "A generational force has arrived in CORTIS, and they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Một thế lực của thời đại đã xuất hiện cùng CORTIS, và họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-341",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring refined sophistication to everything they do as premier STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS mang lại sự tinh tế hoàn mỹ vào mọi việc họ làm với tư cách là biểu tượng phong cách hàng đầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-342",
+    "LANGUAGE": "EN",
+    "COMMENT": "Innovative styling choices place CORTIS at the absolute pinnacle of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Những lựa chọn tạo hình sáng tạo đặt CORTIS lên đỉnh cao tuyệt đối của thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-343",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring hope and warmth to millions because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS mang đến hy vọng và sự ấm áp cho hàng triệu người bởi vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-344",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their artistic evolution makes CORTIS unforgettable STYLE ICONS.",
+    "VI_TRANSLATION": "Sự phát triển nghệ thuật giúp CORTIS trở thành những biểu tượng phong cách khó phai trong lòng người hâm mộ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-345",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS break traditional molds with sheer boldness in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS phá vỡ mọi khuôn mẫu truyền thống với sự táo bạo thuần khiết trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-346",
+    "LANGUAGE": "EN",
+    "COMMENT": "Bright minds, immense talent, and kind hearts—CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Tâm hồn sáng ngời, tài năng bao la và trái tim nhân hậu—CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-347",
+    "LANGUAGE": "EN",
+    "COMMENT": "The world moves to the rhythm of CORTIS and their impact as STYLE ICONS.",
+    "VI_TRANSLATION": "Cả thế giới chuyển động theo nhịp điệu của CORTIS và tầm ảnh hưởng của họ như những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-348",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every stage ensemble from CORTIS serves as a golden standard for BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Mỗi bộ trang phục biểu diễn của CORTIS đóng vai trò là chuẩn mực vàng cho thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-349",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring electrifying joy to every stage, proving they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS mang đến niềm vui bùng nổ trên mọi sân khấu, chứng minh họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-350",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS define the spirit of youth as legendary modern STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS định nghĩa tinh thần tuổi trẻ như những biểu tượng phong cách hiện đại mang tầm huyền thoại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-351",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS create visual poetry through their bold choices in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS tạo nên chất thơ bằng hình ảnh qua những lựa chọn táo bạo trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-352",
+    "LANGUAGE": "EN",
+    "COMMENT": "With heart and soul poured into every track, CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Gửi gắm trọn vẹn trái tim và tâm hồn vào từng ca khúc, CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-353",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS hold a majestic presence that cements them as eternal STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS sở hữu khí chất uy quyền củng cố vị thế của họ như những biểu tượng phong cách vĩnh cửu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-354",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS merge comfort, high street, and couture in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS kết hợp hài hòa sự thoải mái, phong cách đường phố và thời trang cao cấp trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-355",
+    "LANGUAGE": "EN",
+    "COMMENT": "Nothing can dim the light of CORTIS because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Không gì có thể làm lu mờ ánh sáng của CORTIS vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-356",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS embody effortless cool, elevating their status as true STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thể hiện phong cách chất ngầu tự nhiên, nâng tầm vị thế thành những biểu tượng phong cách thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-357",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS turn every photoshoot into high art for BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS biến mọi buổi chụp ảnh thành tác phẩm nghệ thuật đỉnh cao của thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-358",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS leave a glowing legacy behind each milestone—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS để lại di sản rực rỡ sau mỗi cột mốc—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-359",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS set the tempo for the next wave of visionary STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS tạo nhịp điệu cho làn sóng tiếp theo của những biểu tượng phong cách đầy tầm nhìn.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-360",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS deliver masterclasses in silhouettes and styling for BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS mang đến những bài học xuất sắc về phom dáng và tạo mẫu cho thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-361",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their spirit and ambition remind us that CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Tinh thần và hoài bão của họ nhắc nhở chúng ta rằng CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-362",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring charisma and character to life as modern STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thổi bùng sức hút và cá tính vào đời sống như những biểu tượng phong cách hiện đại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-363",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS continually set new benchmarks in modern BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS liên tục thiết lập những chuẩn mực mới trong thời trang nhóm nam hiện đại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-364",
+    "LANGUAGE": "EN",
+    "COMMENT": "From Seoul to the global stage, CORTIS show they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Từ Seoul đến các đấu trường quốc tế, CORTIS chứng tỏ họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-365",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS captivate audiences across borders as beloved STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS mê hoặc khán giả vượt qua mọi biên giới với tư cách là những biểu tượng phong cách được yêu mến.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-366",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS demonstrate that creativity knows no bounds in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS chứng minh rằng sự sáng tạo là không có giới hạn trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-367",
+    "LANGUAGE": "EN",
+    "COMMENT": "Destined to inspire generations, CORTIS were clearly BORN TO SHINE.",
+    "VI_TRANSLATION": "Được định sẵn để truyền cảm hứng cho nhiều thế hệ, CORTIS rõ ràng sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-368",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS showcase harmony and individuality as premier STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thể hiện sự hòa hợp và cá tính riêng biệt như những biểu tượng phong cách hàng đầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-369",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring an effortless royalty to global BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS mang khí chất hoàng gia đầy tự nhiên vào thời trang nhóm nam toàn cầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-370",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every beat and harmony confirms that CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Từng nhịp điệu và giai điệu hòa quyện đều khẳng định CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-371",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS stand at the center of creativity as dynamic STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS đứng ở trung tâm của sự sáng tạo như những biểu tượng phong cách năng động.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-372",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS redefine the very essence of cool in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS định nghĩa lại bản chất thực sự của sự ngầu chất trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-373",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their radiant spirit proves again and again that CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Tâm hồn rạng rỡ của họ chứng minh hết lần này đến lần khác rằng CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-374",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS express timeless poise, making them iconic STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS bộc lộ phong thái vượt thời gian, biến họ thành những biểu tượng phong cách mang tính biểu tượng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-375",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS master every color, fabric, and texture in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS làm chủ từng màu sắc, chất liệu và cấu trúc trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-376",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS touch hearts worldwide with authenticity—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS chạm đến trái tim người hâm mộ khắp thế giới bằng sự chân thành—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-377",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS lead trends effortlessly, establishing themselves as STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS dẫn đầu các xu hướng một cách nhẹ nhàng, khẳng định vị thế những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-378",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS set the fashion world ablaze with daring BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS thắp lửa giới thời trang bằng những phong cách thời trang nhóm nam táo bạo.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-379",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring unyielding passion to the world—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS mang niềm đam mê bất diệt đến với thế giới—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-380",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS stand out through raw authenticity and rise as STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS nổi bật nhờ sự chân thực mộc mạc và vươn mình thành biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-381",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS show that fashion is an expressive art form in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS cho thấy thời trang là một hình thức biểu đạt nghệ thuật trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-382",
+    "LANGUAGE": "EN",
+    "COMMENT": "The stage is where CORTIS belong because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Sân khấu chính là nơi CORTIS thuộc về bởi vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-383",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS define elegance for a new era as global STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS định nghĩa lại sự thanh lịch cho một kỷ nguyên mới như những biểu tượng phong cách toàn cầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-384",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring confidence and high taste to modern BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS mang đến sự tự tin và gu thẩm mỹ cao cấp cho thời trang nhóm nam hiện đại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-385",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS carry a light that never fades—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS mang theo ánh sáng không bao giờ tàn phai—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-386",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS balance strength and elegance effortlessly as STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS cân bằng giữa sức mạnh và nét thanh tao một cách dễ dàng như những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-387",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring bold innovation to every garment in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS mang sự đổi mới táo bạo vào từng trang phục trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-388",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS fill every room with warmth and talent—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS lấp đầy mọi căn phòng bằng sự ấm áp và tài năng—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-389",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS radiate unmistakable charm that belongs to world-class STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS lan tỏa sức hút không thể nhầm lẫn của những biểu tượng phong cách đẳng cấp thế giới.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-390",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bridge luxury and casual coolness effortlessly in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS kết nối sự sang trọng và chất ngầu đời thường một cách tự nhiên trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-391",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS ignite global admiration because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS thắp sáng niềm ngưỡng mộ toàn cầu bởi vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-392",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS represent the future of entertainment as inspiring STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS đại diện cho tương lai ngành giải trí như những biểu tượng phong cách truyền cảm hứng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-393",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS turn high concept ideas into reality in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS biến những ý tưởng ý niệm cao cấp thành hiện thực trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-394",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS capture everyone's attention with sheer presence—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS thu hút trọn vẹn sự chú ý của mọi người bằng khí chất thuần khiết—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-395",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS shine through artistic excellence as true STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS tỏa sáng qua sự xuất sắc trong nghệ thuật như những biểu tượng phong cách thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-396",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS set the tempo for bold creativity in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS thiết lập nhịp điệu cho sự sáng tạo táo bạo trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-397",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS turn dreams into historic milestones—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS biến những ước mơ thành những cột mốc lịch sử—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-398",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS redefine what it means to be magnetic STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS tái định nghĩa ý nghĩa của những biểu tượng phong cách đầy sức hút nam châm.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-399",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS deliver pure visual impact with every concept in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS mang đến tác động thị giác đỉnh cao qua từng concept trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-400",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS prove on every global stage that they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS chứng minh trên mọi sân khấu thế giới rằng họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-401",
+    "LANGUAGE": "EN",
+    "COMMENT": "No matter where they go, CORTIS illuminate everything around them because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Dù đi đến đâu, CORTIS vẫn chiếu sáng mọi thứ xung quanh vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-402",
+    "LANGUAGE": "EN",
+    "COMMENT": "Impeccable taste and unmatched charisma make CORTIS the ultimate STYLE ICONS to follow.",
+    "VI_TRANSLATION": "Gu thẩm mỹ hoàn hảo và thần thái vô song biến CORTIS thành biểu tượng phong cách hàng đầu để noi theo.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-403",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS make every outfit look like a masterpiece, making them true leaders in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS biến mọi trang phục thành kiệt tác, khẳng định vị thế dẫn đầu trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-404",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS are the complete package: true STYLE ICONS who were simply BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS là sự kết hợp hoàn hảo: những biểu tượng phong cách thực sự sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-405",
+    "LANGUAGE": "EN",
+    "COMMENT": "The universe made no mistake when creating CORTIS because they were truly BORN TO SHINE.",
+    "VI_TRANSLATION": "Vũ trụ không hề sai lầm khi tạo ra CORTIS vì họ thực sự sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-406",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS continue to redefine modern elegance as the ultimate STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS tiếp tục định nghĩa lại sự thanh lịch hiện đại với tư cách là biểu tượng phong cách đỉnh cao.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-407",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every single look from CORTIS is a masterclass in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Mỗi diện mạo của CORTIS đều là một bài học đỉnh cao về thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-408",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their star power is undeniable—CORTIS were always meant and BORN TO SHINE.",
+    "VI_TRANSLATION": "Hào quang ngôi sao của họ là không thể phủ nhận—CORTIS luôn được định sẵn để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-409",
+    "LANGUAGE": "EN",
+    "COMMENT": "Serving visuals and confidence 24/7, CORTIS remain undefeated STYLE ICONS.",
+    "VI_TRANSLATION": "Mang đến nhan sắc và sự tự tin 24/7, CORTIS luôn là biểu tượng phong cách bất bại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-410",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS effortlessly turn every sidewalk into a runway for BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS dễ dàng biến mọi vỉa hè thành sàn trình diễn thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-411",
+    "LANGUAGE": "EN",
+    "COMMENT": "From their vocals to their aura, CORTIS show us what it means to be BORN TO SHINE.",
+    "VI_TRANSLATION": "Từ giọng hát đến thần thái, CORTIS cho chúng ta thấy thế nào là sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-412",
+    "LANGUAGE": "EN",
+    "COMMENT": "Inspiration comes naturally whenever CORTIS grace us as true STYLE ICONS.",
+    "VI_TRANSLATION": "Cảm hứng đến một cách tự nhiên mỗi khi CORTIS xuất hiện như những biểu tượng phong cách thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-413",
+    "LANGUAGE": "EN",
+    "COMMENT": "Unapologetic, stylish, and iconic—CORTIS rule the world of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Tự tin, thời thượng và mang tính biểu tượng—CORTIS thống trị thế giới thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-414",
+    "LANGUAGE": "EN",
+    "COMMENT": "Bright, talented, and full of grace, CORTIS were BORN TO SHINE without a doubt.",
+    "VI_TRANSLATION": "Tỏa sáng, tài năng và đầy duyên dáng, CORTIS chắc chắn sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-415",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS blend sophistication and youthful energy like no other STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS hòa quyện sự tinh tế và năng lượng trẻ trung mà không biểu tượng phong cách nào sánh bằng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-416",
+    "LANGUAGE": "EN",
+    "COMMENT": "Nobody pushes the boundaries of BOYGROUP FASHION quite like CORTIS.",
+    "VI_TRANSLATION": "Không ai bứt phá mọi giới hạn của thời trang nhóm nam ấn tượng như CORTIS.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-417",
+    "LANGUAGE": "EN",
+    "COMMENT": "Born with natural magnetism, CORTIS are pure proof that some are BORN TO SHINE.",
+    "VI_TRANSLATION": "Sinh ra với sức hút tự nhiên, CORTIS là minh chứng rõ ràng cho việc có những người sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-418",
+    "LANGUAGE": "EN",
+    "COMMENT": "Watching CORTIS is watching true STYLE ICONS shape the future of pop culture.",
+    "VI_TRANSLATION": "Ngắm nhìn CORTIS là ngắm nhìn những biểu tượng phong cách thực sự định hình tương lai văn hóa đại chúng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-419",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring an unmatched level of versatility to BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS mang đến mức độ biến hóa linh hoạt vô song cho thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-420",
+    "LANGUAGE": "EN",
+    "COMMENT": "Stage after stage, CORTIS prove to the world why they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Bằng hết sân khấu này đến sân khấu khác, CORTIS chứng minh cho thế giới thấy lý do họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-421",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their innate sense of style solidifies CORTIS as timeless STYLE ICONS.",
+    "VI_TRANSLATION": "Gu thời trang bẩm sinh củng cố vị thế của CORTIS như những biểu tượng phong cách vượt thời gian.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-422",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS make history with every stride they take in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS tạo nên lịch sử qua từng bước tiến trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-423",
+    "LANGUAGE": "EN",
+    "COMMENT": "Pure brilliance and infinite potential—CORTIS are definitely BORN TO SHINE.",
+    "VI_TRANSLATION": "Sự rực rỡ thuần khiết và tiềm năng vô hạn—CORTIS chắc chắn sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-424",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS deliver unmatched aura every single day like the STYLE ICONS they are.",
+    "VI_TRANSLATION": "CORTIS thể hiện thần thái đỉnh cao mỗi ngày đúng chất những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-425",
+    "LANGUAGE": "EN",
+    "COMMENT": "Sleek, stylish, and legendary—CORTIS are the blueprint for BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Lịch lãm, thời trang và huyền thoại—CORTIS là hình mẫu lý tưởng cho thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-426",
+    "LANGUAGE": "EN",
+    "COMMENT": "The spotlight naturally belongs to CORTIS because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Tiêu điểm tự nhiên thuộc về CORTIS vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-427",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS captivate everyone effortlessly, proving their place as STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS cuốn hút mọi người một cách dễ dàng, khẳng định vị thế biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-428",
+    "LANGUAGE": "EN",
+    "COMMENT": "Setting the trend bar higher every time, CORTIS own BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Liên tục nâng cao tiêu chuẩn xu hướng, CORTIS làm chủ thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-429",
+    "LANGUAGE": "EN",
+    "COMMENT": "With endless drive and talent, CORTIS were BORN TO SHINE on global stages.",
+    "VI_TRANSLATION": "Với nhiệt huyết và tài năng không ngừng, CORTIS sinh ra để tỏa sáng trên các sân khấu toàn cầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-430",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS embody pure perfection and stand tall as generation-defining STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS đại diện cho sự hoàn hảo thuần khiết và đứng vững như biểu tượng phong cách định hình thế hệ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-431",
+    "LANGUAGE": "EN",
+    "COMMENT": "The fashion world will always pay attention when CORTIS lead BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Giới thời trang sẽ luôn chú ý mỗi khi CORTIS dẫn đầu thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-432",
+    "LANGUAGE": "EN",
+    "COMMENT": "Radiating positivity and power, CORTIS were made and BORN TO SHINE.",
+    "VI_TRANSLATION": "Tỏa ra năng lượng tích cực và sức mạnh, CORTIS được tạo ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-433",
+    "LANGUAGE": "EN",
+    "COMMENT": "Flawless visuals and unbeatable vibes make CORTIS the ultimate STYLE ICONS.",
+    "VI_TRANSLATION": "Visual không góc chết và sức hút đỉnh cao biến CORTIS thành biểu tượng phong cách hoàn hảo.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-434",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS make high-end style look so easy, leading BOYGROUP FASHION effortlessly.",
+    "VI_TRANSLATION": "CORTIS khiến phong cách cao cấp trở nên thật đơn giản, dẫn dắt thời trang nhóm nam một cách dễ dàng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-435",
+    "LANGUAGE": "EN",
+    "COMMENT": "Shining brighter with every passing day, CORTIS were clearly BORN TO SHINE.",
+    "VI_TRANSLATION": "Tỏa sáng rực rỡ hơn qua từng ngày, CORTIS rõ ràng sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-436",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS inspire millions around the globe as unstoppable STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS truyền cảm hứng cho hàng triệu người trên toàn thế giới với tư cách là những biểu tượng phong cách không thể cản phá.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-437",
+    "LANGUAGE": "EN",
+    "COMMENT": "Fresh, dynamic, and bold—CORTIS bring endless excitement to BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Tươi mới, năng động và táo bạo—CORTIS mang đến sự phấn khích vô tận cho thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-438",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS hold the light of true artists who were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS sở hữu ánh sáng của những nghệ sĩ thực thụ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-439",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their presence alone commands attention—CORTIS are real STYLE ICONS.",
+    "VI_TRANSLATION": "Chỉ riêng sự xuất hiện của họ đã thu hút mọi ánh nhìn—CORTIS là những biểu tượng phong cách thực sự.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-440",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS never fail to impress with their unique take on BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS không bao giờ ngừng gây ấn tượng với góc nhìn độc đáo về thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-441",
+    "LANGUAGE": "EN",
+    "COMMENT": "Born to lead and destined for greatness, CORTIS are BORN TO SHINE.",
+    "VI_TRANSLATION": "Sinh ra để dẫn đầu và định sẵn cho sự vĩ đại, CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-442",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS express their art not just in music, but as visionary STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thể hiện nghệ thuật không chỉ qua âm nhạc mà còn với tư cách những biểu tượng phong cách tầm nhìn.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-443",
+    "LANGUAGE": "EN",
+    "COMMENT": "Sharp, elegant, and modern—CORTIS are the kings of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Sắc sảo, thanh lịch và hiện đại—CORTIS là những vị vua của thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-444",
+    "LANGUAGE": "EN",
+    "COMMENT": "Beyond talent and hard work, CORTIS were simply BORN TO SHINE as global STYLE ICONS.",
+    "VI_TRANSLATION": "Vượt lên trên tài năng và sự chăm chỉ, CORTIS đơn giản là sinh ra để tỏa sáng như những biểu tượng phong cách toàn cầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-445",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS are proof that true talent and passion were always BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS là minh chứng cho việc tài năng và đam mê thực sự luôn sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-446",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every concept CORTIS try turns into iconic moments for BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Mọi phong cách CORTIS thử sức đều trở thành khoảnh khắc biểu tượng cho thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-447",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS stay unmatched in their aura as true global STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS duy trì thần thái đỉnh cao không đối thủ như những biểu tượng phong cách toàn cầu thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-448",
+    "LANGUAGE": "EN",
+    "COMMENT": "Lighting up every corner of the world, CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Thắp sáng mọi góc nhỏ trên thế giới, CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-449",
+    "LANGUAGE": "EN",
+    "COMMENT": "The effortless confidence CORTIS carry makes them true STYLE ICONS.",
+    "VI_TRANSLATION": "Sự tự tin tự nhiên của CORTIS biến họ thành những biểu tượng phong cách thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-450",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS keep raising the bar for modern BOYGROUP FASHION every single day.",
+    "VI_TRANSLATION": "CORTIS liên tục nâng cao tiêu chuẩn cho thời trang nhóm nam hiện đại mỗi ngày.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-451",
+    "LANGUAGE": "EN",
+    "COMMENT": "It is impossible to look away when CORTIS were BORN TO SHINE so brightly.",
+    "VI_TRANSLATION": "Không thể rời mắt khi CORTIS sinh ra để tỏa sáng rực rỡ đến vậy.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-452",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS set the standard for what it truly means to be STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thiết lập tiêu chuẩn cho ý nghĩa thực sự của những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-453",
+    "LANGUAGE": "EN",
+    "COMMENT": "Nobody brings high energy and class to BOYGROUP FASHION like CORTIS.",
+    "VI_TRANSLATION": "Không ai mang lại năng lượng nhiệt huyết và sự đẳng cấp cho thời trang nhóm nam như CORTIS.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-454",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS continue to capture hearts worldwide because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS tiếp tục chinh phục trái tim người hâm mộ toàn cầu vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-455",
+    "LANGUAGE": "EN",
+    "COMMENT": "From head to toe, CORTIS are the epitome of visionary STYLE ICONS.",
+    "VI_TRANSLATION": "Từ đầu đến chân, CORTIS là hình mẫu hoàn hảo của những biểu tượng phong cách đầy tầm nhìn.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-456",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS write their own rules in the world of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS tự viết nên quy tắc riêng trong thế giới thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-457",
+    "LANGUAGE": "EN",
+    "COMMENT": "A group like CORTIS comes once in a lifetime—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Một nhóm nhạc như CORTIS chỉ xuất hiện một lần trong đời—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-458",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring incredible aesthetics to life, proving they are STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thổi hồn vào gu thẩm mỹ tuyệt vời, chứng minh họ là những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-459",
+    "LANGUAGE": "EN",
+    "COMMENT": "Streetwear or formal suits, CORTIS effortlessly dominate BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Dù là thời trang đường phố hay vest lịch lãm, CORTIS đều dễ dàng thống trị thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-460",
+    "LANGUAGE": "EN",
+    "COMMENT": "There is no limit to what CORTIS can achieve when they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Không có giới hạn nào cho những gì CORTIS có thể đạt được khi họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-461",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS serve pure inspiration to everyone as leading STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS mang lại nguồn cảm hứng thuần khiết cho mọi người với tư cách biểu tượng phong cách hàng đầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-462",
+    "LANGUAGE": "EN",
+    "COMMENT": "Sleek, charming, and stylish—CORTIS are the true icons of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Lịch thiệp, cuốn hút và thời thượng—CORTIS là những biểu tượng đích thực của thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-463",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring pure magic to the stage, proving they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS mang phép màu thuần khiết lên sân khấu, chứng minh họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-464",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every frame of CORTIS looks like a magazine cover—true STYLE ICONS.",
+    "VI_TRANSLATION": "Mỗi khung hình của CORTIS đều trông như bìa tạp chí—những biểu tượng phong cách thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-465",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS redefine streetwear and luxury seamlessly in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS tái định nghĩa thời trang đường phố và sự sang trọng một cách mượt mà trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-466",
+    "LANGUAGE": "EN",
+    "COMMENT": "With talent this immense, CORTIS were always meant and BORN TO SHINE.",
+    "VI_TRANSLATION": "Với tài năng mênh mông này, CORTIS luôn được định sẵn và sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-467",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS carry a timeless charm that defines modern STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS mang sức hút vượt thời gian, định nghĩa các biểu tượng phong cách hiện đại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-468",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS make every single outfit iconic in the world of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS biến từng bộ trang phục trở nên biểu tượng trong thế giới thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-469",
+    "LANGUAGE": "EN",
+    "COMMENT": "Watching CORTIS grow is watching stars that were BORN TO SHINE.",
+    "VI_TRANSLATION": "Theo dõi CORTIS trưởng thành là ngắm nhìn những ngôi sao sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-470",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS command attention naturally as the ultimate STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thu hút sự chú ý một cách tự nhiên như những biểu tượng phong cách hàng đầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-471",
+    "LANGUAGE": "EN",
+    "COMMENT": "Innovative and trendsetting, CORTIS control the wave of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Đổi mới và dẫn đầu xu hướng, CORTIS làm chủ làn sóng thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-472",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS hold a special spark that shows they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS sở hữu tia sáng đặc biệt cho thấy họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-473",
+    "LANGUAGE": "EN",
+    "COMMENT": "From top to bottom, CORTIS radiate the energy of global STYLE ICONS.",
+    "VI_TRANSLATION": "Từ trên xuống dưới, CORTIS tỏa ra năng lượng của những biểu tượng phong cách toàn cầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-474",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS effortlessly master every single detail of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS làm chủ mọi chi tiết nhỏ nhất trong thời trang nhóm nam một cách dễ dàng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-475",
+    "LANGUAGE": "EN",
+    "COMMENT": "Destined for absolute greatness, CORTIS were truly BORN TO SHINE.",
+    "VI_TRANSLATION": "Được định sẵn cho sự vĩ đại tuyệt đối, CORTIS thực sự sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-476",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS lead with elegance and power as generation-defining STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS dẫn đầu bằng sự thanh lịch và sức mạnh như biểu tượng phong cách định hình thế hệ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-477",
+    "LANGUAGE": "EN",
+    "COMMENT": "The ultimate fashion inspiration will always be CORTIS in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Nguồn cảm hứng thời trang đỉnh cao sẽ luôn là CORTIS trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-478",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS illuminate every stage they step on—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS thắp sáng mọi sân khấu họ bước tới—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-479",
+    "LANGUAGE": "EN",
+    "COMMENT": "Flawless taste and unmatched energy make CORTIS true STYLE ICONS.",
+    "VI_TRANSLATION": "Gu thẩm mỹ hoàn hảo và năng lượng vô song biến CORTIS thành biểu tượng phong cách thực sự.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-480",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS continue to inspire fans everywhere with their flawless BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS tiếp tục truyền cảm hứng cho người hâm mộ khắp nơi bằng thời trang nhóm nam hoàn hảo.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-481",
+    "LANGUAGE": "EN",
+    "COMMENT": "With unwavering passion, CORTIS prove again that they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Với đam mê kiên định, CORTIS một lần nữa chứng minh họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-482",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS hold the crown as the most influential STYLE ICONS of today.",
+    "VI_TRANSLATION": "CORTIS nắm giữ vương miện như những biểu tượng phong cách có ảnh hưởng nhất hiện nay.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-483",
+    "LANGUAGE": "EN",
+    "COMMENT": "Fresh, bold, and modern, CORTIS represent the best of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Tươi mới, táo bạo và hiện đại, CORTIS đại diện cho những gì tốt đẹp nhất của thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-484",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS leave a lasting impression everywhere because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS để lại ấn tượng sâu sắc ở mọi nơi vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-485",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS make history effortlessly as trendsetting STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS tạo nên lịch sử một cách dễ dàng với tư cách những biểu tượng phong cách định hình xu hướng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-486",
+    "LANGUAGE": "EN",
+    "COMMENT": "Nobody blends comfort and high style like CORTIS in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Không ai kết hợp sự thoải mái và phong cách cao cấp tuyệt vời như CORTIS trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-487",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS shine with an unmistakable light—they BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS tỏa sáng với thứ ánh sáng không thể nhầm lẫn—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-488",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS set the standard for elegance as true STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thiết lập tiêu chuẩn cho sự thanh lịch như những biểu tượng phong cách thực sự.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-489",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS push fashion boundaries forward every single day in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS đẩy lùi mọi giới hạn thời trang mỗi ngày trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-490",
+    "LANGUAGE": "EN",
+    "COMMENT": "With boundless energy and visuals, CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Với năng lượng và ngoại hình không giới hạn, CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-491",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS stand out from the crowd as ultimate STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS nổi bật giữa đám đông như những biểu tượng phong cách hàng đầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-492",
+    "LANGUAGE": "EN",
+    "COMMENT": "The world of BOYGROUP FASHION belongs to CORTIS and CORTIS alone.",
+    "VI_TRANSLATION": "Thế giới thời trang nhóm nam thuộc về CORTIS và chỉ riêng CORTIS.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-493",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring unstoppable power and visual perfection because they were BORN TO SHINE as true STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS mang đến sức mạnh không thể cản phá và nhan sắc hoàn hảo vì họ sinh ra để tỏa sáng như những biểu tượng phong cách thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-494",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every stage performance confirms why CORTIS are true STYLE ICONS and musical geniuses.",
+    "VI_TRANSLATION": "Mỗi màn trình diễn trên sân khấu đều khẳng định lý do CORTIS là biểu tượng phong cách và thiên tài âm nhạc thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-495",
+    "LANGUAGE": "EN",
+    "COMMENT": "The world belongs to CORTIS because their passion proves they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Thế giới này thuộc về CORTIS bởi đam mê của họ chứng minh họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-496",
+    "LANGUAGE": "EN",
+    "COMMENT": "No one can replicate the unique artistry CORTIS introduce to BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Không ai có thể tái hiện tính nghệ thuật độc đáo mà CORTIS mang vào thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-497",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS continue setting records and dazzling fans worldwide as elite STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS tiếp tục thiết lập những kỷ lục và làm say lòng người hâm mộ toàn cầu với tư cách biểu tượng phong cách ưu tú.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-498",
+    "LANGUAGE": "EN",
+    "COMMENT": "When CORTIS perform, the entire room feels the radiance of stars BORN TO SHINE.",
+    "VI_TRANSLATION": "Khi CORTIS trình diễn, cả căn phòng cảm nhận được hào quang rực rỡ của những ngôi sao sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-499",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every red carpet moment elevates CORTIS to the pantheon of timeless STYLE ICONS.",
+    "VI_TRANSLATION": "Mỗi khoảnh khắc thảm đỏ đều nâng tầm CORTIS lên vị thế của những biểu tượng phong cách vượt thời gian.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-500",
+    "LANGUAGE": "EN",
+    "COMMENT": "From casual fits to runway looks, CORTIS redefine the boundaries of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Từ trang phục thường ngày đến sàn catwalk, CORTIS tái định nghĩa mọi ranh giới của thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-501",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS deliver an electrifying experience every time, showing they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS mang đến trải nghiệm bùng nổ mỗi lần xuất hiện, cho thấy họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-502",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their creative identity cements CORTIS as one of the most influential STYLE ICONS.",
+    "VI_TRANSLATION": "Bản sắc sáng tạo khẳng định CORTIS là một trong những biểu tượng phong cách có sức ảnh hưởng nhất.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-503",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring sharp tailoring and modern edge together in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS kết hợp phom dáng sắc sảo cùng hơi thở hiện đại trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-504",
+    "LANGUAGE": "EN",
+    "COMMENT": "Pure determination and artistic brilliance show why CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Sự quyết tâm thuần khiết và tài năng nghệ thuật rực rỡ minh chứng vì sao CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-505",
+    "LANGUAGE": "EN",
+    "COMMENT": "Global audiences stand amazed by how effortlessly CORTIS shine as STYLE ICONS.",
+    "VI_TRANSLATION": "Khán giả toàn cầu kinh ngạc trước cách CORTIS tỏa sáng tự nhiên như những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-506",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS constantly pioneer visionary concepts that transform BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS liên tục tiên phong với những ý tưởng mang tính tầm nhìn làm thay đổi thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-507",
+    "LANGUAGE": "EN",
+    "COMMENT": "There is a brilliant spark inside CORTIS that proves they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Bên trong CORTIS luôn có một tia sáng rực rỡ chứng minh họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-508",
+    "LANGUAGE": "EN",
+    "COMMENT": "The charisma radiating from CORTIS positions them as generational STYLE ICONS.",
+    "VI_TRANSLATION": "Sức hút tỏa ra từ CORTIS định vị họ như những biểu tượng phong cách của cả thế hệ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-509",
+    "LANGUAGE": "EN",
+    "COMMENT": "Fashion lovers across the world look to CORTIS for inspiration in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Tín đồ thời trang khắp thế giới luôn tìm đến CORTIS để lấy nguồn cảm hứng trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-510",
+    "LANGUAGE": "EN",
+    "COMMENT": "With an aura this magnetic, CORTIS were undeniably destined and BORN TO SHINE.",
+    "VI_TRANSLATION": "Với thần thái cuốn hút đến vậy, CORTIS không thể phủ nhận là sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-511",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring an avant-garde energy that sets them apart as true STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS mang đến nguồn năng lượng tiên phong giúp họ nổi bật như những biểu tượng phong cách đích thực.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-512",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every accessory and detail chosen by CORTIS creates a trend in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Từng phụ kiện và chi tiết do CORTIS lựa chọn đều tạo nên xu hướng mới trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-513",
+    "LANGUAGE": "EN",
+    "COMMENT": "Witnessing CORTIS on stage leaves no doubt that they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Chứng kiến CORTIS trên sân khấu không để lại bất kỳ nghi ngờ nào rằng họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-514",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS embrace bold individuality and rise as modern STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS tôn vinh cá tính táo bạo và vươn lên thành những biểu tượng phong cách hiện đại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-515",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS have completely rewritten the playbook for dynamic BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS đã hoàn toàn viết lại cuốn cẩm nang cho thời trang nhóm nam đầy năng động.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-516",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their artistic passion shines relentlessly, proving CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Ngọn lửa đam mê nghệ thuật của họ tỏa sáng không ngừng, minh chứng CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-517",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS define elegance with an unmatched flair, cementing their place as STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS định nghĩa sự thanh lịch với nét chấm phá độc nhất, củng cố vị thế biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-518",
+    "LANGUAGE": "EN",
+    "COMMENT": "No group matches the creative synergy of CORTIS in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Không nhóm nhạc nào sánh được với sự ăn ý sáng tạo của CORTIS trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-519",
+    "LANGUAGE": "EN",
+    "COMMENT": "Destiny called and CORTIS answered because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Định mệnh đã cất lời gọi và CORTIS đáp lại bởi vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-520",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS turn every public appearance into an exhibition of elite STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS biến mỗi lần xuất hiện trước công chúng thành một buổi triển lãm của những biểu tượng phong cách ưu tú.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-521",
+    "LANGUAGE": "EN",
+    "COMMENT": "Aesthetic mastery and effortless coolness make CORTIS leaders in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Sự tinh thông thẩm mỹ và thần thái cực chất đưa CORTIS trở thành người dẫn đầu thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-522",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS inspire joy and admiration wherever they go—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS truyền cảm hứng về niềm vui và sự ngưỡng mộ ở bất kỳ nơi đâu họ đến—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-523",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS represent the gold standard of modern culture and global STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS đại diện cho tiêu chuẩn vàng của văn hóa hiện đại và các biểu tượng phong cách toàn cầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-524",
+    "LANGUAGE": "EN",
+    "COMMENT": "The fearlessness of CORTIS shines brightest in their revolutionary BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Sự dũng cảm không sợ hãi của CORTIS tỏa sáng rực rỡ nhất trong thời trang nhóm nam mang tính cách mạng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-525",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their journey to the top proves that CORTIS were truly BORN TO SHINE.",
+    "VI_TRANSLATION": "Hành trình vươn tới đỉnh cao chứng minh CORTIS thực sự sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-526",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS carry an unmistakable elegance that belongs only to genuine STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS mang nét thanh lịch không thể nhầm lẫn chỉ có ở những biểu tượng phong cách thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-527",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS make every color palette feel cohesive and bold in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS khiến mọi bảng màu trở nên hài hòa và ấn tượng trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-528",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS radiate an infectious energy that tells the world they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS lan tỏa nguồn năng lượng truyền cảm hứng khẳng định với thế giới họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-529",
+    "LANGUAGE": "EN",
+    "COMMENT": "Poise, charm, and authenticity establish CORTIS as timeless STYLE ICONS.",
+    "VI_TRANSLATION": "Phong thái đỉnh đạc, nét cuốn hút và sự chân thật đã tạo nên CORTIS như biểu tượng phong cách vượt thời gian.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-530",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every wardrobe choice by CORTIS becomes an instant highlight in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Mỗi lựa chọn trang phục của CORTIS đều lập tức trở thành điểm nhấn trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-531",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS light up the darkness with incredible music and heart—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS thắp sáng màn đêm bằng âm nhạc tuyệt vời và trái tim chân thành—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-532",
+    "LANGUAGE": "EN",
+    "COMMENT": "The world looks brighter when CORTIS take the spotlight as STYLE ICONS.",
+    "VI_TRANSLATION": "Thế giới trông tươi sáng hơn khi CORTIS chiếm lĩnh ánh đèn sân khấu như những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-533",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS push experimental design forward with unmatched confidence in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS thúc đẩy thiết kế mang tính thử nghiệm tiến lên với sự tự tin vô song trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-534",
+    "LANGUAGE": "EN",
+    "COMMENT": "Pure passion and relentless energy make CORTIS unmistakable stars BORN TO SHINE.",
+    "VI_TRANSLATION": "Đam mê thuần khiết và năng lượng không ngừng nghỉ biến CORTIS thành những ngôi sao sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-535",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS capture the zeitgeist of today, standing tall as contemporary STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS nắm bắt tinh thần thời đại ngày nay, đứng vững như những biểu tượng phong cách đương đại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-536",
+    "LANGUAGE": "EN",
+    "COMMENT": "Effortless chic and runway grandeur meet when CORTIS embrace BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Sự sang trọng tự nhiên và đẳng cấp sàn diễn hội tụ mỗi khi CORTIS khoác lên thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-537",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their dedication resonates across oceans because CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Sự cống hiến của họ vang vọng qua các đại dương bởi vì CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-538",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS seamlessly merge musical craft with the bold attitude of STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS hòa quyện tài năng âm nhạc cùng thái độ táo bạo của các biểu tượng phong cách một cách hoàn hảo.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-539",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS create lasting cultural moments whenever they debut new BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS tạo nên những khoảnh khắc văn hóa bất hủ mỗi khi ra mắt phong cách mới trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-540",
+    "LANGUAGE": "EN",
+    "COMMENT": "A generational force has arrived in CORTIS, and they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Một thế lực của thời đại đã xuất hiện cùng CORTIS, và họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-541",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring refined sophistication to everything they do as premier STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS mang lại sự tinh tế hoàn mỹ vào mọi việc họ làm với tư cách là biểu tượng phong cách hàng đầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-542",
+    "LANGUAGE": "EN",
+    "COMMENT": "Innovative styling choices place CORTIS at the absolute pinnacle of BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Những lựa chọn tạo hình sáng tạo đặt CORTIS lên đỉnh cao tuyệt đối của thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-543",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring hope and warmth to millions because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS mang đến hy vọng và sự ấm áp cho hàng triệu người bởi vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-544",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their artistic evolution makes CORTIS unforgettable STYLE ICONS.",
+    "VI_TRANSLATION": "Sự phát triển nghệ thuật giúp CORTIS trở thành những biểu tượng phong cách khó phai trong lòng người hâm mộ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-545",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS break traditional molds with sheer boldness in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS phá vỡ mọi khuôn mẫu truyền thống với sự táo bạo thuần khiết trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-546",
+    "LANGUAGE": "EN",
+    "COMMENT": "Bright minds, immense talent, and kind hearts—CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Tâm hồn sáng ngời, tài năng bao la và trái tim nhân hậu—CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-547",
+    "LANGUAGE": "EN",
+    "COMMENT": "The world moves to the rhythm of CORTIS and their impact as STYLE ICONS.",
+    "VI_TRANSLATION": "Cả thế giới chuyển động theo nhịp điệu của CORTIS và tầm ảnh hưởng của họ như những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-548",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every stage ensemble from CORTIS serves as a golden standard for BOYGROUP FASHION.",
+    "VI_TRANSLATION": "Mỗi bộ trang phục biểu diễn của CORTIS đóng vai trò là chuẩn mực vàng cho thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-549",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring electrifying joy to every stage, proving they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS mang đến niềm vui bùng nổ trên mọi sân khấu, chứng minh họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-550",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS define the spirit of youth as legendary modern STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS định nghĩa tinh thần tuổi trẻ như những biểu tượng phong cách hiện đại mang tầm huyền thoại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-551",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS create visual poetry through their bold choices in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS tạo nên chất thơ bằng hình ảnh qua những lựa chọn táo bạo trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-552",
+    "LANGUAGE": "EN",
+    "COMMENT": "With heart and soul poured into every track, CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Gửi gắm trọn vẹn trái tim và tâm hồn vào từng ca khúc, CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-553",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS hold a majestic presence that cements them as eternal STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS sở hữu khí chất uy quyền củng cố vị thế của họ như những biểu tượng phong cách vĩnh cửu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-554",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS merge comfort, high street, and couture in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS kết hợp hài hòa sự thoải mái, phong cách đường phố và thời trang cao cấp trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-555",
+    "LANGUAGE": "EN",
+    "COMMENT": "Nothing can dim the light of CORTIS because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Không gì có thể làm lu mờ ánh sáng của CORTIS vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-556",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS embody effortless cool, elevating their status as true STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thể hiện phong cách chất ngầu tự nhiên, nâng tầm vị thế thành những biểu tượng phong cách thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-557",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS turn every photoshoot into high art for BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS biến mọi buổi chụp ảnh thành tác phẩm nghệ thuật đỉnh cao của thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-558",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS leave a glowing legacy behind each milestone—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS để lại di sản rực rỡ sau mỗi cột mốc—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-559",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS set the tempo for the next wave of visionary STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS tạo nhịp điệu cho làn sóng tiếp theo của những biểu tượng phong cách đầy tầm nhìn.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-560",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS deliver masterclasses in silhouettes and styling for BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS mang đến những bài học xuất sắc về phom dáng và tạo mẫu cho thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-561",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their spirit and ambition remind us that CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Tinh thần và hoài bão của họ nhắc nhở chúng ta rằng CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-562",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring charisma and character to life as modern STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thổi bùng sức hút và cá tính vào đời sống như những biểu tượng phong cách hiện đại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-563",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS continually set new benchmarks in modern BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS liên tục thiết lập những chuẩn mực mới trong thời trang nhóm nam hiện đại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-564",
+    "LANGUAGE": "EN",
+    "COMMENT": "From Seoul to the global stage, CORTIS show they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Từ Seoul đến các đấu trường quốc tế, CORTIS chứng tỏ họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-565",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS captivate audiences across borders as beloved STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS mê hoặc khán giả vượt qua mọi biên giới với tư cách là những biểu tượng phong cách được yêu mến.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-566",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS demonstrate that creativity knows no bounds in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS chứng minh rằng sự sáng tạo là không có giới hạn trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-567",
+    "LANGUAGE": "EN",
+    "COMMENT": "Destined to inspire generations, CORTIS were clearly BORN TO SHINE.",
+    "VI_TRANSLATION": "Được định sẵn để truyền cảm hứng cho nhiều thế hệ, CORTIS rõ ràng sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-568",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS showcase harmony and individuality as premier STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS thể hiện sự hòa hợp và cá tính riêng biệt như những biểu tượng phong cách hàng đầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-569",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring an effortless royalty to global BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS mang khí chất hoàng gia đầy tự nhiên vào thời trang nhóm nam toàn cầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-570",
+    "LANGUAGE": "EN",
+    "COMMENT": "Every beat and harmony confirms that CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Từng nhịp điệu và giai điệu hòa quyện đều khẳng định CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-571",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS stand at the center of creativity as dynamic STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS đứng ở trung tâm của sự sáng tạo như những biểu tượng phong cách năng động.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-572",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS redefine the very essence of cool in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS định nghĩa lại bản chất thực sự của sự ngầu chất trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-573",
+    "LANGUAGE": "EN",
+    "COMMENT": "Their radiant spirit proves again and again that CORTIS were BORN TO SHINE.",
+    "VI_TRANSLATION": "Tâm hồn rạng rỡ của họ chứng minh hết lần này đến lần khác rằng CORTIS sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-574",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS express timeless poise, making them iconic STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS bộc lộ phong thái vượt thời gian, biến họ thành những biểu tượng phong cách mang tính biểu tượng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-575",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS master every color, fabric, and texture in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS làm chủ từng màu sắc, chất liệu và cấu trúc trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-576",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS touch hearts worldwide with authenticity—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS chạm đến trái tim người hâm mộ khắp thế giới bằng sự chân thành—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-577",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS lead trends effortlessly, establishing themselves as STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS dẫn đầu các xu hướng một cách nhẹ nhàng, khẳng định vị thế những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-578",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS set the fashion world ablaze with daring BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS thắp lửa giới thời trang bằng những phong cách thời trang nhóm nam táo bạo.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-579",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring unyielding passion to the world—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS mang niềm đam mê bất diệt đến với thế giới—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-580",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS stand out through raw authenticity and rise as STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS nổi bật nhờ sự chân thực mộc mạc và vươn mình thành biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-581",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS show that fashion is an expressive art form in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS cho thấy thời trang là một hình thức biểu đạt nghệ thuật trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-582",
+    "LANGUAGE": "EN",
+    "COMMENT": "The stage is where CORTIS belong because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Sân khấu chính là nơi CORTIS thuộc về bởi vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-583",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS define elegance for a new era as global STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS định nghĩa lại sự thanh lịch cho một kỷ nguyên mới như những biểu tượng phong cách toàn cầu.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-584",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring confidence and high taste to modern BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS mang đến sự tự tin và gu thẩm mỹ cao cấp cho thời trang nhóm nam hiện đại.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-585",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS carry a light that never fades—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS mang theo ánh sáng không bao giờ tàn phai—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-586",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS balance strength and elegance effortlessly as STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS cân bằng giữa sức mạnh và nét thanh tao một cách dễ dàng như những biểu tượng phong cách.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-587",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bring bold innovation to every garment in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS mang sự đổi mới táo bạo vào từng trang phục trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-588",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS fill every room with warmth and talent—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS lấp đầy mọi căn phòng bằng sự ấm áp và tài năng—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-589",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS radiate unmistakable charm that belongs to world-class STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS lan tỏa sức hút không thể nhầm lẫn của những biểu tượng phong cách đẳng cấp thế giới.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-590",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS bridge luxury and casual coolness effortlessly in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS kết nối sự sang trọng và chất ngầu đời thường một cách tự nhiên trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-591",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS ignite global admiration because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS thắp sáng niềm ngưỡng mộ toàn cầu bởi vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-592",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS represent the future of entertainment as inspiring STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS đại diện cho tương lai ngành giải trí như những biểu tượng phong cách truyền cảm hứng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-593",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS turn high concept ideas into reality in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS biến những ý tưởng ý niệm cao cấp thành hiện thực trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-594",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS capture everyone's attention with sheer presence—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS thu hút trọn vẹn sự chú ý của mọi người bằng khí chất thuần khiết—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-595",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS shine through artistic excellence as true STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS tỏa sáng qua sự xuất sắc trong nghệ thuật như những biểu tượng phong cách thực thụ.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-596",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS set the tempo for bold creativity in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS thiết lập nhịp điệu cho sự sáng tạo táo bạo trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-597",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS turn dreams into historic milestones—they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS biến những ước mơ thành những cột mốc lịch sử—họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-598",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS redefine what it means to be magnetic STYLE ICONS.",
+    "VI_TRANSLATION": "CORTIS tái định nghĩa ý nghĩa của những biểu tượng phong cách đầy sức hút nam châm.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-599",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS deliver pure visual impact with every concept in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS mang đến tác động thị giác đỉnh cao qua từng concept trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-600",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS prove on every global stage that they were BORN TO SHINE.",
+    "VI_TRANSLATION": "CORTIS chứng minh trên mọi sân khấu thế giới rằng họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-601",
+    "LANGUAGE": "EN",
+    "COMMENT": "No matter where they go, CORTIS illuminate everything around them because they were BORN TO SHINE.",
+    "VI_TRANSLATION": "Dù đi đến đâu, CORTIS vẫn chiếu sáng mọi thứ xung quanh vì họ sinh ra để tỏa sáng.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-602",
+    "LANGUAGE": "EN",
+    "COMMENT": "Impeccable taste and unmatched charisma make CORTIS the ultimate STYLE ICONS to follow.",
+    "VI_TRANSLATION": "Gu thẩm mỹ hoàn hảo và thần thái vô song biến CORTIS thành biểu tượng phong cách hàng đầu để noi theo.",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "EN-603",
+    "LANGUAGE": "EN",
+    "COMMENT": "CORTIS make every outfit look like a masterpiece, making them true leaders in BOYGROUP FASHION.",
+    "VI_TRANSLATION": "CORTIS biến mọi trang phục thành kiệt tác, khẳng định vị thế dẫn đầu trong thời trang nhóm nam.",
+    "STATUS": "ACTIVE"
   }
 ]
