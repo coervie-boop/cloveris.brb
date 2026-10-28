@@ -269,6 +269,20 @@ body{margin:0;font-family:Nunito,system-ui,sans-serif;background:var(--melon);co
   .footer-hub { font-size: 11px; }
   .footer-bottom { font-size: 10px; }
 }
+/* FIX BACKGROUND MOBILE – KHÔNG CẮT ẢNH */
+@media (max-width: 640px) {
+  .bg-photo {
+    background-image: var(--photo) !important;
+    background-size: 100% auto !important;
+    background-position: center top !important;
+    background-repeat: no-repeat !important;
+    background-color: #F4FDCE !important;
+  }
+
+  .bg-overlay {
+    background: transparent !important;
+  }
+}  
 </style></head><body>
 <div class="bg-photo"></div><div class="bg-overlay"></div><div class="bg-sparkle"></div>
 <div class="app">
