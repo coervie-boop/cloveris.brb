@@ -259,11 +259,17 @@ body{margin:0;font-family:Nunito,system-ui,sans-serif;background:var(--melon);co
     font-size: 9px;
   }
 }
-/* FIX BACKGROUND MOBILE – KHÔNG CẮT ẢNH */
+/* FIX MOBILE BACKGROUND - SHOW FULL IMAGE */
 @media (max-width: 640px) {
   .bg-photo {
+    position: fixed !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100vh !important;
+    height: 100svh !important;
+
     background-image: var(--photo) !important;
-    background-size: 100% auto !important;
+    background-size: contain !important;
     background-position: center top !important;
     background-repeat: no-repeat !important;
     background-color: #F4FDCE !important;
@@ -272,7 +278,7 @@ body{margin:0;font-family:Nunito,system-ui,sans-serif;background:var(--melon);co
   .bg-overlay {
     background: transparent !important;
   }
-}  
+}
 </style></head><body>
 <div class="bg-photo"></div><div class="bg-overlay"></div><div class="bg-sparkle"></div>
 <div class="app">
