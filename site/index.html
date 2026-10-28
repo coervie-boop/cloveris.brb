@@ -259,38 +259,31 @@ body{margin:0;font-family:Nunito,system-ui,sans-serif;background:var(--melon);co
     font-size: 9px;
   }
 }
-/* Mobile: image in normal page flow, never cropped by fixed viewport */
-.mobile-bg-image { display: none; }
+/* FIX MOBILE BACKGROUND - SHOW FULL IMAGE */
 @media (max-width: 640px) {
-  .bg-photo { display: none !important; }
-  .bg-overlay { display: none !important; }
-  .mobile-bg-image {
-    display: block;
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    border-radius: 16px;
+  .bg-photo {
+    position: fixed !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100vh !important;
+    height: 100svh !important;
+
+    background-image: var(--photo) !important;
+    background-size: contain !important;
+    background-position: center top !important;
+    background-repeat: no-repeat !important;
+    background-color: #F4FDCE !important;
   }
-  .hero {
-    min-height: 0 !important;
-    height: auto !important;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 10px;
-    padding: 0 !important;
-    border: 0;
-    border-radius: 0 !important;
-    box-shadow: none;
-    background: none;
+
+  .bg-overlay {
+    background: transparent !important;
   }
-  .hero-copy { margin: 0 !important; }
 }
 </style></head><body>
 <div class="bg-photo"></div><div class="bg-overlay"></div><div class="bg-sparkle"></div>
 <div class="app">
 <header class="topbar"><div class="brand-chip brand"><small>CORTISHIELD</small><strong>BRB HUB</strong></div><div class="top-actions"></div></header>
-<section class="hero"><img class="mobile-bg-image" id="mobileBackgroundImage" src="/assets/cortis-background.jpg" alt="Ảnh nền CORTIS"><div class="hero-copy"><div class="badge">cute support space</div><div class="tagline">Every little comment, a little more love! ♡</div></div><div class="hero-stats"><div class="stat-pill"><b id="heroTotal">6</b><span>Comments</span></div><div class="stat-pill"><b id="heroStreak">0</b><span>Streak</span></div></div></section>
+<section class="hero"><div class="hero-copy"><div class="badge">cute support space</div><div class="tagline">Every little comment, a little more love! ♡</div></div><div class="hero-stats"><div class="stat-pill"><b id="heroTotal">6</b><span>Comments</span></div><div class="stat-pill"><b id="heroStreak">0</b><span>Streak</span></div></div></section>
 <section class="menu-panel"><div class="badge">tap to open</div><h2>Chọn 1 box</h2><p class="sub">Chọn một mục để bắt đầu ♡</p><div class="cards"><button class="card melon" onclick="openOverlay('commentsOverlay')"><div class="icon">💌</div><strong>Comments</strong><span>Copy comment</span><div class="dot"></div></button><button class="card blush" onclick="openOverlay('checkinOverlay')"><div class="icon">🗓</div><strong>Check-in</strong><span>Điểm danh</span><div class="dot"></div></button><button class="card pistachio" onclick="openOverlay('historyOverlay')"><div class="icon">📊</div><strong>History</strong><span>Lịch sử</span><div class="dot"></div></button><button class="card grass" onclick="openOverlay('guideOverlay')"><div class="icon">✨</div><strong>Guide</strong><span>Hướng dẫn</span><div class="dot"></div></button></div><div class="menu-foot"><span class="menu-tag">CORTIS BRB</span><span>CORTIS BRB HUB</span></div></section>
 </div>
 <footer class="site-footer">
@@ -412,37 +405,101 @@ function renderHistory(){
  $('heroStreak').textContent=streak();
 }
 function renderCalendar(){const d=new Date(today()+'T12:00:00+07:00'),y=d.getFullYear(),m=d.getMonth(),len=new Date(y,m+1,0).getDate(); $('streak').textContent=streak()+' ngày'; $('maxStreak').textContent=longest()+' ngày'; $('daysTotal').textContent=progress.dates.length; $('calendarTitle').textContent=`Lịch ${m+1}/${y}`; let html=''; for(let j=0;j<(new Date(y,m,1).getDay()+6)%7;j++)html+='<div></div>'; for(let day=1;day<=len;day++){const ds=`${y}-${String(m+1).padStart(2,'0')}-${String(day).padStart(2,'0')}`; html+=`<div class="day ${progress.dates.includes(ds)?'done':''} ${ds===today()?'today':''}">${day}</div>`} $('calendar').innerHTML=html;}
-async function copyComment(){
- if(!current||pendingClaim)return;
- if(activeDay!==today()){await refreshDailyClaims(true);return;}
- if(dataSource!=='sheets'){notify('Cần kết nối Google Sheets thật để chống trùng an toàn.');return;}
- pendingClaim=true;$('copyBtn').disabled=true;
- const selected={...current},copiedLang=lang;
- try{
-  const r=await fetch('/api/claims',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({preferred:selected.id,language:copiedLang})});
-  const result=await r.json();
-  if(r.status===409){
-    if(result.day)activeDay=result.day;
-    claimedToday=new Set(result.used||[...claimedToday,selected.id]);
-    current=null;choose('random');
-    notify(result.exhausted?'Đã hết comment hôm nay!':'Câu này vừa được người khác sử dụng. Đã đổi câu khác!');
-    return;
-  }
-  if(!r.ok)throw Error(result.error||'Không thể giữ câu');
-  if(result.day)activeDay=result.day;
-  claimedToday.add(selected.id);
-  $('postStatus').textContent=`Ngày ${activeDay} · ${claimedToday.size} câu đã được cấp trên toàn hệ thống`;
-  const value=selected.text.trim().replace(/\s*#CORTIS\s+#코르티스\s*$/i,'').trim()+'\n#CORTIS #코르티스';
-  try{await navigator.clipboard.writeText(value)}catch{
-   const t=document.createElement('textarea');t.value=value;document.body.appendChild(t);t.select();const ok=document.execCommand('copy');t.remove();if(!ok)throw Error('Câu đã được giữ nhưng trình duyệt không cho Copy. Hãy kiểm tra quyền clipboard.');
-  }
+// Clipboard needs to be requested synchronously from the user's tap on iOS Safari.
+let manualCopyPending = null;
+function recordSuccessfulCopy(selected, copiedLang) {
   progress.used[copiedLang].push(selected.id);
   progress.total[copiedLang]++;
-  progress.dailyCopies[today()]=(Number(progress.dailyCopies[today()])||0)+1;
-  if(!progress.dates.includes(today()))progress.dates.push(today());save();
-  notify('Đã Copy '+selected.id+' ♡');
- }catch(e){notify(e.message||'Lỗi cấp comment');console.error(e);}
- finally{pendingClaim=false;current=null;choose('initial');}
+  progress.dailyCopies[today()] = (Number(progress.dailyCopies[today()]) || 0) + 1;
+  if (!progress.dates.includes(today())) progress.dates.push(today());
+  save();
+  notify('Đã Copy ' + selected.id + ' ♡');
+}
+function clearManualCopy() {
+  manualCopyPending = null;
+  const btn = $('copyBtn');
+  btn.textContent = 'Copy';
+}
+async function copyComment(){
+  // Retry after D1 successfully reserved the comment, without claiming a second one.
+  if (manualCopyPending) {
+    const {selected, copiedLang, value} = manualCopyPending;
+    try {
+      // This line runs directly in the second tap, before any await.
+      await navigator.clipboard.writeText(value);
+      clearManualCopy();
+      recordSuccessfulCopy(selected, copiedLang);
+      current = null;
+      choose('initial');
+    } catch(e) {
+      notify('Safari vẫn chặn clipboard. Hãy chọn và sao chép câu thủ công.');
+      console.warn(e);
+    }
+    return;
+  }
+  if(!current||pendingClaim)return;
+  if(activeDay!==today()){refreshDailyClaims(true);return;}
+  if(dataSource!=='sheets'){notify('Cần kết nối Google Sheets thật để chống trùng an toàn.');return;}
+  pendingClaim=true;$('copyBtn').disabled=true;
+  const selected={...current}, copiedLang=lang;
+  const value=selected.text.trim().replace(/\s*#CORTIS\s+#코르티스\s*$/i,'').trim()+'\n#CORTIS #코르티스';
+  let claimResult=null, conflict=false, claimError=null, wasClaimed=false;
+  let resolveBlob, rejectBlob;
+  const blobPromise = new Promise((resolve,reject)=>{resolveBlob=resolve; rejectBlob=reject;});
+  let clipboardAttempt;
+  try {
+    // Start clipboard operation INSIDE the real click event, not after fetch().
+    if (navigator.clipboard?.write && typeof ClipboardItem !== 'undefined') {
+      clipboardAttempt=navigator.clipboard.write([
+        new ClipboardItem({'text/plain':blobPromise})
+      ]);
+      // Attach a rejection handler immediately while the API waits for data.
+      clipboardAttempt.catch(()=>{});
+    } else {
+      clipboardAttempt=null;
+    }
+    // The server exclusively allocates a comment before fulfilling clipboard data.
+    const r=await fetch('/api/claims',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({preferred:selected.id,language:copiedLang})});
+    claimResult=await r.json();
+    if(r.status===409){
+      conflict=true;
+      if(claimResult.day)activeDay=claimResult.day;
+      claimedToday=new Set(claimResult.used||[...claimedToday,selected.id]);
+      rejectBlob(new Error('Comment already allocated'));
+      if(clipboardAttempt)await clipboardAttempt.catch(()=>{});
+      current=null;choose('random');
+      notify(claimResult.exhausted?'Đã hết comment hôm nay!':'Câu này vừa được người khác sử dụng. Đã đổi câu khác!');
+      return;
+    }
+    if(!r.ok)throw Error(claimResult.error||'Không thể giữ câu');
+    wasClaimed=true;
+    if(claimResult.day)activeDay=claimResult.day;
+    claimedToday.add(selected.id);
+    $('postStatus').textContent=`Ngày ${activeDay} · ${claimedToday.size} câu đã được cấp trên toàn hệ thống`;
+    resolveBlob(new Blob([value],{type:'text/plain'}));
+    // Browser is still free to deny clipboard access. Provide an explicit retry.
+    if (!clipboardAttempt) throw Error('Safari không hỗ trợ cách Copy này');
+    await clipboardAttempt;
+    recordSuccessfulCopy(selected,copiedLang);
+    current=null;choose('initial');
+  }catch(e){
+    if(!wasClaimed) {
+      if(clipboardAttempt)rejectBlob(e);
+      if(clipboardAttempt)await clipboardAttempt.catch(()=>{});
+      notify(e.message||'Không thể giữ câu');
+    }else{
+      manualCopyPending={selected,copiedLang,value};
+      $('copyBtn').textContent='Copy lại';
+      notify('Câu đã được giữ. Hãy bấm Copy lại để Safari cho phép sao chép.');
+      // Keep this comment visible and allow the user to retry without a new D1 claim.
+      current=selected;
+    }
+    console.warn(e);
+  }finally{
+    pendingClaim=false;
+    $('copyBtn').disabled=false;
+    if(!manualCopyPending && !conflict && !wasClaimed)render();
+  }
 }
 function resetDemo(){if(!confirm('Xoá lịch sử demo?'))return; progress={used:{en:[],ko:[]},round:{en:1,ko:1},total:{en:0,ko:0},dates:[],dailyCopies:{}}; save(); choose(); renderCalendar(); renderHistory(); notify('Đã reset')}
 function openXPage(){window.open('https://x.com/cortishieldvn','_blank','noopener')}
@@ -516,8 +573,6 @@ async function loadThemeSettings(config){
  if(/^https:\/\//i.test(url) || url.startsWith('/assets/')){
   const safe=url.replace(/["'()\\]/g,'');
   document.documentElement.style.setProperty('--photo','url("'+safe+'")');
-   const mobileBackgroundImage = document.getElementById('mobileBackgroundImage');
-   if (mobileBackgroundImage) mobileBackgroundImage.src = safe;
  }
  if(/^(left|right|center|top|bottom|[0-9.%\s-]+)$/i.test(position)){
   document.documentElement.style.setProperty('--wall-position',position);
