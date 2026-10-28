@@ -188,16 +188,6 @@ body{margin:0;font-family:Nunito,system-ui,sans-serif;background:var(--melon);co
 .history-day-row{display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:1px solid rgba(56,71,4,.12);gap:12px}
 .history-day-row:last-child{border-bottom:0}
 .history-day-row strong{color:#699407}
-/* Mobile: hiện đầy đủ ảnh CORTIS, không cắt thành viên */
-@media (max-width: 640px) {
-  .bg-photo {
-    background-image: var(--photo);
-    background-size: 100% auto;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-color: #F4FDCE;
-  }
-}
 </style></head><body>
 <div class="bg-photo"></div><div class="bg-overlay"></div><div class="bg-sparkle"></div>
 <div class="app">
@@ -206,11 +196,10 @@ body{margin:0;font-family:Nunito,system-ui,sans-serif;background:var(--melon);co
 <section class="menu-panel"><div class="badge">tap to open</div><h2>Chọn 1 box</h2><p class="sub">Chọn một mục để bắt đầu ♡</p><div class="cards"><button class="card melon" onclick="openOverlay('commentsOverlay')"><div class="icon">💌</div><strong>Comments</strong><span>Copy comment</span><div class="dot"></div></button><button class="card blush" onclick="openOverlay('checkinOverlay')"><div class="icon">🗓</div><strong>Check-in</strong><span>Điểm danh</span><div class="dot"></div></button><button class="card pistachio" onclick="openOverlay('historyOverlay')"><div class="icon">📊</div><strong>History</strong><span>Lịch sử</span><div class="dot"></div></button><button class="card grass" onclick="openOverlay('guideOverlay')"><div class="icon">✨</div><strong>Guide</strong><span>Hướng dẫn</span><div class="dot"></div></button></div><div class="menu-foot"><span class="menu-tag">CORTIS BRB</span><span>CORTIS BRB HUB</span></div></section>
 </div>
 
-<section class="overlay" id="commentsOverlay"><div class="modal"><div class="modal-head"><div><h3>Comments</h3><p>Copy nhanh · hashtag ở dòng ngay bên dưới</p></div><div class="head-actions"><button class="icon-back" onclick="closeOverlay('commentsOverlay')">↶</button><button class="close" onclick="closeOverlay('commentsOverlay')">×</button></div></div><div class="modal-body"><div class="row"><button class="chip on" id="enTab" onclick="setLang('en')">English</button><button class="chip" id="koTab" onclick="setLang('ko')">한국어</button></div><div class="row" style="margin-top:10px"><button class="chip on" id="seqTab" onclick="setMode('seq')">Theo thứ tự</button><button class="chip" id="randTab" onclick="setMode('random')">Random</button><button class="chip" onclick="openXPage()">Mở X</button></div><div class="progressbox"><div class="progresstext" id="progressText"></div><div class="progress"><div id="progressFill"></div></div></div><div class="commentbox"><div class="commenttop"><span id="cId"></span><span>for cortis</span></div><p class="commenttext" id="cText"></p><div class="hash">#CORTIS
-#코르티스</div></div><div class="translation" id="cVi"></div><div class="actions"><button class="btn pink" id="copyBtn" onclick="copyComment()">Copy</button><button class="btn green" id="nextBtn" onclick="nextComment()">Next</button><button class="btn light" id="changeBtn" onclick="changeComment()">Đổi câu</button><button class="btn green hidden" id="newRoundBtn" onclick="startNewRound()">Bắt đầu vòng mới ↻</button></div><div class="note">Không emoji · không spam · cách nhau 10 phút.</div></div></div></section>
+<section class="overlay" id="commentsOverlay"><div class="modal"><div class="modal-head"><div><h3>Comments</h3><p>Copy nhanh · hashtag ngay dòng kế tiếp</p></div><div class="head-actions"><button class="icon-back" onclick="closeOverlay('commentsOverlay')">↶</button><button class="close" onclick="closeOverlay('commentsOverlay')">×</button></div></div><div class="modal-body"><div class="box" style="margin-top:0"><b>Kho chung hôm nay ♡</b><div id="postStatus" style="font-size:12px;margin-top:8px">Đang kiểm tra những câu đã được dùng hôm nay…</div><div style="font-size:12px;margin-top:5px">Không cần dán link bài X. Mỗi câu chỉ được cấp một lần trong ngày (giờ Việt Nam). Nếu có người vừa Copy câu này trước bạn, hệ thống sẽ báo và đổi sang câu khác.</div></div><div class="row" style="margin-top:12px"><button class="chip on" id="enTab" onclick="setLang('en')">English</button><button class="chip" id="koTab" onclick="setLang('ko')">한국어</button></div><div class="row" style="margin-top:10px"><button class="chip on" id="seqTab" onclick="setMode('seq')">Theo thứ tự</button><button class="chip" id="randTab" onclick="setMode('random')">Random</button><button class="chip" onclick="openXPage()">Mở X</button></div><div class="progressbox"><div class="progresstext" id="progressText"></div><div class="progress"><div id="progressFill"></div></div></div><div class="commentbox"><div class="commenttop"><span id="cId"></span><span>for cortis</span></div><p class="commenttext" id="cText"></p><div class="hash">#CORTIS #코르티스</div></div><div class="translation" id="cVi"></div><div class="actions"><button class="btn pink" id="copyBtn" onclick="copyComment()">Copy</button><button class="btn green" id="nextBtn" onclick="nextComment()">Next</button><button class="btn light" id="changeBtn" onclick="changeComment()">Đổi câu</button><button class="btn green hidden" id="newRoundBtn" onclick="startNewRound()">Bắt đầu vòng mới ↻</button></div><div class="note">Không emoji · không spam · cách nhau 10 phút.</div></div></div></section>
 <section class="overlay" id="checkinOverlay"><div class="modal"><div class="modal-head"><div><h3>Check-in</h3><p>Tự động khi copy câu đầu tiên trong ngày</p></div><div class="head-actions"><button class="icon-back" onclick="closeOverlay('checkinOverlay')">↶</button><button class="close" onclick="closeOverlay('checkinOverlay')">×</button></div></div><div class="modal-body"><div class="stats3"><div class="stat"><b id="streak">0 ngày</b><span>Chuỗi hiện tại</span></div><div class="stat"><b id="maxStreak">0 ngày</b><span>Dài nhất</span></div><div class="stat"><b id="daysTotal">0</b><span>Tổng ngày</span></div></div><div class="box"><b id="calendarTitle">Lịch tháng</b><div class="calendar" id="calendar"></div></div><div class="actions"><button class="btn light" onclick="resetDemo()">Xóa dữ liệu cá nhân</button></div></div></div></section>
 <section class="overlay" id="historyOverlay"><div class="modal"><div class="modal-head"><div><h3>History</h3><p>Theo dõi số câu đã dùng</p></div><div class="head-actions"><button class="icon-back" onclick="closeOverlay('historyOverlay')">↶</button><button class="close" onclick="closeOverlay('historyOverlay')">×</button></div></div><div class="modal-body"><div class="stats3" style="grid-template-columns:1fr 1fr"><div class="stat"><b id="totalCopies">0</b><span>Tổng lượt copy</span></div><div class="stat"><b id="todayCopies">0</b><span>Hôm nay</span></div></div><div class="box"><b>Lịch sử copy theo ngày</b><div id="dailyHistory" style="margin-top:12px"></div></div><div class="box" id="legacyHistoryBox" style="display:none"><div id="legacyHistory"></div></div></div></div></section>
-<section class="overlay" id="guideOverlay"><div class="modal"><div class="modal-head"><div><h3>Guide</h3><p>Hướng dẫn đầy đủ cho BRB CORTIS</p></div><div class="head-actions"><button class="icon-back" onclick="closeOverlay('guideOverlay')">↶</button><button class="close" onclick="closeOverlay('guideOverlay')">×</button></div></div><div class="modal-body"><div class="box"><b>1. BRB là gì?</b><br>BRB là Daily Brand Reputation Boost — hoạt động để fan để lại những bình luận tích cực nhằm hỗ trợ mức độ hiện diện và nhận diện của CORTIS trên X. Mục tiêu là tăng tương tác chất lượng, đều đặn mỗi ngày.</div><div class="box"><b>2. Cách tham gia mỗi ngày</b><br>Bạn nhận link bài cần tương tác từ nhóm, sau đó vào mục Comments trên website để lấy comment phù hợp, copy và dán vào X. Sau khi copy câu đầu tiên trong ngày, website sẽ tự điểm danh cho bạn.</div><div class="box"><b>3. Kho comment hoạt động thế nào?</b><br>Website lấy kho English từ Google Sheets; kho Korean sẽ được mở khi có dữ liệu. Bạn có thể chọn ngôn ngữ, chọn chế độ theo thứ tự hoặc random. Hệ thống sẽ tránh lặp lại câu đã dùng trong cùng một vòng.</div><div class="box"><b>4. Quy tắc bình luận</b><br>Không dùng emoji, không spam, không đăng lặp cùng một nội dung. Nên cách nhau ít nhất 10 phút giữa các comment trên cùng một tài khoản. Bạn có thể chỉnh lại câu chữ cho tự nhiên hơn trước khi đăng.</div><div class="box"><b>5. Cách copy comment</b><br>Khi bấm Copy, website sẽ sao chép nội dung comment và thêm hashtag ở cuối, hashtag nằm ngay dưới nội dung, không có dòng trống: <code>#CORTIS #코르티스</code>. Bản dịch tiếng Việt chỉ để tham khảo, không đi vào nội dung copy.</div><div class="box"><b>6. Vòng comment là gì?</b><br>Mỗi ngôn ngữ có một vòng riêng. Ví dụ: bạn dùng hết kho English thì website thông báo và cho bấm “Bắt đầu vòng mới”; Korean vẫn giữ nguyên tiến độ đang có. Tổng số lượt copy và thống kê theo ngày (kể từ khi cập nhật tính năng này) vẫn được giữ.</div><div class="box"><b>7. Check-in & streak</b><br>Điểm danh được ghi nhận tự động khi bạn copy thành công câu đầu tiên trong ngày. Nếu bạn tham gia liên tiếp nhiều ngày, streak sẽ tăng. Nếu bỏ lỡ một ngày, streak sẽ bắt đầu lại từ đầu vào lần sau.</div><div class="box"><b>8. My History lưu gì?</b><br>History hiển thị tổng số lượt copy và thống kê số lượt copy theo từng ngày, không chia theo ngôn ngữ. Tiến độ của mỗi vòng được hiển thị trong mục Comments. Đây là lịch sử cá nhân trên trình duyệt đang sử dụng.</div><div class="box"><b>9. Dữ liệu được lưu ở đâu?</b><br>Trong bản demo và phiên bản web nhẹ, dữ liệu được lưu trên trình duyệt của bạn. Nếu bạn đổi thiết bị hoặc xoá dữ liệu trình duyệt, lịch sử và streak sẽ mất. Team cập nhật comment và ảnh nền qua Google Sheets; lịch sử trên trình duyệt vẫn được giữ.</div><div class="box"><b>10. Khi cần hỗ trợ</b><br>Nếu gặp lỗi ảnh nền, lỗi tải Google Sheets hoặc vấn đề khi copy comment, hãy báo lại team phụ trách để kiểm tra file dữ liệu, cấu hình ảnh hoặc cách lưu trình duyệt.</div></div></div></section>
+<section class="overlay" id="guideOverlay"><div class="modal"><div class="modal-head"><div><h3>Guide</h3><p>Hướng dẫn đầy đủ cho BRB CORTIS</p></div><div class="head-actions"><button class="icon-back" onclick="closeOverlay('guideOverlay')">↶</button><button class="close" onclick="closeOverlay('guideOverlay')">×</button></div></div><div class="modal-body"><div class="box"><b>1. BRB là gì?</b><br>BRB là Daily Brand Reputation Boost — hoạt động để fan để lại những bình luận tích cực nhằm hỗ trợ mức độ hiện diện và nhận diện của CORTIS trên X. Mục tiêu là tăng tương tác chất lượng, đều đặn mỗi ngày.</div><div class="box"><b>2. Cách tham gia mỗi ngày</b><br>Bạn nhận link bài cần tương tác từ nhóm, sau đó mở mục Comments để Copy câu chưa được sử dụng trong ngày và dán vào bài X. Sau khi copy câu đầu tiên trong ngày, website sẽ tự điểm danh cho bạn.</div><div class="box"><b>3. Kho comment hoạt động thế nào?</b><br>Website lấy kho English từ Google Sheets; kho Korean sẽ được mở khi có dữ liệu. Bạn có thể chọn ngôn ngữ, chọn chế độ theo thứ tự hoặc random. Mỗi ngày theo giờ Việt Nam, các fan chia sẻ một kho chung; một câu chỉ được cấp một lần trong ngày.</div><div class="box"><b>4. Quy tắc bình luận</b><br>Không dùng emoji, không spam, không đăng lặp cùng một nội dung. Nên cách nhau ít nhất 10 phút giữa các comment trên cùng một tài khoản. Bạn có thể chỉnh lại câu chữ cho tự nhiên hơn trước khi đăng.</div><div class="box"><b>5. Cách copy comment</b><br>Khi bấm Copy, website sẽ sao chép nội dung comment và thêm hashtag ở cuối, không có dòng trống giữa nội dung và hashtag: <code>#CORTIS #코르티스</code>. Bản dịch tiếng Việt chỉ để tham khảo, không đi vào nội dung copy.</div><div class="box"><b>6. Vòng comment là gì?</b><br>Hệ thống bắt đầu kho mới mỗi ngày lúc 00:00 giờ Việt Nam. Khi hết câu trong ngày, sẽ thông báo và không tự dùng lại trước ngày mới. Tổng số lượt copy và thống kê theo ngày (kể từ khi cập nhật tính năng này) vẫn được giữ.</div><div class="box"><b>7. Check-in & streak</b><br>Điểm danh được ghi nhận tự động khi bạn copy thành công câu đầu tiên trong ngày. Nếu bạn tham gia liên tiếp nhiều ngày, streak sẽ tăng. Nếu bỏ lỡ một ngày, streak sẽ bắt đầu lại từ đầu vào lần sau.</div><div class="box"><b>8. My History lưu gì?</b><br>History hiển thị tổng số lượt copy và thống kê số lượt copy theo từng ngày, không chia theo ngôn ngữ. Tiến độ dùng chung trong ngày được hiển thị trong mục Comments. Đây là lịch sử cá nhân trên trình duyệt đang sử dụng.</div><div class="box"><b>9. Dữ liệu được lưu ở đâu?</b><br>Trong bản demo và phiên bản web nhẹ, dữ liệu được lưu trên trình duyệt của bạn. Nếu bạn đổi thiết bị hoặc xoá dữ liệu trình duyệt, lịch sử và streak sẽ mất. Team cập nhật comment và ảnh nền qua Google Sheets; lịch sử trên trình duyệt vẫn được giữ.</div><div class="box"><b>10. Khi cần hỗ trợ</b><br>Nếu gặp lỗi ảnh nền, lỗi tải Google Sheets hoặc vấn đề khi copy comment, hãy báo lại team phụ trách để kiểm tra file dữ liệu, cấu hình ảnh hoặc cách lưu trình duyệt.</div></div></div></section>
 
 <div class="heart-loader" id="heartLoader" aria-live="polite"><div class="loader-core"><span class="symbol">💗</span>CORTIS <small>LOADING ♡</small></div></div><div class="toast" id="toast"></div>
 <script>
@@ -232,13 +221,15 @@ for(const code of ['en','ko'])if(!Array.isArray(progress.used[code]))progress.us
 progress.round = progress.round || {en:1,ko:1};
 progress.dates = Array.isArray(progress.dates)?progress.dates:[];
 let lang='en',mode='seq',current=null, dataSource='loading';
+let activeDay='', claimedToday=new Set(), pendingClaim=false;
+
 function save(){localStorage.setItem(PKEY,JSON.stringify(progress))}
 function notify(msg){const el=$('toast');el.textContent=msg;el.classList.add('show');clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>el.classList.remove('show'),2400)}
-function openOverlay(id){$('heartLoader').classList.add('active');setTimeout(()=>$('heartLoader').classList.remove('active'),540);$(id).classList.add('show'); if(id==='checkinOverlay')renderCalendar(); if(id==='historyOverlay')renderHistory(); if(id==='commentsOverlay')render(); document.body.style.overflow='hidden'}
+function openOverlay(id){$('heartLoader').classList.add('active');setTimeout(()=>$('heartLoader').classList.remove('active'),540);$(id).classList.add('show'); if(id==='checkinOverlay')renderCalendar(); if(id==='historyOverlay')renderHistory(); if(id==='commentsOverlay'){render();refreshDailyClaims();} document.body.style.overflow='hidden'}
 function closeOverlay(id){$(id).classList.remove('show'); if(!document.querySelector('.overlay.show'))document.body.style.overflow=''}
 document.querySelectorAll('.overlay').forEach(el=>el.addEventListener('click',e=>{if(e.target===el)closeOverlay(el.id)}));
 function today(){const a=Object.fromEntries(new Intl.DateTimeFormat('en-US',{timeZone:'Asia/Ho_Chi_Minh',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()).filter(x=>x.type!=='literal').map(x=>[x.type,x.value]));return `${a.year}-${a.month}-${a.day}`;}
-function free(){return DATA[lang].filter(x=>!progress.used[lang].includes(x.id))}
+function free(){return activeDay===today() ? DATA[lang].filter(x=>!claimedToday.has(x.id)) : []}
 // "Next" advances through the un-copied pool; "Đổi câu" chooses a different random candidate.
 // Browsing never marks a comment used; only successful Copy does.
 function choose(strategy='initial'){
@@ -256,30 +247,39 @@ function choose(strategy='initial'){
  }
  render();
 }
-function nextComment(){choose('next')}
-function changeComment(){choose('random')}
+function nextComment(){if(activeDay!==today()){refreshDailyClaims(true);return;}choose('next')}
+function changeComment(){if(activeDay!==today()){refreshDailyClaims(true);return;}choose('random')}
 function setLang(x){lang=x;current=null;$('enTab').classList.toggle('on',x==='en');$('koTab').classList.toggle('on',x==='ko');choose('initial')}
 function setMode(x){mode=x;current=null;$('seqTab').classList.toggle('on',x==='seq');$('randTab').classList.toggle('on',x==='random');choose('initial')}
-function startNewRound(){
- if(!DATA[lang].length)return;
- if(free().length){notify('Vẫn còn comment chưa dùng trong vòng này');return;}
- if(!confirm(`Đã sử dụng hết ${DATA[lang].length} comment. Bắt đầu vòng ${progress.round[lang]+1}?`))return;
- progress.round[lang]++;progress.used[lang]=[];current=null;save();choose('initial');notify(`Đã bắt đầu vòng ${progress.round[lang]} ♡`);
+function startNewRound(){notify('Kho chung tự mở lại vào 00:00 giờ Việt Nam. Không thể reset thủ công trong ngày.');}
+async function refreshDailyClaims(showNotice=false){
+ try{
+  const r=await fetch('/api/claims',{cache:'no-store'});
+  const j=await r.json();if(!r.ok)throw Error(j.error||'Không thể đọc kho chung');
+  const previous=activeDay;
+  activeDay=j.day;claimedToday=new Set(j.used||[]);
+  $('postStatus').textContent=`Ngày ${activeDay} · ${claimedToday.size} câu đã được cấp trên toàn hệ thống`;
+  if(previous && previous!==activeDay && showNotice)notify('Ngày mới! Kho comment đã mở lại ♡');
+  if(current && claimedToday.has(current.id))current=null;
+  choose('initial');return true;
+ }catch(e){activeDay='';claimedToday=new Set();current=null;
+  $('postStatus').textContent='Chưa kết nối được kho chung: '+e.message;
+  notify('Không thể kiểm tra câu đã dùng, tạm khóa Copy để tránh trùng.');render();return false;}
 }
 function streak(){let set=new Set(progress.dates),d=new Date(today()+'T12:00:00+07:00'); if(!set.has(today()))d.setDate(d.getDate()-1); let n=0; while(set.has(new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Ho_Chi_Minh',year:'numeric',month:'2-digit',day:'2-digit'}).format(d))){n++; d.setDate(d.getDate()-1)} return n}
 function longest(){let dates=[...new Set(progress.dates)].sort(),max=0,num=0,last=null; for(let s of dates){let stamp=Date.parse(s+'T12:00:00+07:00'); num=last!==null&&Math.round((stamp-last)/86400000)===1?num+1:1; max=Math.max(max,num); last=stamp} return max}
 function render(){
- const n=DATA[lang].length, usedSet=new Set(progress.used[lang]);
- const k=DATA[lang].filter(c=>usedSet.has(c.id)).length,completed=n>0&&k===n;
- $('progressText').textContent= completed?`Đã sử dụng hết ${n} comment · Vòng ${progress.round[lang]} hoàn thành!`:`Vòng ${progress.round[lang]} · ${k}/${n}${lang==='en'&&dataSource==='fallback'?' · Đang dùng kho dự phòng':''}`;
+ const n=DATA[lang].length, usedSet=claimedToday;
+ const k=DATA[lang].filter(c=>usedSet.has(c.id)).length,completed=Boolean(activeDay===today()&&n>0&&k===n);
+ $('progressText').textContent= activeDay!==today()?'Đang đồng bộ kho chung trong ngày…':completed?`Hôm nay đã cấp hết ${n} comment. Kho mở lại vào 00:00 (Việt Nam).`:`Hôm nay · ${k}/${n} câu đã cấp cho tất cả fan${lang==='en'&&dataSource==='fallback'?' · Dữ liệu dự phòng':''}`;
  $('progressFill').style.width=(n?100*k/n:0)+'%';
  $('cId').textContent=completed?'HOÀN THÀNH':(current?.id||'CHƯA CÓ');
- $('cText').textContent=completed?`Bạn đã dùng hết ${n} comment trong vòng này. Nhấn “Bắt đầu vòng mới” để dùng lại kho comment.`:(current?.text||'Chưa có comment cho ngôn ngữ này.');
+ $('cText').textContent=completed?'Đã hết comment trong ngày. Quay lại sau 00:00 giờ Việt Nam.':(current?.text||'Đang tải hoặc chưa có comment khả dụng.');
  $('cVi').textContent=current?'VI · '+current.vi:'';
- $('copyBtn').disabled=!current;
+ $('copyBtn').disabled=!current||activeDay!==today()||pendingClaim;
  $('nextBtn').disabled=!current;
  $('changeBtn').disabled=!current;
- $('newRoundBtn').classList.toggle('hidden',!completed);
+ $('newRoundBtn').classList.add('hidden');
  $('heroTotal').textContent=DATA.en.length+DATA.ko.length;
  $('heroStreak').textContent=streak();renderHistory();
 }
@@ -304,28 +304,39 @@ function renderHistory(){
 }
 function renderCalendar(){const d=new Date(today()+'T12:00:00+07:00'),y=d.getFullYear(),m=d.getMonth(),len=new Date(y,m+1,0).getDate(); $('streak').textContent=streak()+' ngày'; $('maxStreak').textContent=longest()+' ngày'; $('daysTotal').textContent=progress.dates.length; $('calendarTitle').textContent=`Lịch ${m+1}/${y}`; let html=''; for(let j=0;j<(new Date(y,m,1).getDay()+6)%7;j++)html+='<div></div>'; for(let day=1;day<=len;day++){const ds=`${y}-${String(m+1).padStart(2,'0')}-${String(day).padStart(2,'0')}`; html+=`<div class="day ${progress.dates.includes(ds)?'done':''} ${ds===today()?'today':''}">${day}</div>`} $('calendar').innerHTML=html;}
 async function copyComment(){
- if(!current || $('copyBtn').disabled)return;
- $('copyBtn').disabled=true;
- const copied={...current}, copiedLang=lang;
- const value=copied.text.trim().replace(/\s*#CORTIS\s+#코르티스\s*$/i,'').trim()+'\n#CORTIS #코르티스';
- try{await navigator.clipboard.writeText(value)}catch{
-  const t=document.createElement('textarea');t.value=value;document.body.appendChild(t);t.select();const ok=document.execCommand('copy');t.remove();if(!ok){$('copyBtn').disabled=false;notify('Không thể copy');return;}
- }
- // Do not record a duplicate in the same cycle.
- if(progress.used[copiedLang].includes(copied.id)){notify('Câu này đã được copy trong vòng hiện tại');choose('next');return;}
- progress.used[copiedLang].push(copied.id);
- progress.total[copiedLang]++;
- progress.dailyCopies[today()]=(Number(progress.dailyCopies[today()])||0)+1;
- if(!progress.dates.includes(today()))progress.dates.push(today());
- save();
- current=null;
- choose('initial');
- if(!free().length && lang===copiedLang) notify(`Đã dùng hết ${DATA[lang].length} câu! Bắt đầu vòng mới khi sẵn sàng ♡`);
- else notify('Đã copy ♡');
- if($('checkinOverlay').classList.contains('show'))renderCalendar();
+ if(!current||pendingClaim)return;
+ if(activeDay!==today()){await refreshDailyClaims(true);return;}
+ if(dataSource!=='sheets'){notify('Cần kết nối Google Sheets thật để chống trùng an toàn.');return;}
+ pendingClaim=true;$('copyBtn').disabled=true;
+ const selected={...current},copiedLang=lang;
+ try{
+  const r=await fetch('/api/claims',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({preferred:selected.id,language:copiedLang})});
+  const result=await r.json();
+  if(r.status===409){
+    if(result.day)activeDay=result.day;
+    claimedToday=new Set(result.used||[...claimedToday,selected.id]);
+    current=null;choose('random');
+    notify(result.exhausted?'Đã hết comment hôm nay!':'Câu này vừa được người khác sử dụng. Đã đổi câu khác!');
+    return;
+  }
+  if(!r.ok)throw Error(result.error||'Không thể giữ câu');
+  if(result.day)activeDay=result.day;
+  claimedToday.add(selected.id);
+  $('postStatus').textContent=`Ngày ${activeDay} · ${claimedToday.size} câu đã được cấp trên toàn hệ thống`;
+  const value=selected.text.trim().replace(/\s*#CORTIS\s+#코르티스\s*$/i,'').trim()+'\n#CORTIS #코르티스';
+  try{await navigator.clipboard.writeText(value)}catch{
+   const t=document.createElement('textarea');t.value=value;document.body.appendChild(t);t.select();const ok=document.execCommand('copy');t.remove();if(!ok)throw Error('Câu đã được giữ nhưng trình duyệt không cho Copy. Hãy kiểm tra quyền clipboard.');
+  }
+  progress.used[copiedLang].push(selected.id);
+  progress.total[copiedLang]++;
+  progress.dailyCopies[today()]=(Number(progress.dailyCopies[today()])||0)+1;
+  if(!progress.dates.includes(today()))progress.dates.push(today());save();
+  notify('Đã Copy '+selected.id+' ♡');
+ }catch(e){notify(e.message||'Lỗi cấp comment');console.error(e);}
+ finally{pendingClaim=false;current=null;choose('initial');}
 }
 function resetDemo(){if(!confirm('Xoá lịch sử demo?'))return; progress={used:{en:[],ko:[]},round:{en:1,ko:1},total:{en:0,ko:0},dates:[],dailyCopies:{}}; save(); choose(); renderCalendar(); renderHistory(); notify('Đã reset')}
-function openXPage(){window.open('https://x.com/cortishieldvn','_blank')}
+function openXPage(){window.open('https://x.com/cortishieldvn','_blank','noopener')}
 
 // Google Sheets integration: fill the URLs later in site/sheets-config.json.
 // Only public CSV exports. No tokens or administrator credentials in this site.
@@ -419,6 +430,7 @@ async function loadSheets(){
  // The personal history is untouched. Past IDs remain stable when Sheets change.
  current=null;choose();renderCalendar();
  await loadThemeSettings(config);
+ await refreshDailyClaims();
  if(!config.englishCsvUrl&&!config.koreanCsvUrl)notify('Đang dùng dữ liệu tiếng Anh · Chờ kết nối Google Sheets');
 }
 loadSheets();
