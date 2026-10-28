@@ -259,31 +259,38 @@ body{margin:0;font-family:Nunito,system-ui,sans-serif;background:var(--melon);co
     font-size: 9px;
   }
 }
-/* FIX MOBILE BACKGROUND - SHOW FULL IMAGE */
+/* Mobile: image in normal page flow, never cropped by fixed viewport */
+.mobile-bg-image { display: none; }
 @media (max-width: 640px) {
-  .bg-photo {
-    position: fixed !important;
-    inset: 0 !important;
-    width: 100% !important;
-    height: 100vh !important;
-    height: 100svh !important;
-
-    background-image: var(--photo) !important;
-    background-size: contain !important;
-    background-position: center top !important;
-    background-repeat: no-repeat !important;
-    background-color: #F4FDCE !important;
+  .bg-photo { display: none !important; }
+  .bg-overlay { display: none !important; }
+  .mobile-bg-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 16px;
   }
-
-  .bg-overlay {
-    background: transparent !important;
+  .hero {
+    min-height: 0 !important;
+    height: auto !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 0 !important;
+    border: 0;
+    border-radius: 0 !important;
+    box-shadow: none;
+    background: none;
   }
+  .hero-copy { margin: 0 !important; }
 }
 </style></head><body>
 <div class="bg-photo"></div><div class="bg-overlay"></div><div class="bg-sparkle"></div>
 <div class="app">
 <header class="topbar"><div class="brand-chip brand"><small>CORTISHIELD</small><strong>BRB HUB</strong></div><div class="top-actions"></div></header>
-<section class="hero"><div class="hero-copy"><div class="badge">cute support space</div><div class="tagline">Every little comment, a little more love! ♡</div></div><div class="hero-stats"><div class="stat-pill"><b id="heroTotal">6</b><span>Comments</span></div><div class="stat-pill"><b id="heroStreak">0</b><span>Streak</span></div></div></section>
+<section class="hero"><img class="mobile-bg-image" id="mobileBackgroundImage" src="/assets/cortis-background.jpg" alt="Ảnh nền CORTIS"><div class="hero-copy"><div class="badge">cute support space</div><div class="tagline">Every little comment, a little more love! ♡</div></div><div class="hero-stats"><div class="stat-pill"><b id="heroTotal">6</b><span>Comments</span></div><div class="stat-pill"><b id="heroStreak">0</b><span>Streak</span></div></div></section>
 <section class="menu-panel"><div class="badge">tap to open</div><h2>Chọn 1 box</h2><p class="sub">Chọn một mục để bắt đầu ♡</p><div class="cards"><button class="card melon" onclick="openOverlay('commentsOverlay')"><div class="icon">💌</div><strong>Comments</strong><span>Copy comment</span><div class="dot"></div></button><button class="card blush" onclick="openOverlay('checkinOverlay')"><div class="icon">🗓</div><strong>Check-in</strong><span>Điểm danh</span><div class="dot"></div></button><button class="card pistachio" onclick="openOverlay('historyOverlay')"><div class="icon">📊</div><strong>History</strong><span>Lịch sử</span><div class="dot"></div></button><button class="card grass" onclick="openOverlay('guideOverlay')"><div class="icon">✨</div><strong>Guide</strong><span>Hướng dẫn</span><div class="dot"></div></button></div><div class="menu-foot"><span class="menu-tag">CORTIS BRB</span><span>CORTIS BRB HUB</span></div></section>
 </div>
 <footer class="site-footer">
@@ -509,6 +516,8 @@ async function loadThemeSettings(config){
  if(/^https:\/\//i.test(url) || url.startsWith('/assets/')){
   const safe=url.replace(/["'()\\]/g,'');
   document.documentElement.style.setProperty('--photo','url("'+safe+'")');
+   const mobileBackgroundImage = document.getElementById('mobileBackgroundImage');
+   if (mobileBackgroundImage) mobileBackgroundImage.src = safe;
  }
  if(/^(left|right|center|top|bottom|[0-9.%\s-]+)$/i.test(position)){
   document.documentElement.style.setProperty('--wall-position',position);
