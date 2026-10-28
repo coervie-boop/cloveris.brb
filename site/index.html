@@ -196,15 +196,17 @@ body{margin:0;font-family:Nunito,system-ui,sans-serif;background:var(--melon);co
 #commentsOverlay .progresstext{margin-bottom:7px;font-size:12px}
 #commentsOverlay .commentbox{margin-top:12px}
 #commentsOverlay .commenttext{margin-bottom:0}
+
+/* Compact website footer */
 .site-footer {
   position: relative;
   z-index: 1;
-  margin: 14px 12px 24px;
-  padding: 20px 18px;
-  background: #F4FDCE;
-  border-radius: 24px;
-  font-family: 'Nunito', sans-serif;
+  margin: 8px 12px 12px;
+  padding: 12px 18px;
+  background: rgba(244,253,206,.94);
+  border-radius: 14px;
   color: #384704;
+  font-family: 'Nunito', sans-serif;
 }
 
 .footer-top {
@@ -216,31 +218,47 @@ body{margin:0;font-family:Nunito,system-ui,sans-serif;background:var(--melon);co
 
 .footer-brand strong {
   display: block;
-  font-size: 23px;
+  font-size: 16px;
   font-weight: 900;
+  line-height: 1.2;
 }
 
 .footer-brand p {
-  margin: 4px 0 0;
+  margin: 3px 0 0;
   color: #699407;
-  font-size: 14px;
+  font-size: 11px;
 }
 
 .footer-hub {
-  font-size: 14px;
+  font-size: 11px;
   font-weight: 800;
   white-space: nowrap;
 }
 
 .footer-bottom {
-  margin-top: 20px;
-  padding-top: 16px;
-  border-top: 1.5px solid #699407;
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(105,148,7,.35);
   text-align: center;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 @media (max-width: 640px) {
+  .site-footer {
+    margin: 8px 10px;
+    padding: 10px 12px;
+    border-radius: 12px;
+  }
+
+  .footer-brand strong { font-size: 14px; }
+  .footer-brand p { font-size: 10px; }
+  .footer-hub { font-size: 10px; }
+  .footer-bottom {
+    margin-top: 8px;
+    padding-top: 7px;
+    font-size: 9px;
+  }
+}
   .site-footer {
     padding: 16px;
     border-radius: 20px;
